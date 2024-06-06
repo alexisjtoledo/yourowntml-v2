@@ -1,0 +1,4 @@
+.Footer {
+  @apply w-full flex justify-evenly p-3 items-center bg-slate-800 text-white;
+  grid-area: footer;
+}

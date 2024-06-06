@@ -1,0 +1,4 @@
+.Navbar {
+  @apply flex justify-between p-3 items-center w-full bg-slate-800 text-white;
+  grid-area: header;
+}

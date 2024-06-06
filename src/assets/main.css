@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App--main-grid {
+  display: grid;
+  height: 100dvh;
+  height: 100vh;
+  grid-auto-rows: 3.5rem auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.HomeView--main-container {
+  @apply overflow-y-auto;
+  grid-area: main;
+  display: grid;
+  height: 100%;
+  grid-template-columns: auto repeat(2, 1fr);
+  grid-template-areas: "chronology current stage";
+}

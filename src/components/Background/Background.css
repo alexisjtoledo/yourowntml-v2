@@ -1,0 +1,17 @@
+.Background {
+  @apply flex flex-col bg-slate-50 -z-50 overflow-y-auto;
+  grid-area: chronology / chronology / stage / stage;
+}
+
+.Background--division {
+  @apply w-full mt-3 border border-solid border-t-2 border-y-0 border-r-0;
+  height: 50px;
+}
+
+.Background--divisions--odd {
+  @apply border-slate-500;
+}
+
+.Background--divisions--even {
+  @apply border-slate-300;
+}

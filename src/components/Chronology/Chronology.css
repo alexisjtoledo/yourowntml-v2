@@ -1,0 +1,13 @@
+.Chronology {
+  @apply bg-slate-100 flex flex-col;
+  grid-area: chronology;
+}
+
+.Chronology--time {
+  @apply flex items-start justify-end pr-2 pl-6;
+  height: 50px;
+}
+
+.Chronology--small {
+  @apply text-sm text-slate-300;
+}
