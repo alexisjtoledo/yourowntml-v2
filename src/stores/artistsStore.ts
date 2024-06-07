@@ -1,4 +1,7 @@
 import { defineStore, storeToRefs } from "pinia";
+import { ref } from "vue";
+import axios from "axios";
+import time from "@/assets/time";
 import type {
   Artist,
   Day,
@@ -9,10 +12,8 @@ import type {
   Stage,
   StageName,
 } from "@/types";
+
 import { useStagesStore } from "@/stores/stagesStore";
-import { ref } from "vue";
-import time from "@/assets/time";
-import axios from "axios";
 
 export const useArtistsStore = defineStore("artists", () => {
   const stagesStore = useStagesStore();

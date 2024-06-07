@@ -1,14 +1,28 @@
 <script setup lang="ts">
+import type { ArtistPerformance, PerformanceAction } from "@/types";
+
 import Background from "@/components/Background";
 import Chronology from "@/components/Chronology";
 import Timeline from "@/components/Timeline";
 import Performance from "@/components/Performance";
-import type { ArtistPerformance } from "@/types";
+
 import { useArtistsStore } from "@/stores/artistsStore";
 import { useSessionStore } from "@/stores/sessionStore";
-
 const artistsStore = useArtistsStore();
 const sessionStore = useSessionStore();
+
+const handlePerformance = (performance: ArtistPerformance, action: PerformanceAction) => {
+  switch (action) {
+    case "add":
+      sessionStore.addPerformance(performance);
+      break;
+    case "remove":
+      sessionStore.removePerformance(performance.id);
+      break;
+    default:
+      () => {};
+  }
+};
 
 const example: ArtistPerformance = {
   id: "9027",
@@ -35,11 +49,12 @@ const example: ArtistPerformance = {
     <Chronology />
     <Timeline style="grid-area: current">
       <template #artists>
-        <Performance :performance="example" />
+        <Performance :performance="example" @click="handlePerformance" />
         <Performance
           v-for="performance in sessionStore.visibleUserPerformances"
           :key="`user_performance_${performance.id}`"
           :performance="performance"
+          @click="handlePerformance($event, 'remove')"
         />
       </template>
     </Timeline>
@@ -52,6 +67,7 @@ const example: ArtistPerformance = {
           )"
           :key="`stage_performance_${performance.id}`"
           :performance="performance"
+          @click="handlePerformance($event, 'add')"
         />
       </template>
     </Timeline>

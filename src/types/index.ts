@@ -75,6 +75,8 @@ type StageName =
   | "The Rave Cave"
   | "The Rose Garden";
 
+type PerformanceAction = "add" | "remove";
+
 interface Session {
   weekend: Weekend;
   day: Day;
@@ -116,4 +118,5 @@ export type {
   DayName,
   Days,
   StageName,
+  PerformanceAction,
 };

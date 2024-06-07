@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
-import type { Weekend, Session, Day, ArtistPerformance, StageName } from "@/types";
 import { computed, ref } from "vue";
+import type { Weekend, Session, Day, ArtistPerformance, StageName } from "@/types";
 
 export const useSessionStore = defineStore("session", () => {
   const isSessionReady = ref<boolean>(false);
@@ -51,14 +51,18 @@ export const useSessionStore = defineStore("session", () => {
   };
 
   const addPerformance = (payload: ArtistPerformance) => {
-    // if (already there) return;
+    const alreadyExists = !!userPerformances.value?.find(
+      (performance) => performance.id === payload.id
+    );
+    if (alreadyExists) return;
 
     userPerformances.value.push(payload);
     saveLocal();
   };
 
   const removePerformance = (id: string) => {
-    // if (not found) return;
+    const nonExistent = !userPerformances.value?.find((performance) => performance.id === id);
+    if (nonExistent) return;
 
     userPerformances.value = userPerformances.value.filter((performance) => performance.id !== id);
     saveLocal();

@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
-import type { Stage, StageName } from "@/types";
 import { ref } from "vue";
 import axios from "axios";
+import type { Stage, StageName } from "@/types";
 
 export const useStagesStore = defineStore("stages", () => {
   const stages = ref<Stage[]>([]);

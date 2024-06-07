@@ -21,7 +21,11 @@ const gridPosition = computed(
 </script>
 
 <template>
-  <button class="Performance" :style="gridPosition" @onClick="emits('click', performance)">
+  <button
+    class="Performance"
+    :style="gridPosition"
+    @click.prevent.stop="emits('click', performance)"
+  >
     <h2 class="Performance--title">{{ performance.artist_name }}</h2>
     <p class="Performance--time">{{ performance.start_time }} - {{ performance.end_time }}</p>
   </button>
