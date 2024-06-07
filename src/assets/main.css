@@ -3,21 +3,20 @@
 @tailwind utilities;
 
 .App--main-grid {
-  display: grid;
+  @apply grid;
   height: 100dvh;
   height: 100vh;
-  grid-auto-rows: 3.5rem auto 3rem;
+  grid-auto-rows: 3.5rem 2.5rem auto 3.5rem;
   grid-template-areas:
     "header"
+    "subheader"
     "main"
     "footer";
 }
 
 .HomeView--main-container {
-  @apply overflow-y-auto;
+  @apply overflow-y-auto grid h-full;
   grid-area: main;
-  display: grid;
-  height: 100%;
-  grid-template-columns: auto repeat(2, 1fr);
+  grid-template-columns: 4.5rem repeat(2, 1fr);
   grid-template-areas: "chronology current stage";
 }

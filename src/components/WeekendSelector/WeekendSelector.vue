@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import type { PropType, Weekend } from "@/types";
+import type { PropType, Weekend, Option } from "@/types";
 import { ref, watch } from "vue";
+import Selector from "@/components/Selector";
 
 const props = defineProps({
   weekend: {
@@ -11,18 +12,16 @@ const props = defineProps({
 
 const emits = defineEmits(["update:weekend"]);
 
+const options = ref<Option[]>([
+  { id: "W1", label: "Weekend 1" },
+  { id: "W2", label: "Weekend 2" },
+]);
+
 const currentWeekend = ref<Weekend>(props.weekend);
 
-watch(currentWeekend, () => {
-  emits("update:weekend", currentWeekend.value);
-});
+watch(currentWeekend, () => emits("update:weekend", currentWeekend.value));
 </script>
 
 <template>
-  <select v-model="currentWeekend" id="weekend-selector" class="WeekendSelector">
-    <option value="W1">Weekend 1</option>
-    <option value="W2">Weekend 2</option>
-  </select>
+  <Selector v-model="currentWeekend" :options="options" id="weekend_selector" />
 </template>
-
-<style scoped src="./WeekendSelector.css" />

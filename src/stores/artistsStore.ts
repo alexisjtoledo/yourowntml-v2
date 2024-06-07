@@ -1,22 +1,31 @@
-import { defineStore } from "pinia";
-import type { Artist, Performances, Day, ArtistPerformance } from "@/types";
+import { defineStore, storeToRefs } from "pinia";
+import type {
+  Artist,
+  Day,
+  ArtistPerformance,
+  PerformanceWithArtist,
+  PerformanceWithPosition,
+  PerformanceWithDates,
+  Stage,
+  StageName,
+} from "@/types";
+import { useStagesStore } from "@/stores/stagesStore";
 import { ref } from "vue";
 import time from "@/assets/time";
 import axios from "axios";
 
 export const useArtistsStore = defineStore("artists", () => {
-  const artists = ref<Artist[]>([]);
+  const stagesStore = useStagesStore();
+  const { stages } = storeToRefs(stagesStore);
 
+  const artists = ref<Artist[]>([]);
+  const rawPerformances = ref<PerformanceWithArtist[]>([]);
   const artistsPerformances = ref<ArtistPerformance[]>([]);
 
-  const performances = ref<Performances>({
-    "2024-07-19": [],
-    "2024-07-20": [],
-    "2024-07-21": [],
-    "2024-07-26": [],
-    "2024-07-27": [],
-    "2024-07-28": [],
-  });
+  const visiblePerformances = (day: Day, stage: StageName) =>
+    artistsPerformances.value.filter(
+      (performance) => performance.day === day && stage === performance.stage_name
+    );
 
   const getArtists = async () => {
     try {
@@ -25,42 +34,64 @@ export const useArtistsStore = defineStore("artists", () => {
       );
       const data = await res.data;
       artists.value = await data?.artists;
-      getPerformancesFromArtists();
-      sortArtistPerformances();
+      artists.value.forEach((artist) => mergeArtist(artist));
+      mergeData();
     } catch (error) {
       console.error(error);
     }
   };
 
-  const getPerformancesFromArtists = () =>
-    artists.value.forEach((artist) => artistsPerformances.value.push(standarizeArtist(artist)));
-
-  const standarizeArtist = (artist: Artist): ArtistPerformance => {
-    const temp: ArtistPerformance = {
-      id: "",
-      artist_id: artist.id,
-      name: artist.name,
-      uid: artist.uid,
-      image: artist.image,
-      day: "" as Day,
-      stage_id: "",
-      start_time: "",
-      start_position: 0,
-      end_time: "",
-      end_position: 0,
-    };
-
-    artist.performances?.forEach((performance) => {
-      temp.id = performance.id;
-      temp.stage_id = performance.stage_id;
-      temp.day = getDay(performance.start_time) as Day;
-      temp.start_time = getTime(performance.start_time);
-      temp.end_time = getTime(performance.end_time);
-      temp.start_position = calculatePosition(performance.start_time);
-      temp.end_position = calculatePosition(performance.end_time);
+  const mergeData = () => {
+    const performances = rawPerformances.value.map((performance) => {
+      let temp: any = performance;
+      temp = mergeDate(temp);
+      temp = mergePosition(temp);
+      temp = mergeStage(temp);
+      return temp;
     });
+    artistsPerformances.value = performances;
+  };
 
-    return temp;
+  const mergeArtist = (artist: Artist) => {
+    const temp: PerformanceWithArtist[] = [];
+    artist.performances?.forEach((performance) => {
+      temp.push({
+        ...performance,
+        artist_id: artist.id,
+        artist_image: artist.image,
+        artist_name: artist.name,
+        artist_uid: artist.uid,
+      });
+    });
+    rawPerformances.value = [...rawPerformances.value, ...temp];
+  };
+
+  const mergeDate = (performance: PerformanceWithArtist): PerformanceWithDates => {
+    return {
+      ...performance,
+      day: getDay(performance.start_time) as Day,
+      start_time: getTime(performance.start_time),
+      end_time: getTime(performance.end_time),
+    };
+  };
+
+  const mergePosition = (performance: PerformanceWithDates): PerformanceWithPosition => {
+    return {
+      ...performance,
+      start_position: calculatePosition(performance.start_time),
+      end_position: calculatePosition(performance.end_time),
+    };
+  };
+
+  const mergeStage = (performance: PerformanceWithPosition): ArtistPerformance => {
+    const stage: Stage = getStage(performance.stage_id);
+    return {
+      ...performance,
+      stage_name: stage.name,
+      stage_host: stage.host,
+      stage_color: stage.color,
+      stage_order: stage.priority,
+    };
   };
 
   const getDay = (dateTime: string) => dateTime.split(" ")[0];
@@ -73,11 +104,22 @@ export const useArtistsStore = defineStore("artists", () => {
     return `${time[0]}:${time[1]}`;
   };
 
-  const sortArtistPerformances = () => {
-    artistsPerformances.value.forEach((artistPerformance) =>
-      performances.value[artistPerformance.day].push(artistPerformance)
+  const getStage = (id: string): Stage => {
+    return (
+      stages.value.find((stage) => stage.id === id) || {
+        id: id,
+        name: "",
+        host: "",
+        color: "",
+        priority: 999,
+      }
     );
   };
 
-  return { artists, getArtists, artistsPerformances, performances };
+  return {
+    artists,
+    getArtists,
+    artistsPerformances,
+    visiblePerformances,
+  };
 });

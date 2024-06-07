@@ -1,4 +1,12 @@
 .Footer {
-  @apply w-full flex justify-evenly p-3 items-center bg-slate-800 text-white;
+  @apply w-full flex gap-4 justify-evenly p-3 items-center bg-slate-800 text-white;
   grid-area: footer;
+}
+
+.Footer--item {
+  @apply w-full grow;
+}
+
+.Footer--item-active {
+  @apply rounded-lg border-2 border-solid border-slate-600 bg-slate-700;
 }

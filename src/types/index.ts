@@ -19,28 +19,30 @@ interface Performance {
   end_time: string;
 }
 
-interface ArtistPerformance {
-  id: string;
+interface PerformanceWithArtist extends Performance {
   artist_id: string;
-  name: string;
-  uid: string;
-  stage_id: string;
-  day: Day;
-  start_time: string;
-  start_position: number;
-  end_time: string;
-  end_position: number;
-  image: string;
+  artist_name: string;
+  artist_uid: string;
+  artist_image: string;
 }
 
-interface Performances {
-  "2024-07-19": ArtistPerformance[];
-  "2024-07-20": ArtistPerformance[];
-  "2024-07-21": ArtistPerformance[];
-  "2024-07-26": ArtistPerformance[];
-  "2024-07-27": ArtistPerformance[];
-  "2024-07-28": ArtistPerformance[];
+interface PerformanceWithDates extends PerformanceWithArtist {
+  day: Day;
 }
+
+interface PerformanceWithPosition extends PerformanceWithDates {
+  start_position: number;
+  end_position: number;
+}
+
+interface PerformanceWithStage extends PerformanceWithPosition {
+  stage_name: string;
+  stage_host: string;
+  stage_order: number;
+  stage_color: string;
+}
+
+interface ArtistPerformance extends PerformanceWithStage {}
 
 interface Stage {
   id: string;
@@ -50,17 +52,52 @@ interface Stage {
   color: string;
 }
 
-type Weekend = "W1" | "W2" | null;
+type Weekend = "W1" | "W2";
+
+type DayName = "friday" | "saturday" | "sunday";
+
+type Day = "2024-07-19" | "2024-07-20" | "2024-07-21" | "2024-07-26" | "2024-07-27" | "2024-07-28";
+
+type StageName =
+  | "Atmosphere"
+  | "Cage"
+  | "Core"
+  | "Crystal Garden"
+  | "Elixir"
+  | "Freedom"
+  | "House of Fortune"
+  | "Mainstage"
+  | "Melodia"
+  | "Moosebar"
+  | "Planaxis"
+  | "Rise"
+  | "The Library"
+  | "The Rave Cave"
+  | "The Rose Garden";
 
 interface Session {
   weekend: Weekend;
+  day: Day;
+  stage: StageName;
+  performances: ArtistPerformance[];
 }
 
-type Day = keyof Performances;
+type DayEquivalency = {
+  [day: string]: Day;
+};
+
+type Days = {
+  [week: string]: DayEquivalency;
+};
 
 type Time = {
   [index: number]: string;
 };
+
+interface Option {
+  id: string;
+  label: string;
+}
 
 export type {
   Artist,
@@ -69,7 +106,14 @@ export type {
   Weekend,
   Session,
   ArtistPerformance,
-  Performances,
+  PerformanceWithArtist,
+  PerformanceWithDates,
+  PerformanceWithPosition,
+  PerformanceWithStage,
   Day,
   Time,
+  Option,
+  DayName,
+  Days,
+  StageName,
 };

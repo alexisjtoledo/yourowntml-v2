@@ -1,0 +1,10 @@
+.GridHeader {
+  @apply grid h-full bg-slate-200 border-b-2 border-solid border-slate-300 shadow-md z-50;
+  grid-area: subheader;
+  grid-template-columns: 4.5rem repeat(2, 1fr);
+  grid-template-areas: "chronology-h current-h stage-h";
+}
+
+.GridHeader--item {
+  @apply w-full flex items-center justify-center text-slate-800 font-semibold;
+}

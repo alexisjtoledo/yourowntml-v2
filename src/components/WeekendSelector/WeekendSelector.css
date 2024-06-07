@@ -1,3 +1,0 @@
-.WeekendSelector {
-  @apply w-fit border text-sm rounded-lg focus:border-blue-500 block p-2 bg-slate-700 border-slate-600 placeholder-slate-400 text-white focus:ring-blue-500;
-}

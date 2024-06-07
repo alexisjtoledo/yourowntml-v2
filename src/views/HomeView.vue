@@ -4,15 +4,24 @@ import Chronology from "@/components/Chronology";
 import Timeline from "@/components/Timeline";
 import Performance from "@/components/Performance";
 import type { ArtistPerformance } from "@/types";
+import { useArtistsStore } from "@/stores/artistsStore";
+import { useSessionStore } from "@/stores/sessionStore";
+
+const artistsStore = useArtistsStore();
+const sessionStore = useSessionStore();
 
 const example: ArtistPerformance = {
   id: "9027",
   artist_id: "5414",
-  name: "Idle Days",
-  uid: "idle-days",
-  image: "",
+  artist_name: "Idle Days",
+  artist_uid: "idle-days",
+  artist_image: "",
   day: "2024-07-26",
   stage_id: "1639",
+  stage_color: "",
+  stage_host: "",
+  stage_name: "",
+  stage_order: 0,
   start_time: "13:00",
   end_time: "13:45",
   start_position: 13,
@@ -27,9 +36,24 @@ const example: ArtistPerformance = {
     <Timeline style="grid-area: current">
       <template #artists>
         <Performance :performance="example" />
+        <Performance
+          v-for="performance in sessionStore.visibleUserPerformances"
+          :key="`user_performance_${performance.id}`"
+          :performance="performance"
+        />
       </template>
     </Timeline>
-    <Timeline style="grid-area: stage" />
-    <!-- {{ artistsStore.performances }} -->
+    <Timeline style="grid-area: stage">
+      <template #artists>
+        <Performance
+          v-for="performance in artistsStore.visiblePerformances(
+            sessionStore.day,
+            sessionStore.stage
+          )"
+          :key="`stage_performance_${performance.id}`"
+          :performance="performance"
+        />
+      </template>
+    </Timeline>
   </main>
 </template>

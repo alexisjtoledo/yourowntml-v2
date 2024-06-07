@@ -1,5 +1,5 @@
 .Chronology {
-  @apply bg-slate-100 flex flex-col;
+  @apply bg-slate-200 flex flex-col;
   grid-area: chronology;
 }
 
@@ -9,5 +9,5 @@
 }
 
 .Chronology--small {
-  @apply text-sm text-slate-300;
+  @apply text-sm text-slate-400;
 }

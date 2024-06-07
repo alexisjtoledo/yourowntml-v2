@@ -2,3 +2,20 @@
   @apply flex justify-between p-3 items-center w-full bg-slate-800 text-white;
   grid-area: header;
 }
+
+.Navbar--logo-container {
+  @apply flex items-center gap-2 text-slate-100 text-nowrap text-lg font-semibold;
+  max-width: 2rem;
+}
+
+.Navbar--logo {
+  @apply aspect-square;
+}
+
+.Navbar--selector-container {
+  @apply flex items-center gap-3;
+}
+
+.Navbar--selector {
+  max-width: 8rem;
+}
