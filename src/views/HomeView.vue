@@ -20,7 +20,7 @@ const handlePerformance = (performance: ArtistPerformance, action: PerformanceAc
       sessionStore.removePerformance(performance.id);
       break;
     default:
-      () => {};
+      return;
   }
 };
 
