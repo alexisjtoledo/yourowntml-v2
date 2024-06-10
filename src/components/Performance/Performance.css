@@ -1,11 +1,24 @@
 .Performance {
-  @apply flex flex-col justify-center items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300;
+  @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden px-4 gap-4;
+}
+
+.Performance--image {
+  @apply object-cover aspect-square rounded-full m-0;
+  max-height: 50%;
+}
+
+.Performance--container {
+  @apply flex flex-col text-start;
 }
 
 .Performance--title {
-  @apply text-xl font-semibold;
+  @apply text-xl font-semibold m-0;
+}
+
+.Performance--stage {
+  @apply text-sm text-slate-500 font-semibold mb-1;
 }
 
 .Performance--time {
-  @apply text-xs text-slate-500;
+  @apply text-xs text-slate-500 m-0;
 }

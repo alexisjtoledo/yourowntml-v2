@@ -1,3 +1,8 @@
 .Timeline {
-  @apply grid w-full h-full border border-solid mt-3 px-3 border-red-500;
+  @apply grid gap-1 w-full h-full mt-3 px-3;
+  grid-auto-columns: 1fr;
+}
+
+.Timeline:first-of-type {
+  @apply border-e-4 border-solid border-slate-400;
 }

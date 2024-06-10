@@ -30,9 +30,7 @@ export const useArtistsStore = defineStore("artists", () => {
 
   const getArtists = async () => {
     try {
-      const res = await axios.get(
-        "https://www.tomorrowland.com/api/v2?method=LineUp.getArtists&eventid=17&format=json"
-      );
+      const res = await axios.get(import.meta.env.VITE_ARTISTS_API);
       const data = await res.data;
       artists.value = await data?.artists;
       artists.value.forEach((artist) => mergeArtist(artist));

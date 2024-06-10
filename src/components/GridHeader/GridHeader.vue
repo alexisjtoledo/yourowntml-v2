@@ -11,7 +11,7 @@ const sessionStore = useSessionStore();
     </div>
     <div class="GridHeader--item" style="grid-area: stage-h">
       <p>
-        {{ `STAGE: ${sessionStore.stage.toUpperCase()}` }}
+        {{ sessionStore.stage.toUpperCase() }}
       </p>
     </div>
   </div>
