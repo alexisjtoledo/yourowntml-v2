@@ -1,0 +1,22 @@
+.MaskedTimeline {
+  @apply flex flex-col mx-4;
+}
+
+.MaskedTimeline--content {
+  @apply grid rounded-2xl border-4 border-solid border-slate-200;
+  max-width: fit-content;
+  grid-template-rows: max-content 1fr;
+  grid-template-areas:
+    "chronology"
+    "stage";
+}
+
+.MaskedTimeline--slot {
+  @apply ms-12;
+  max-height: fit-content;
+  grid-area: stage;
+}
+
+.MaskedTimeline--title {
+  @apply font-bold text-xl text-nowrap text-slate-700 py-4;
+}

@@ -11,3 +11,14 @@
 .Chronology--small {
   @apply text-sm text-slate-400;
 }
+
+@media (min-width: 1024px) {
+  .Chronology {
+    @apply flex-row rounded-t-xl;
+  }
+
+  .Chronology--time {
+    @apply p-0 items-center justify-center;
+    width: 100px;
+  }
+}

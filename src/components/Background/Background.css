@@ -15,3 +15,16 @@
 .Background--divisions--even {
   @apply border-slate-300;
 }
+
+@media (min-width: 1024px) {
+  .Background {
+    @apply flex-row ms-12;
+    grid-area: stage / stage;
+    overflow-y: unset;
+  }
+
+  .Background--division {
+    @apply h-full m-0 border-t-0 border-l-2 border-r-0;
+    width: 100px;
+  }
+}

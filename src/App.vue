@@ -6,7 +6,7 @@ import { useSessionStore } from "@/stores/sessionStore";
 import Navbar from "@/components/Navbar";
 import GridHeader from "@/components/GridHeader";
 import Footer from "@/components/Footer";
-
+import { isMobile } from "@/helpers/mobile";
 const stagesStore = useStagesStore();
 const artistsStore = useArtistsStore();
 const sessionStore = useSessionStore();
@@ -21,7 +21,7 @@ onMounted(() => {
 <template>
   <div v-if="sessionStore.isSessionReady" class="App--main-grid">
     <Navbar />
-    <GridHeader />
+    <GridHeader v-if="isMobile" />
     <RouterView />
     <Footer />
   </div>

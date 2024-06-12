@@ -120,5 +120,6 @@ export const useArtistsStore = defineStore("artists", () => {
     getArtists,
     artistsPerformances,
     visiblePerformances,
+    calculatePosition,
   };
 });

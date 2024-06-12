@@ -1,5 +1,5 @@
 .Performance {
-  @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden px-4 gap-4;
+  @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden p-4 gap-4;
 }
 
 .Performance--image {
@@ -8,7 +8,7 @@
 }
 
 .Performance--container {
-  @apply flex flex-col text-start;
+  @apply w-full flex flex-col text-center;
 }
 
 .Performance--title {
@@ -21,4 +21,14 @@
 
 .Performance--time {
   @apply text-xs text-slate-500 m-0;
+}
+
+@media (min-width: 1024px) {
+  .Performance {
+    /* Fix whenever full data is released */
+  }
+
+  .Performance--container {
+    @apply text-start;
+  }
 }
