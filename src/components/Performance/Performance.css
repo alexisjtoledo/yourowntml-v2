@@ -2,6 +2,11 @@
   @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden p-4 gap-4;
 }
 
+.Performance--has-transit {
+  @apply border-t-purple-300;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
 .Performance--image {
   @apply object-cover aspect-square rounded-full m-0;
   max-height: 50%;
@@ -25,7 +30,12 @@
 
 @media (min-width: 1024px) {
   .Performance {
-    /* Fix whenever full data is released */
+    @apply h-full;
+  }
+
+  .Performance--has-transit {
+    @apply border-t-slate-300 border-s-purple-300;
+    border-radius: 0 0.5rem 0.5rem 0;
   }
 
   .Performance--container {

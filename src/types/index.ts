@@ -42,7 +42,12 @@ interface PerformanceWithStage extends PerformanceWithPosition {
   stage_color: string;
 }
 
-interface ArtistPerformance extends PerformanceWithStage {}
+interface ArtistPerformance extends PerformanceWithStage {
+  has_transit: boolean;
+  transit_from?: StageName;
+  transit_time?: number;
+  transit_start_position?: number;
+}
 
 interface Stage {
   id: string;
@@ -101,6 +106,17 @@ interface Option {
   label: string;
 }
 
+type Distances = {
+  [zone: number]: string[];
+};
+
+interface Transit {
+  transit_for: string;
+  transit_from?: StageName;
+  transit_time?: number;
+  transit_start_position?: number;
+}
+
 export type {
   Artist,
   Performance,
@@ -119,4 +135,6 @@ export type {
   Days,
   StageName,
   PerformanceAction,
+  Distances,
+  Transit,
 };

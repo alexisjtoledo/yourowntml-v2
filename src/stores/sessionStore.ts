@@ -1,8 +1,12 @@
-import { defineStore } from "pinia";
+import { defineStore, storeToRefs } from "pinia";
 import { computed, ref } from "vue";
-import type { Weekend, Session, Day, ArtistPerformance, StageName } from "@/types";
+import type { Weekend, Session, Day, ArtistPerformance, StageName, Transit } from "@/types";
+import { useStagesStore } from "@/stores/stagesStore";
 
 export const useSessionStore = defineStore("session", () => {
+  // const stagesStore = useStagesStore();
+  // const { userTransit } = storeToRefs(stagesStore);
+
   const isSessionReady = ref<boolean>(false);
   const weekend = ref<Weekend>("W1");
   const day = ref<Day>(weekend.value === "W1" ? "2024-07-19" : "2024-07-26");
@@ -79,6 +83,28 @@ export const useSessionStore = defineStore("session", () => {
   const visibleUserPerformances = computed(() =>
     userPerformances.value.filter((performance) => performance.day === day.value)
   );
+  //   {
+  //   const performancesWithTransit = userPerformances.value.map((performance) =>
+  //     mergeTransit(performance)
+  //   );
+  //   return performancesWithTransit.filter((performance) => performance.day === day.value);
+  // };
+
+  // const mergeTransit = (performance: ArtistPerformance): ArtistPerformance => {
+  //   const transit = userTransit.value.find(
+  //     (transit: Transit) => transit.transit_for === performance.id
+  //   );
+
+  //   console.log(transit);
+
+  //   return {
+  //     ...performance,
+  //     has_transit: false,
+  //     transit_time: 0,
+  //     transit_from: "Mainstage",
+  //     transit_start_position: 0,
+  //   };
+  // };
 
   return {
     weekend,
