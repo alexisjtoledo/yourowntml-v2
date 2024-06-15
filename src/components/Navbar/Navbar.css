@@ -1,7 +1,6 @@
 .Navbar {
   @apply flex justify-between p-3 items-center w-full bg-slate-800 text-white;
   grid-area: header;
-  /* max-width: var(--client-width); */
 }
 
 .Navbar--logo-container {
@@ -14,7 +13,7 @@
 }
 
 .Navbar--selector-container {
-  @apply flex items-center gap-3;
+  @apply flex items-center gap-3 h-full;
 }
 
 .Navbar--selector {

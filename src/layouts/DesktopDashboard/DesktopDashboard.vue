@@ -10,6 +10,7 @@ import Transit from "@/components/Transit";
 import { useArtistsStore } from "@/stores/artistsStore";
 import { useSessionStore } from "@/stores/sessionStore";
 import { useStagesStore } from "@/stores/stagesStore";
+import { computed } from "vue";
 
 const artistsStore = useArtistsStore();
 const sessionStore = useSessionStore();
@@ -30,7 +31,7 @@ const handlePerformance = (performance: ArtistPerformance, action: PerformanceAc
 
 const nameToSnakeCase = (name: string) => name.split(" ").join("-");
 
-const example: ArtistPerformance[] = [
+const example = computed<ArtistPerformance[]>(() => [
   {
     id: "9027",
     artist_id: "5414",
@@ -47,7 +48,7 @@ const example: ArtistPerformance[] = [
     end_time: "20:00",
     start_position: 79,
     end_position: 97,
-    has_transit: true,
+    has_transit: sessionStore.transitEnabled,
     transit_from: "The Library",
     transit_time: 2,
     transit_start_position: 77,
@@ -86,7 +87,7 @@ const example: ArtistPerformance[] = [
     end_time: "16:25",
     start_position: 37,
     end_position: 54,
-    has_transit: true,
+    has_transit: sessionStore.transitEnabled,
     transit_from: "Cage",
     transit_time: 6,
     transit_start_position: 31,
@@ -109,7 +110,7 @@ const example: ArtistPerformance[] = [
     end_position: 121,
     has_transit: false,
   },
-];
+]);
 </script>
 
 <template>
@@ -123,7 +124,7 @@ const example: ArtistPerformance[] = [
             <!-- v-for="performance in sessionStore.visibleUserPerformances" -->
             <PerformanceWrapper
               v-for="performance in example"
-              :key="`user_performance_${performance.id}`"
+              :key="`user_performance_${performance.id}_walking_${sessionStore.transitEnabled ? 'enabled' : 'disabled'}`"
               :start="
                 performance.has_transit
                   ? (performance.transit_start_position as number)
