@@ -26,7 +26,7 @@
 }
 
 .DesktopDashboard--title {
-  @apply text-slate-700 font-bold text-xl p-4 m-0;
+  @apply text-slate-700 font-bold text-xl p-4 m-0 sticky left-0 w-fit;
 }
 
 .DesktopDashboard--title:last-of-type {

@@ -1,9 +1,9 @@
 .MaskedTimeline {
-  @apply flex flex-col mx-4 mb-4;
+  @apply flex flex-col mb-4;
 }
 
 .MaskedTimeline--content {
-  @apply grid rounded-2xl border-4 border-solid border-slate-200;
+  @apply grid rounded-2xl border-4 border-solid border-slate-200 mx-3;
   max-width: fit-content;
   grid-template-rows: max-content 1fr;
   grid-template-areas:
@@ -18,5 +18,5 @@
 }
 
 .MaskedTimeline--title {
-  @apply font-bold text-xl text-nowrap text-slate-700 pb-4;
+  @apply font-bold text-xl text-nowrap text-slate-700 pb-4 sticky left-0 w-fit px-3;
 }

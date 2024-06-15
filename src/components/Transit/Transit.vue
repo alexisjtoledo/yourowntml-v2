@@ -16,9 +16,11 @@ const humanWalkingDistance = computed(
 
 <template>
   <div class="Transit">
-    <font-awesome-icon :icon="['fas', 'person-walking']" class="Transit--icon" />
+    <div class="Transit--time-container">
+      <font-awesome-icon :icon="['fas', 'person-walking']" class="Transit--icon" />
+      <p class="Transit--time">{{ humanWalkingDistance }}</p>
+    </div>
     <p class="Transit--stage">from {{ performance.transit_from }}</p>
-    <p class="Transit--time">{{ humanWalkingDistance }}</p>
   </div>
 </template>
 
