@@ -81,7 +81,11 @@ export const useSessionStore = defineStore("session", () => {
     window.sessionStorage.setItem("tml__session", JSON.stringify(localData.value));
 
   const visibleUserPerformances = computed(() =>
-    userPerformances.value.filter((performance) => performance.day === day.value)
+    Array.from(
+      userPerformances.value
+        .filter((performance) => performance.day === day.value)
+        .sort((a, b) => a.start_position - b.start_position)
+    )
   );
   //   {
   //   const performancesWithTransit = userPerformances.value.map((performance) =>

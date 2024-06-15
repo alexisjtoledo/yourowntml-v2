@@ -90,6 +90,7 @@ export const useArtistsStore = defineStore("artists", () => {
       stage_host: stage.host,
       stage_color: stage.color,
       stage_order: stage.priority,
+      has_transit: false,
     };
   };
 
