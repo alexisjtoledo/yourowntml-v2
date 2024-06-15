@@ -1,0 +1,15 @@
+.TransitCheckbox {
+  @apply w-fit flex gap-2 items-center border rounded-lg p-2 bg-slate-700 border-slate-600 text-white;
+}
+
+.TransitCheckbox--input {
+  @apply h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600;
+}
+
+.TransitCheckbox--label {
+  @apply text-sm;
+}
+
+.TransitCheckbox--icon {
+  @apply text-base;
+}

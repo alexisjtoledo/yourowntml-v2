@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import type { PropType, ArtistPerformance } from "@/types";
+import { useSessionStore } from "@/stores/sessionStore";
 import { computed } from "vue";
+
+const sessionStore = useSessionStore();
 
 const emits = defineEmits(["click"]);
 
@@ -29,7 +32,7 @@ const colors = computed(() => {
 <template>
   <button
     class="Performance"
-    :class="{ 'Performance--has-transit': performance.has_transit }"
+    :class="{ 'Performance--has-transit': sessionStore.transitEnabled && performance.has_transit }"
     :style="colors"
     @click.prevent.stop="emits('click', performance)"
   >

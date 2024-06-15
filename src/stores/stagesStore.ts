@@ -1,94 +1,12 @@
 import { defineStore } from "pinia";
 import { ref } from "vue";
-import axios from "axios";
-import type { Stage, StageName, ArtistPerformance, Transit } from "@/types";
+import type { ArtistPerformance, Stage, StageName, Transit } from "@/types";
 import distances from "@/assets/distance";
+import axios from "axios";
 
 export const useStagesStore = defineStore("stages", () => {
   const stages = ref<Stage[]>([]);
   const stageNames = ref<StageName[]>([]);
-  // const userTransit = ref<Transit[]>([]);
-
-  const example: ArtistPerformance[] = [
-    {
-      id: "9027",
-      artist_id: "5414",
-      artist_name: "Idle Days",
-      artist_uid: "idle-days",
-      artist_image: "",
-      day: "2024-07-26",
-      stage_id: "1639",
-      stage_color: "#FF0000",
-      stage_host: "",
-      stage_name: "Mainstage",
-      stage_order: 0,
-      start_time: "18:30",
-      end_time: "20:00",
-      start_position: 79,
-      end_position: 97,
-      has_transit: true,
-      transit_from: "The Library",
-      transit_time: 2,
-      transit_start_position: 77,
-    },
-    {
-      id: "9028",
-      artist_id: "5415",
-      artist_name: "Alibi",
-      artist_uid: "alibi",
-      artist_image: "",
-      day: "2024-07-26",
-      stage_id: "1639",
-      stage_color: "#FF0000",
-      stage_host: "",
-      stage_name: "Cage",
-      stage_order: 0,
-      start_time: "13:00",
-      end_time: "14:00",
-      start_position: 13,
-      end_position: 25,
-      has_transit: false,
-    },
-    {
-      id: "9029",
-      artist_id: "5416",
-      artist_name: "Bassjackers",
-      artist_uid: "bassjackers",
-      artist_image: "",
-      day: "2024-07-26",
-      stage_id: "1639",
-      stage_color: "#FF0000",
-      stage_host: "",
-      stage_name: "The Library",
-      stage_order: 0,
-      start_time: "15:00",
-      end_time: "16:25",
-      start_position: 37,
-      end_position: 54,
-      has_transit: true,
-      transit_from: "Cage",
-      transit_time: 6,
-      transit_start_position: 31,
-    },
-    {
-      id: "9030",
-      artist_id: "5417",
-      artist_name: "Another one",
-      artist_uid: "another-one",
-      artist_image: "",
-      day: "2024-07-26",
-      stage_id: "1639",
-      stage_color: "#FF0000",
-      stage_host: "",
-      stage_name: "Mainstage",
-      stage_order: 0,
-      start_time: "20:30",
-      end_time: "22:00",
-      start_position: 103,
-      end_position: 121,
-      has_transit: false,
-    },
-  ];
 
   const getStages = async () => {
     try {
@@ -97,7 +15,6 @@ export const useStagesStore = defineStore("stages", () => {
       stages.value = await data?.stages;
       stages.value.forEach((stage) => (stage.name = trimStageName(stage.name)));
       getStageNames();
-      // generateTransit(example);
     } catch (error) {
       console.error(error);
     }
@@ -109,59 +26,55 @@ export const useStagesStore = defineStore("stages", () => {
     stageNames.value = uniqueNames as StageName[];
   };
 
-  // const generateTransit = (userSchedule: ArtistPerformance[]) => {
-  //   const sorted = Array.from(userSchedule.sort((a, b) => a.start_position - b.start_position));
+  const generateTransit = (
+    firstPerformance: ArtistPerformance | undefined,
+    secondPerformance: ArtistPerformance
+  ): Transit | null => {
+    if (!firstPerformance) return null; // Don't calculate it for the fist performance
+    if (firstPerformance.stage_name === secondPerformance.stage_name) return null; // If the stage is the same, don't calculate it
 
-  //   const temp: Transit[] = [];
-  //   sorted.forEach((performance, index) => {
-  //     if (index === 0) return;
+    const zones: number[] = [];
+    Object.keys(distances).forEach((zone) => {
+      if (distances[Number(zone)].includes(firstPerformance.stage_name)) zones[0] = Number(zone);
+      if (distances[Number(zone)].includes(secondPerformance.stage_name)) zones[1] = Number(zone);
+    });
+    zones.sort((a, b) => a - b);
 
-  //     const fromStage = sorted[index - 1].stage_name;
-  //     const toStage = performance.stage_name;
+    const rawDistance = zones[1] - zones[0]; // Difference between zones
 
-  //     if (fromStage === toStage) return;
-  //     const zones: number[] = [];
+    // If they are within the same zone, give 10 mins as minimum
+    // Add 15mins for each zone you need to travel
+    const distanceCoefficient =
+      (rawDistance ? rawDistance * 3 : 2) * timeMultiplier(secondPerformance.start_position);
 
-  //     Object.keys(distances).forEach((zone) => {
-  //       if (distances[Number(zone)].includes(fromStage)) zones[0] = Number(zone);
-  //       if (distances[Number(zone)].includes(toStage)) zones[1] = Number(zone);
-  //     });
+    const transit: Transit = {
+      transit_for: secondPerformance.id,
+      transit_from: firstPerformance.stage_name as StageName,
+      transit_start_position: secondPerformance.start_position - distanceCoefficient,
+      transit_time: distanceCoefficient,
+    };
 
-  //     zones.sort((a, b) => a - b);
-  //     const rawDistance = zones[1] - zones[0];
-  //     const distanceCoefficient =
-  //       (rawDistance ? rawDistance * 2 : 1) * timeMultiplier(performance.start_position);
-
-  //     const transit: Transit = {
-  //       transit_for: performance.id,
-  //       transit_from: fromStage as StageName,
-  //       transit_start_position: performance.start_position - distanceCoefficient,
-  //       transit_time: distanceCoefficient,
-  //     };
-
-  //     temp.push(transit);
-  //     userTransit.value = temp;
-  //   });
-  // };
+    return transit;
+  };
 
   const trimStageName = (name: string) => name.split("by")[0].trim();
 
-  // const timeMultiplier = (position: number) => {
-  //   switch (true) {
-  //     case position > 120:
-  //       return 3;
-  //     case position > 78:
-  //       return 2;
-  //     default:
-  //       return 1;
-  //   }
-  // };
+  const timeMultiplier = (position: number) => {
+    // Multiply the value according the time of the day
+    switch (true) {
+      case position > 120:
+        return 3;
+      case position > 78:
+        return 2;
+      default:
+        return 1;
+    }
+  };
 
   return {
     stages,
     stageNames,
     getStages,
-    // userTransit,
-    // generateTransit
+    generateTransit,
   };
 });

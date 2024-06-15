@@ -1,5 +1,5 @@
-const MOBILE = 100;
-const DESKTOP = 130;
+const MOBILE = 70;
+const DESKTOP = 100;
 
 document.documentElement.style.setProperty("--MOBILE", `${MOBILE}px`);
 document.documentElement.style.setProperty("--DESKTOP", `${DESKTOP}px`);

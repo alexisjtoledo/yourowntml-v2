@@ -86,6 +86,7 @@ interface Session {
   weekend: Weekend;
   day: Day;
   stage: StageName;
+  transit: boolean;
   performances: ArtistPerformance[];
 }
 

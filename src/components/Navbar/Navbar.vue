@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import TransitCheckbox from "@/components/TransitCheckbox";
 import WeekendSelector from "@/components/WeekendSelector";
 import StageSelector from "@/components/StageSelector";
 import DaySelector from "@/components/DaySelector";
@@ -32,6 +33,10 @@ const sessionStore = useSessionStore();
         :day="sessionStore.dayName"
         @update:day="sessionStore.setDay($event)"
         class="GridHeader--selector"
+      />
+      <TransitCheckbox
+        :checkbox="sessionStore.transitEnabled"
+        @update:checkbox="sessionStore.setTransit"
       />
     </div>
   </header>

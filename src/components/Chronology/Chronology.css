@@ -20,5 +20,6 @@
   .Chronology--time {
     @apply p-0 items-center justify-center;
     width: var(--DESKTOP);
+    height: 40px;
   }
 }
