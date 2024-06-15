@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import WeekendSelector from "@/components/WeekendSelector";
 import StageSelector from "@/components/StageSelector";
+import DaySelector from "@/components/DaySelector";
 import { useSessionStore } from "@/stores/sessionStore";
 import logo from "@/assets/tomorrowland.svg";
+import { isMobile } from "@/helpers/mobile";
 
 const sessionStore = useSessionStore();
 </script>
@@ -20,8 +22,15 @@ const sessionStore = useSessionStore();
         class="Navbar--selector"
       />
       <StageSelector
+        v-if="isMobile"
         :stage="sessionStore.stage"
         @update:stage="sessionStore.setStage"
+        class="GridHeader--selector"
+      />
+      <DaySelector
+        v-else
+        :day="sessionStore.dayName"
+        @update:day="sessionStore.setDay($event)"
         class="GridHeader--selector"
       />
     </div>

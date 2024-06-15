@@ -26,7 +26,12 @@ watch(currentValue, () => emits("update:modelValue", currentValue.value));
 
 <template>
   <select v-model="currentValue" :id="id" class="Selector">
-    <option v-for="option in options" :key="`option_${option.id}_for_${id}`" :value="option.id">
+    <option
+      v-for="option in options"
+      :key="`option_${option.id}_for_${id}`"
+      :value="option.id"
+      class="Selector--option"
+    >
       {{ option.label }}
     </option>
   </select>

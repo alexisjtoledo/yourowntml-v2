@@ -115,6 +115,7 @@ const example: ArtistPerformance[] = [
     <Chronology />
     <Timeline style="grid-area: current">
       <template #artists>
+        <!-- v-for="performance in sessionStore.visibleUserPerformances" -->
         <PerformanceWrapper
           v-for="performance in example"
           :key="`user_performance_${performance.id}`"

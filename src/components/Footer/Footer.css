@@ -10,3 +10,7 @@
 .Footer--item-active {
   @apply rounded-lg border-2 border-solid border-slate-600 bg-slate-700;
 }
+
+.Footer--text {
+  @apply text-slate-400 font-semibold;
+}

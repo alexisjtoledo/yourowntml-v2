@@ -1,5 +1,5 @@
 .MaskedTimeline {
-  @apply flex flex-col mx-4;
+  @apply flex flex-col mx-4 mb-4;
 }
 
 .MaskedTimeline--content {
@@ -18,5 +18,5 @@
 }
 
 .MaskedTimeline--title {
-  @apply font-bold text-xl text-nowrap text-slate-700 py-4;
+  @apply font-bold text-xl text-nowrap text-slate-700 pb-4;
 }

@@ -1,5 +1,5 @@
 .Performance {
-  @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden p-4 gap-4;
+  @apply flex items-center bg-slate-200 rounded-xl w-full border-2 border-solid border-slate-300 overflow-x-hidden p-4 gap-4 h-full;
 }
 
 .Performance--has-transit {

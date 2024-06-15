@@ -1,7 +1,16 @@
 import { defineStore, storeToRefs } from "pinia";
 import { computed, ref } from "vue";
-import type { Weekend, Session, Day, ArtistPerformance, StageName, Transit } from "@/types";
+import type {
+  Weekend,
+  Session,
+  Day,
+  ArtistPerformance,
+  StageName,
+  Transit,
+  DayName,
+} from "@/types";
 import { useStagesStore } from "@/stores/stagesStore";
+import { days } from "@/assets/days";
 
 export const useSessionStore = defineStore("session", () => {
   // const stagesStore = useStagesStore();
@@ -12,6 +21,13 @@ export const useSessionStore = defineStore("session", () => {
   const day = ref<Day>(weekend.value === "W1" ? "2024-07-19" : "2024-07-26");
   const stage = ref<StageName>("Mainstage");
   const userPerformances = ref<ArtistPerformance[]>([]);
+
+  const dayName = computed<DayName>(
+    () =>
+      Object.keys(days[weekend.value]).find(
+        (key) => days[weekend.value][key] === day.value
+      ) as DayName
+  );
 
   const localData = computed(() => {
     return {
@@ -40,10 +56,10 @@ export const useSessionStore = defineStore("session", () => {
     saveLocal();
   };
 
-  const setDay = (payload: Day) => {
-    if (day.value === payload) return;
+  const setDay = (payload: DayName) => {
+    if (dayName.value === payload) return;
 
-    day.value = payload;
+    day.value = days[weekend.value][payload];
     saveLocal();
   };
 
@@ -114,6 +130,7 @@ export const useSessionStore = defineStore("session", () => {
     weekend,
     setWeekend,
     day,
+    dayName,
     setDay,
     stage,
     setStage,

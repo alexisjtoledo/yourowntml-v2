@@ -1,5 +1,6 @@
 .DesktopDashboard--main-container {
-  @apply grid w-full;
+  @apply grid w-full overflow-auto;
+  max-width: 100vw;
   grid-area: main;
   grid-template-rows: auto 1fr auto repeat(1, 1fr);
   grid-template-areas:
@@ -25,5 +26,9 @@
 }
 
 .DesktopDashboard--title {
-  @apply text-slate-700 font-bold text-xl p-4;
+  @apply text-slate-700 font-bold text-xl p-4 m-0;
+}
+
+.DesktopDashboard--title:last-of-type {
+  @apply pt-0;
 }
