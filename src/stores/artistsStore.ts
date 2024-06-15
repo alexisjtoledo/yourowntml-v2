@@ -19,6 +19,7 @@ export const useArtistsStore = defineStore("artists", () => {
   const stagesStore = useStagesStore();
   const { stages } = storeToRefs(stagesStore);
 
+  const areArtistsReady = ref<boolean>(false);
   const artists = ref<Artist[]>([]);
   const rawPerformances = ref<PerformanceWithArtist[]>([]);
   const artistsPerformances = ref<ArtistPerformance[]>([]);
@@ -35,6 +36,7 @@ export const useArtistsStore = defineStore("artists", () => {
       artists.value = await data?.artists;
       artists.value.forEach((artist) => mergeArtist(artist));
       mergeData();
+      areArtistsReady.value = !!artistsPerformances.value.length;
     } catch (error) {
       console.error(error);
     }
@@ -117,6 +119,7 @@ export const useArtistsStore = defineStore("artists", () => {
   };
 
   return {
+    areArtistsReady,
     artists,
     getArtists,
     artistsPerformances,

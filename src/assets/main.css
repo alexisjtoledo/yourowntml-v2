@@ -18,6 +18,16 @@ body {
     "footer";
 }
 
+.App--loading {
+  @apply flex flex-col items-center justify-center text-slate-700 text-2xl;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App--loading-icon {
+  @apply text-slate-500 text-8xl animate-spin mb-6;
+}
+
 @media (min-width: 1024px) {
   .App--main-grid {
     grid-auto-rows: 3.5rem auto 3.5rem;

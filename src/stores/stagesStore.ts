@@ -5,6 +5,7 @@ import distances from "@/assets/distance";
 import axios from "axios";
 
 export const useStagesStore = defineStore("stages", () => {
+  const areStagesReady = ref<boolean>(false);
   const stages = ref<Stage[]>([]);
   const stageNames = ref<StageName[]>([]);
 
@@ -15,6 +16,7 @@ export const useStagesStore = defineStore("stages", () => {
       stages.value = await data?.stages;
       stages.value.forEach((stage) => (stage.name = trimStageName(stage.name)));
       getStageNames();
+      areStagesReady.value = !!stageNames.value;
     } catch (error) {
       console.error(error);
     }
@@ -72,6 +74,7 @@ export const useStagesStore = defineStore("stages", () => {
   };
 
   return {
+    areStagesReady,
     stages,
     stageNames,
     getStages,
