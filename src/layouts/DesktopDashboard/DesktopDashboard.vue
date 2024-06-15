@@ -36,9 +36,9 @@ const showTransit = (performance: ArtistPerformance) =>
 
 <template>
   <main class="DesktopDashboard--main-container">
-    <h2 class="DesktopDashboard--title" style="grid-area: current-title">YOUR SCHEDULE</h2>
+    <h2 class="DesktopDashboard--title" style="grid-area: current-title">Your schedule</h2>
 
-    <MaskedTimeline style="grid-area: current">
+    <MaskedTimeline class="DesktopDashboard--current" style="grid-area: current">
       <template #timeline>
         <Timeline>
           <template #artists>
@@ -68,7 +68,6 @@ const showTransit = (performance: ArtistPerformance) =>
       </template>
     </MaskedTimeline>
 
-    <h2 class="DesktopDashboard--title" style="grid-area: stages-title">OTHER STAGES</h2>
     <MaskedTimeline
       v-for="(stage, i) in stagesStore.stageNames"
       :key="`stage-${nameToSnakeCase(stage)}`"
