@@ -11,7 +11,9 @@ export const useStagesStore = defineStore("stages", () => {
 
   const getStages = async () => {
     try {
-      const res = await axios.get(import.meta.env.VITE_STAGES_API);
+      const res = await axios.get(
+        "https://www.tomorrowland.com/api/v2?method=LineUp.getStages&eventid=17&format=json"
+      );
       const data = await res.data;
       stages.value = await data?.stages;
       stages.value.forEach((stage) => (stage.name = trimStageName(stage.name)));
