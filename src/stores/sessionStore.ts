@@ -4,81 +4,6 @@ import type { Weekend, Session, Day, ArtistPerformance, StageName, DayName } fro
 import { useStagesStore } from "@/stores/stagesStore";
 import { days } from "@/assets/days";
 
-const example: ArtistPerformance[] = [
-  {
-    id: "9027",
-    artist_id: "5414",
-    artist_name: "Idle Days",
-    artist_uid: "idle-days",
-    artist_image: "",
-    day: "2024-07-26",
-    stage_id: "1639",
-    stage_color: "#FF0000",
-    stage_host: "",
-    stage_name: "Mainstage",
-    stage_order: 0,
-    start_time: "18:30",
-    end_time: "20:00",
-    start_position: 79,
-    end_position: 97,
-    has_transit: false,
-  },
-  {
-    id: "9028",
-    artist_id: "5415",
-    artist_name: "Alibi",
-    artist_uid: "alibi",
-    artist_image: "",
-    day: "2024-07-26",
-    stage_id: "1639",
-    stage_color: "#FF0000",
-    stage_host: "",
-    stage_name: "Cage",
-    stage_order: 0,
-    start_time: "13:00",
-    end_time: "14:00",
-    start_position: 13,
-    end_position: 25,
-    has_transit: false,
-  },
-  {
-    id: "9029",
-    artist_id: "5416",
-    artist_name: "Bassjackers",
-    artist_uid: "bassjackers",
-    artist_image: "",
-    day: "2024-07-26",
-    stage_id: "1639",
-    stage_color: "#FF0000",
-    stage_host: "",
-    stage_name: "The Library",
-    stage_order: 0,
-    start_time: "15:00",
-    end_time: "16:25",
-    start_position: 37,
-    end_position: 54,
-    has_transit: false,
-  },
-  {
-    id: "9030",
-    artist_id: "5417",
-    artist_name: "Another one",
-    artist_uid: "another-one",
-    artist_image: "",
-    day: "2024-07-26",
-    stage_id: "1639",
-    stage_color: "#FF0000",
-    stage_host: "",
-    stage_name: "Mainstage",
-    stage_order: 0,
-    start_time: "20:30",
-    end_time: "22:00",
-    start_position: 103,
-    end_position: 121,
-    has_transit: false,
-  },
-];
-
 export const useSessionStore = defineStore("session", () => {
   const stagesStore = useStagesStore();
 
@@ -173,9 +98,8 @@ export const useSessionStore = defineStore("session", () => {
     window.sessionStorage.setItem("tml__session", JSON.stringify(localData.value));
 
   const visibleUserPerformances = computed(() => {
-    // const visible = userPerformances.value.filter((performance) => performance.day === day.value);
-    // const sorted = visible.sort((a, b) => a.start_position - b.start_position);
-    const sorted = example.sort((a, b) => a.start_position - b.start_position);
+    const visible = userPerformances.value.filter((performance) => performance.day === day.value);
+    const sorted = visible.sort((a, b) => a.start_position - b.start_position);
     const withTransit = mergeTransit(sorted);
     return withTransit;
   });

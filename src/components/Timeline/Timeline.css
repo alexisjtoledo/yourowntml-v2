@@ -1,7 +1,5 @@
 .Timeline--stage {
   @apply grid gap-x-1 gap-y-0 w-full h-full mt-3 px-3 overflow-hidden;
-  max-height: unset;
-  max-width: 300px;
 }
 
 .Timeline--stage:first-of-type {
@@ -11,9 +9,6 @@
 @media (min-width: 1024px) {
   .Timeline--stage {
     @apply my-3 px-0 gap-y-1 gap-x-0;
-    /* This could be deleted/changed when times are correct and performances don't overlap */
-    max-height: 300px;
-    max-width: unset;
   }
 
   .Timeline--stage:first-of-type {
