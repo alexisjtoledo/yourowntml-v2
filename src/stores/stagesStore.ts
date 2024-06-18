@@ -46,16 +46,24 @@ export const useStagesStore = defineStore("stages", () => {
 
     const rawDistance = zones[1] - zones[0]; // Difference between zones
 
-    // If they are within the same zone, give 10 mins as minimum
-    // Add 15mins for each zone you need to travel
-    const distanceCoefficient =
-      (rawDistance ? rawDistance * 3 : 2) * timeMultiplier(secondPerformance.start_position);
+    // Add 10 minutes for each zone travelled through
+    // Base of 5 minutes for stages within the same zone
+    const zonesTravelTime = rawDistance ? rawDistance * 2 : 1;
+
+    // Increase the travel time acording which time is it
+    const travelTimeByHour = zonesTravelTime * timeMultiplier(secondPerformance.start_position);
+
+    // Round the travel time so we don't get decimals and weird behaviours on the grid
+    const roundedTravelTimeByHour = Math.ceil(travelTimeByHour);
+
+    // Set a minimum and maximum travel time
+    const travelTimeWithinBoundaries = distanceLimits(roundedTravelTimeByHour);
 
     const transit: Transit = {
       transit_for: secondPerformance.id,
       transit_from: firstPerformance.stage_name as StageName,
-      transit_start_position: secondPerformance.start_position - distanceCoefficient,
-      transit_time: distanceCoefficient,
+      transit_start_position: secondPerformance.start_position - travelTimeWithinBoundaries,
+      transit_time: travelTimeWithinBoundaries,
     };
 
     return transit;
@@ -63,13 +71,25 @@ export const useStagesStore = defineStore("stages", () => {
 
   const trimStageName = (name: string) => name.split("by")[0].trim();
 
+  const distanceLimits = (value: number) => {
+    // Set a max and min walking time
+    switch (true) {
+      case value > 9:
+        return 9; // 45 mins
+      case value < 3:
+        return 3; // 15 mins
+      default:
+        return value;
+    }
+  };
+
   const timeMultiplier = (position: number) => {
     // Multiply the value according the time of the day
     switch (true) {
       case position > 120:
-        return 3;
-      case position > 78:
         return 2;
+      case position > 78:
+        return 1.5;
       default:
         return 1;
     }
