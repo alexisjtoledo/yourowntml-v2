@@ -4,7 +4,7 @@ import { isMobile } from "@/helpers/mobile";
 import { MOBILE, DESKTOP } from "@/helpers/dimensions";
 import { computed } from "vue";
 
-const gridSlots = computed(() => Object.keys(time).length);
+const gridSlots = computed(() => Object.keys(time).length - 1);
 
 const style = computed(() => {
   return isMobile.value
