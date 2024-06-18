@@ -4,8 +4,7 @@
 }
 
 .Navbar--logo-container {
-  @apply flex items-center gap-2 text-slate-100 text-nowrap text-lg font-semibold;
-  max-width: 2rem;
+  @apply flex items-center gap-2 text-slate-100 text-nowrap text-lg font-semibold h-8 w-8;
 }
 
 .Navbar--logo {
