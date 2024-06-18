@@ -14,7 +14,7 @@ const sessionStore = useSessionStore();
   <header class="Navbar">
     <div class="Navbar--logo-container">
       <img :src="logo" alt="Tomorrowland logo" class="Navbar--logo" />
-      <p class="Navbar--text">My own TML</p>
+      <p v-if="!isMobile" class="Navbar--text">My own TML</p>
     </div>
     <div class="Navbar--selector-container">
       <WeekendSelector
