@@ -70,7 +70,11 @@ const showTransit = (performance: ArtistPerformance) =>
           :end="performance.end_position"
         >
           <template #performance>
-            <Performance :performance="performance" @click="handlePerformance($event, 'add')" />
+            <Performance
+              :performance="performance"
+              hide-stage
+              @click="handlePerformance($event, 'add')"
+            />
           </template>
         </PerformanceWrapper>
       </template>

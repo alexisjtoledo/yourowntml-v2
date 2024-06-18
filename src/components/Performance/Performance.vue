@@ -32,7 +32,10 @@ const colors = computed(() => {
 <template>
   <button
     class="Performance"
-    :class="{ 'Performance--has-transit': sessionStore.transitEnabled && performance.has_transit }"
+    :class="{
+      'Performance--has-transit':
+        sessionStore.transitEnabled && performance.has_transit && !hideStage,
+    }"
     :style="colors"
     @click.prevent.stop="emits('click', performance)"
   >
