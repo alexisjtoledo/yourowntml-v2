@@ -34,11 +34,15 @@ export const useArtistsStore = defineStore("artists", () => {
       const res = await axios.get(
         "https://www.tomorrowland.com/api/v2?method=LineUp.getArtists&eventid=17&format=json"
       );
+      console.log("res", res);
       const data = await res.data;
+      console.log("data", data);
       artists.value = await data?.artists;
+      console.log("artists", artists);
       artists.value.forEach((artist) => mergeArtist(artist));
       mergeData();
       areArtistsReady.value = !!artistsPerformances.value.length;
+      console.log("ready", artistsPerformances.value);
     } catch (error) {
       console.error(error);
     }

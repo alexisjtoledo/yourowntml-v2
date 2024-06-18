@@ -10,6 +10,7 @@ import Transit from "@/components/Transit";
 import { useArtistsStore } from "@/stores/artistsStore";
 import { useSessionStore } from "@/stores/sessionStore";
 import { useStagesStore } from "@/stores/stagesStore";
+import { onMounted } from "vue";
 
 const artistsStore = useArtistsStore();
 const sessionStore = useSessionStore();
@@ -32,6 +33,10 @@ const nameToSnakeCase = (name: string) => name.split(" ").join("-");
 
 const showTransit = (performance: ArtistPerformance) =>
   sessionStore.transitEnabled && performance.has_transit;
+
+console.log(artistsStore.visiblePerformances);
+
+onMounted(() => console.log(artistsStore.visiblePerformances));
 </script>
 
 <template>
