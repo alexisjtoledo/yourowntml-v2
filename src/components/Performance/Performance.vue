@@ -40,9 +40,9 @@ const colors = computed(() => {
     @click.prevent.stop="emits('click', performance)"
   >
     <div class="Performance--container">
-      <h2 class="Performance--title">{{ performance.artist_name }}</h2>
-      <p v-if="!hideStage" class="Performance--stage">{{ performance.stage_name }}</p>
-      <p class="Performance--time">{{ performance.start_time }} - {{ performance.end_time }}</p>
+      <h2 class="Performance--title">{{ performance.name }}</h2>
+      <p v-if="!hideStage" class="Performance--stage">{{ performance.stage.name }}</p>
+      <p class="Performance--time">{{ performance.startTime }} - {{ performance.endTime }}</p>
     </div>
   </button>
 </template>

@@ -4,6 +4,6 @@
 
 @media (min-width: 1024px) {
   .Selector {
-    @apply p-2;
+    @apply p-2 h-fit;
   }
 }

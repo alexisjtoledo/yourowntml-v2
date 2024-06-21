@@ -35,12 +35,12 @@ export const useStagesStore = defineStore("stages", () => {
     secondPerformance: ArtistPerformance
   ): Transit | null => {
     if (!firstPerformance) return null; // Don't calculate it for the fist performance
-    if (firstPerformance.stage_name === secondPerformance.stage_name) return null; // If the stage is the same, don't calculate it
+    if (firstPerformance.stage.name === secondPerformance.stage.name) return null; // If the stage is the same, don't calculate it
 
     const zones: number[] = [];
     Object.keys(distances).forEach((zone) => {
-      if (distances[Number(zone)].includes(firstPerformance.stage_name)) zones[0] = Number(zone);
-      if (distances[Number(zone)].includes(secondPerformance.stage_name)) zones[1] = Number(zone);
+      if (distances[Number(zone)].includes(firstPerformance.stage.name)) zones[0] = Number(zone);
+      if (distances[Number(zone)].includes(secondPerformance.stage.name)) zones[1] = Number(zone);
     });
     zones.sort((a, b) => a - b);
 
@@ -61,7 +61,7 @@ export const useStagesStore = defineStore("stages", () => {
 
     const transit: Transit = {
       transit_for: secondPerformance.id,
-      transit_from: firstPerformance.stage_name as StageName,
+      transit_from: firstPerformance.stage.name as StageName,
       transit_start_position: secondPerformance.start_position - travelTimeWithinBoundaries,
       transit_time: travelTimeWithinBoundaries,
     };
@@ -101,5 +101,6 @@ export const useStagesStore = defineStore("stages", () => {
     stageNames,
     getStages,
     generateTransit,
+    trimStageName,
   };
 });

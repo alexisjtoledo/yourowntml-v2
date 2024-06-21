@@ -16,7 +16,7 @@ const sessionStore = useSessionStore();
         class="Footer--item"
         :class="{ 'Footer--item-active': sessionStore.dayName === day }"
       >
-        {{ day.toUpperCase() }}
+        {{ day }}
       </button>
     </template>
     <p v-else class="Footer--text">Tomorrowland 2024</p>

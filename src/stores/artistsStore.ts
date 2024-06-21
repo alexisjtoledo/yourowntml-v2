@@ -1,4 +1,4 @@
-import { defineStore, storeToRefs } from "pinia";
+import { defineStore } from "pinia";
 import { ref } from "vue";
 import axios from "axios";
 import time from "@/assets/time";
@@ -6,10 +6,8 @@ import type {
   Artist,
   Day,
   ArtistPerformance,
-  PerformanceWithArtist,
+  Performance,
   PerformanceWithPosition,
-  PerformanceWithDates,
-  Stage,
   StageName,
 } from "@/types";
 
@@ -17,26 +15,35 @@ import { useStagesStore } from "@/stores/stagesStore";
 
 export const useArtistsStore = defineStore("artists", () => {
   const stagesStore = useStagesStore();
-  const { stages } = storeToRefs(stagesStore);
 
   const areArtistsReady = ref<boolean>(false);
   const artists = ref<Artist[]>([]);
-  const rawPerformances = ref<PerformanceWithArtist[]>([]);
+  const rawPerformances = ref<Performance[]>([]);
   const artistsPerformances = ref<ArtistPerformance[]>([]);
 
-  const visiblePerformances = (day: Day, stage: StageName) =>
-    artistsPerformances.value.filter(
-      (performance) => performance.day === day && stage === performance.stage_name
+  const visiblePerformances = (day: Day, stage: StageName) => {
+    const visible = artistsPerformances.value.filter(
+      (performance) => performance.date === day && stage === performance.stage.name
     );
+    const filtered = visible.filter(
+      (performance) => performance.start_position !== performance.end_position
+    );
+    const sorted = filtered.sort((a, b) => a.start_position - b.start_position);
+    return sorted;
+  };
 
   const getArtists = async () => {
     try {
-      const res = await axios.get(
-        "https://www.tomorrowland.com/api/v2?method=LineUp.getArtists&eventid=17&format=json"
+      const resW1 = await axios.get(
+        "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W1-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
       );
-      const data = await res.data;
-      artists.value = await data?.artists;
-      artists.value.forEach((artist) => mergeArtist(artist));
+      const resW2 = await axios.get(
+        "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W2-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
+      );
+      const dataW1 = await resW1.data;
+      const dataW2 = await resW2.data;
+      rawPerformances.value = [...dataW1.performances, ...dataW2.performances];
+
       mergeData();
       areArtistsReady.value = !!artistsPerformances.value.length;
     } catch (error) {
@@ -49,56 +56,29 @@ export const useArtistsStore = defineStore("artists", () => {
       let temp: any = performance;
       temp = mergeDate(temp);
       temp = mergePosition(temp);
-      temp = mergeStage(temp);
       return temp;
     });
     artistsPerformances.value = performances;
   };
 
-  const mergeArtist = (artist: Artist) => {
-    const temp: PerformanceWithArtist[] = [];
-    artist.performances?.forEach((performance) => {
-      temp.push({
-        ...performance,
-        artist_id: artist.id,
-        artist_image: artist.image,
-        artist_name: artist.name,
-        artist_uid: artist.uid,
-      });
-    });
-    rawPerformances.value = [...rawPerformances.value, ...temp];
-  };
-
-  const mergeDate = (performance: PerformanceWithArtist): PerformanceWithDates => {
+  const mergeDate = (performance: Performance): Performance => {
     return {
       ...performance,
-      day: getDay(performance.start_time) as Day,
-      start_time: getTime(performance.start_time),
-      end_time: getTime(performance.end_time),
+      startTime: getTime(performance.startTime),
+      endTime: getTime(performance.endTime),
     };
   };
 
-  const mergePosition = (performance: PerformanceWithDates): PerformanceWithPosition => {
-    return {
+  const mergePosition = (performance: Performance): PerformanceWithPosition => {
+    const temp = {
       ...performance,
-      start_position: calculatePosition(performance.start_time),
-      end_position: calculatePosition(performance.end_time),
-    };
-  };
-
-  const mergeStage = (performance: PerformanceWithPosition): ArtistPerformance => {
-    const stage: Stage = getStage(performance.stage_id);
-    return {
-      ...performance,
-      stage_name: stage.name,
-      stage_host: stage.host,
-      stage_color: stage.color,
-      stage_order: stage.priority,
+      start_position: calculatePosition(performance.startTime),
+      end_position: calculatePosition(performance.endTime),
       has_transit: false,
     };
+    temp.stage.name = stagesStore.trimStageName(temp.stage.name);
+    return temp;
   };
-
-  const getDay = (dateTime: string) => dateTime.split(" ")[0];
 
   const calculatePosition = (value: string): number =>
     Number(Object.keys(time).find((key) => time[Number(key)] === value)) + 1;
@@ -106,18 +86,6 @@ export const useArtistsStore = defineStore("artists", () => {
   const getTime = (dateTime: string) => {
     const time = dateTime.split(" ")[1].split(":");
     return `${time[0]}:${time[1]}`;
-  };
-
-  const getStage = (id: string): Stage => {
-    return (
-      stages.value.find((stage) => stage.id === id) || {
-        id: id,
-        name: "",
-        host: "",
-        color: "",
-        priority: 999,
-      }
-    );
   };
 
   return {

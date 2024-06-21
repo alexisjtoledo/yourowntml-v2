@@ -3,47 +3,32 @@ export type { PropType } from "vue";
 interface Artist {
   id: string;
   name: string;
-  uid: string;
-  performances: Performance[];
-  image: string;
-  facebook: string;
-  twitter: string;
-  youtube: string;
-  soundcloud: string;
+  image?: string;
+  facebook?: string;
+  twitter?: string;
+  instagram?: string;
+  youtube?: string;
+  soundcloud?: string;
 }
 
 interface Performance {
   id: string;
-  stage_id: string;
-  start_time: string;
-  end_time: string;
+  name: string;
+  artists: Artist[];
+  stage: Stage;
+  startTime: string;
+  endTime: string;
+  day: DayName;
+  date: Day;
 }
 
-interface PerformanceWithArtist extends Performance {
-  artist_id: string;
-  artist_name: string;
-  artist_uid: string;
-  artist_image: string;
-}
-
-interface PerformanceWithDates extends PerformanceWithArtist {
-  day: Day;
-}
-
-interface PerformanceWithPosition extends PerformanceWithDates {
+interface PerformanceWithPosition extends Performance {
   start_position: number;
   end_position: number;
-}
-
-interface PerformanceWithStage extends PerformanceWithPosition {
-  stage_name: string;
-  stage_host: string;
-  stage_order: number;
-  stage_color: string;
-}
-
-interface ArtistPerformance extends PerformanceWithStage {
   has_transit: boolean;
+}
+
+interface ArtistPerformance extends PerformanceWithPosition {
   transit_from?: StageName;
   transit_time?: number;
   transit_start_position?: number;
@@ -51,15 +36,15 @@ interface ArtistPerformance extends PerformanceWithStage {
 
 interface Stage {
   id: string;
-  host: string;
+  host?: string;
   name: string;
-  priority: number;
-  color: string;
+  priority?: number;
+  color?: string;
 }
 
 type Weekend = "W1" | "W2";
 
-type DayName = "friday" | "saturday" | "sunday";
+type DayName = "FRIDAY" | "SATURDAY" | "SUNDAY";
 
 type Day = "2024-07-19" | "2024-07-20" | "2024-07-21" | "2024-07-26" | "2024-07-27" | "2024-07-28";
 
@@ -125,10 +110,7 @@ export type {
   Weekend,
   Session,
   ArtistPerformance,
-  PerformanceWithArtist,
-  PerformanceWithDates,
   PerformanceWithPosition,
-  PerformanceWithStage,
   Day,
   Time,
   Option,

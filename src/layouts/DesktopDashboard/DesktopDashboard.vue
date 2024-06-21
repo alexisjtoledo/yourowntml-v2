@@ -44,7 +44,7 @@ const showTransit = (performance: ArtistPerformance) =>
           <template #artists>
             <PerformanceWrapper
               v-for="performance in sessionStore.visibleUserPerformances"
-              :key="`user_performance_${performance.id}_walking_${sessionStore.transitEnabled ? 'enabled' : 'disabled'}`"
+              :key="`user_performance_${performance.id}_walking_${sessionStore.transitEnabled ? 'enabled' : 'disabled'}_${sessionStore.visibleUserPerformances.length}`"
               :start="
                 showTransit(performance)
                   ? (performance.transit_start_position as number)

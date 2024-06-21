@@ -1,6 +1,6 @@
 .MobileDashboard--main-container {
   @apply overflow-y-auto grid h-full;
   grid-area: main;
-  grid-template-columns: 4.5rem repeat(2, 1fr);
+  grid-template-columns: 4.5rem auto minmax(min-content, 35%);
   grid-template-areas: "chronology current stage";
 }
