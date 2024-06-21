@@ -109,12 +109,16 @@ export const useSessionStore = defineStore("session", () => {
 
     temp.map((performance, i) => {
       const transit = stagesStore.generateTransit(temp[i - 1] || null, temp[i]);
-
       if (transit) {
         performance.has_transit = true;
         performance.transit_from = transit.transit_from;
         performance.transit_time = transit.transit_time;
         performance.transit_start_position = transit.transit_start_position;
+      } else {
+        performance.has_transit = false;
+        delete performance.transit_from;
+        delete performance.transit_time;
+        delete performance.transit_start_position;
       }
       return performance;
     });
