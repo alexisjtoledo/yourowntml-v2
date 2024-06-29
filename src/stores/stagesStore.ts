@@ -2,7 +2,8 @@ import { defineStore } from "pinia";
 import { ref } from "vue";
 import type { ArtistPerformance, Stage, StageName, Transit } from "@/types";
 import distances from "@/assets/distance";
-import axios from "axios";
+import stagesData from "@/data/stages.json";
+// import axios from "axios";
 
 export const useStagesStore = defineStore("stages", () => {
   const areStagesReady = ref<boolean>(false);
@@ -11,11 +12,12 @@ export const useStagesStore = defineStore("stages", () => {
 
   const getStages = async () => {
     try {
-      const res = await axios.get(
-        "https://www.tomorrowland.com/api/v2?method=LineUp.getStages&eventid=17&format=json"
-      );
-      const data = await res.data;
-      stages.value = await data?.stages;
+      // const res = await axios.get(
+      //   "https://www.tomorrowland.com/api/v2?method=LineUp.getStages&eventid=17&format=json"
+      // );
+      // const data = await res.data;
+      // stages.value = await data?.stages;
+      stages.value = stagesData as Stage[];
       stages.value.forEach((stage) => (stage.name = trimStageName(stage.name)));
       getStageNames();
       areStagesReady.value = !!stageNames.value;
@@ -25,7 +27,7 @@ export const useStagesStore = defineStore("stages", () => {
   };
 
   const getStageNames = () => {
-    const fullNames = stages.value.map((stage) => stage.name);
+    const fullNames = stages.value.map((stage) => stage.name.toLowerCase());
     const uniqueNames = [...new Set(fullNames)].sort((a, b) => a.localeCompare(b));
     stageNames.value = uniqueNames as StageName[];
   };
@@ -69,7 +71,7 @@ export const useStagesStore = defineStore("stages", () => {
     return transit;
   };
 
-  const trimStageName = (name: string) => name.split("by")[0].trim();
+  const trimStageName = (name: string) => name.split("BY")[0].trim();
 
   const distanceLimits = (value: number) => {
     // Set a max and min walking time

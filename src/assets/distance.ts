@@ -1,10 +1,10 @@
 import type { Distances } from "@/types";
 
 const distances: Distances = {
-  1: ["Mainstage", "Moosebar", "The Library"],
-  2: ["Atmosphere", "Core", "Crystal Garden", "Planaxis", "Rise"],
-  3: ["Cage", "The Rave Cave", "Elixir"],
-  4: ["Freedom", "The Rose Garden", "Melodia", "House of Fortune"],
+  1: ["mainstage", "moosebar", "the library"],
+  2: ["atmosphere", "core", "crystal garden", "planaxis", "rise"],
+  3: ["cage", "the rave cave", "elixir"],
+  4: ["freedom", "the rose garden", "melodia", "house of fortune"],
 };
 
 export default distances;

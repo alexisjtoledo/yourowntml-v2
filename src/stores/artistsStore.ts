@@ -1,7 +1,9 @@
 import { defineStore } from "pinia";
 import { ref } from "vue";
-import axios from "axios";
+// import axios from "axios";
 import time from "@/assets/time";
+import w1 from "@/data/w1.json";
+import w2 from "@/data/w2.json";
 import type {
   Artist,
   Day,
@@ -34,15 +36,16 @@ export const useArtistsStore = defineStore("artists", () => {
 
   const getArtists = async () => {
     try {
-      const resW1 = await axios.get(
-        "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W1-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
-      );
-      const resW2 = await axios.get(
-        "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W2-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
-      );
-      const dataW1 = await resW1.data;
-      const dataW2 = await resW2.data;
-      rawPerformances.value = [...dataW1.performances, ...dataW2.performances];
+      // const resW1 = await axios.get(
+      //   "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W1-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
+      // );
+      // const resW2 = await axios.get(
+      //   "https://artist-lineup-cdn.tomorrowland.com/TLBE24-W2-211903bb-da4c-445d-a1b3-6b17479a9fab.json"
+      // );
+      // const dataW1 = await resW1.data;
+      // const dataW2 = await resW2.data;
+      // rawPerformances.value = [...dataW1.performances, ...dataW2.performances];
+      rawPerformances.value = [...w1, ...w2] as ArtistPerformance[];
 
       mergeData();
       areArtistsReady.value = !!artistsPerformances.value.length;
@@ -53,6 +56,8 @@ export const useArtistsStore = defineStore("artists", () => {
 
   const mergeData = () => {
     const performances = rawPerformances.value.map((performance) => {
+      const stageName = stagesStore.trimStageName(performance.stage.name);
+      performance.stage.name = stageName.toLowerCase();
       let temp: any = performance;
       temp = mergeDate(temp);
       temp = mergePosition(temp);

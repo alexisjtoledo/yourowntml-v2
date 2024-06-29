@@ -34,9 +34,13 @@ interface ArtistPerformance extends PerformanceWithPosition {
   transit_start_position?: number;
 }
 
+type Hosts = {
+  [day: string]: string;
+};
+
 interface Stage {
   id: string;
-  host?: string;
+  hosts?: Hosts;
   name: string;
   priority?: number;
   color?: string;
@@ -49,21 +53,20 @@ type DayName = "FRIDAY" | "SATURDAY" | "SUNDAY";
 type Day = "2024-07-19" | "2024-07-20" | "2024-07-21" | "2024-07-26" | "2024-07-27" | "2024-07-28";
 
 type StageName =
-  | "Atmosphere"
-  | "Cage"
-  | "Core"
-  | "Crystal Garden"
-  | "Elixir"
-  | "Freedom"
-  | "House of Fortune"
-  | "Mainstage"
-  | "Melodia"
-  | "Moosebar"
-  | "Planaxis"
-  | "Rise"
-  | "The Library"
-  | "The Rave Cave"
-  | "The Rose Garden";
+  | "atmosphere"
+  | "cage"
+  | "core"
+  | "crystal garden"
+  | "elixir"
+  | "freedom"
+  | "house of fortune"
+  | "mainstage"
+  | "melodia"
+  | "planaxis"
+  | "rise"
+  | "the library"
+  | "the rave cave"
+  | "the rose garden";
 
 type PerformanceAction = "add" | "remove";
 

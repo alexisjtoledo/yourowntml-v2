@@ -16,7 +16,7 @@
 }
 
 .Transit--stage {
-  @apply text-xs text-wrap text-ellipsis m-0 text-slate-800;
+  @apply text-xs text-wrap text-ellipsis m-0 text-slate-800 capitalize;
 }
 
 @media (min-width: 1024px) {

@@ -21,7 +21,7 @@
 }
 
 .Performance--stage {
-  @apply text-sm text-slate-500 font-semibold mb-1;
+  @apply text-sm text-slate-500 font-semibold mb-1 capitalize;
 }
 
 .Performance--time {

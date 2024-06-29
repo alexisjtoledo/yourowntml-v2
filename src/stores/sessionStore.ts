@@ -10,7 +10,7 @@ export const useSessionStore = defineStore("session", () => {
   const isSessionReady = ref<boolean>(false);
   const weekend = ref<Weekend>("W1");
   const day = ref<Day>(weekend.value === "W1" ? "2024-07-19" : "2024-07-26");
-  const stage = ref<StageName>("Mainstage");
+  const stage = ref<StageName>("mainstage");
   const transitEnabled = ref<boolean>(true);
   const userPerformances = ref<ArtistPerformance[]>([]);
 

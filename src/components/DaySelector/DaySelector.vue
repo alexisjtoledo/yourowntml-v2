@@ -17,7 +17,7 @@ const options = computed<Option[]>(() =>
   dayNames.map((day) => {
     return {
       id: day,
-      label: day,
+      label: day.toLowerCase(),
     };
   })
 );

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1373116442",
+    "name": "MAINSTAGE",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "",
+      "2024-07-21": "",
+      "2024-07-26": "",
+      "2024-07-27": "",
+      "2024-07-28": ""
+    }
+  },
+  {
+    "id": "1515042888",
+    "name": "FREEDOM BY BUD",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "",
+      "2024-07-21": "AFTERLIFE",
+      "2024-07-26": "",
+      "2024-07-27": "",
+      "2024-07-28": "AFTERLIFE"
+    }
+  },
+  {
+    "id": "1515042983",
+    "name": "THE ROSE GARDEN",
+    "hosts": {
+      "2024-07-19": "RAMPAGE",
+      "2024-07-20": "BONZAI",
+      "2024-07-21": "SUB ZERO PROJECT",
+      "2024-07-26": "RAMPAGE X UKF",
+      "2024-07-27": "BONZAI",
+      "2024-07-28": "TWEEKAMANIA"
+    }
+  },
+  {
+    "id": "1515043357",
+    "name": "ELIXIR",
+    "hosts": {
+      "2024-07-19": "MANGROVE",
+      "2024-07-20": "RADS",
+      "2024-07-21": "TEAM DAMP",
+      "2024-07-26": "FLAVÃSOUL",
+      "2024-07-27": "VUNZIGE DEUNTJES",
+      "2024-07-28": "TEAM DAMP"
+    }
+  },
+  {
+    "id": "1515043452",
+    "name": "CAGE",
+    "hosts": {
+      "2024-07-19": "FOOTWORXX",
+      "2024-07-20": "",
+      "2024-07-21": "ONE87 PRESENTS",
+      "2024-07-26": "FOOTWORXX",
+      "2024-07-27": "",
+      "2024-07-28": "BROWNIES & LEMONADE"
+    }
+  },
+  {
+    "id": "1515043590",
+    "name": "THE RAVE CAVE",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "CRYSTAL",
+      "2024-07-21": "WE ARE ONE WORLD",
+      "2024-07-26": "WINTERCLUBBING",
+      "2024-07-27": "",
+      "2024-07-28": ""
+    }
+  },
+  {
+    "id": "1532129449",
+    "name": "PLANAXIS",
+    "hosts": {
+      "2024-07-19": "AMAZONE PROJECT",
+      "2024-07-20": "",
+      "2024-07-21": "",
+      "2024-07-26": "",
+      "2024-07-27": "MONSTERCAT",
+      "2024-07-28": ""
+    }
+  },
+  {
+    "id": "1532129590",
+    "name": "RISE BY COKE STUDIO",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "GLITTERBOX",
+      "2024-07-21": "PSYGATHERING",
+      "2024-07-26": "CAFEÏNA",
+      "2024-07-27": "YVES V PRESENTS V SESSIONS",
+      "2024-07-28": "PSYGATHERING"
+    }
+  },
+  {
+    "id": "1532129666",
+    "name": "ATMOSPHERE",
+    "hosts": {
+      "2024-07-19": "TELETECH",
+      "2024-07-20": "ANDROMEDIK INVITES",
+      "2024-07-21": "AMBER BROOS",
+      "2024-07-26": "DRUMCODE",
+      "2024-07-27": "",
+      "2024-07-28": "EXHALE"
+    }
+  },
+  {
+    "id": "1532129791",
+    "name": "CORE",
+    "hosts": {
+      "2024-07-19": "SULTA SELECTS",
+      "2024-07-20": "BONOBO OUTLIER",
+      "2024-07-21": "",
+      "2024-07-26": "",
+      "2024-07-27": "PLANET ELIZA",
+      "2024-07-28": "CORE HOSTED BY DJ BORING"
+    }
+  },
+  {
+    "id": "1532130005",
+    "name": "CRYSTAL GARDEN",
+    "hosts": {
+      "2024-07-19": "KEINEMUSIK",
+      "2024-07-20": "",
+      "2024-07-21": "TOMORROWLAND MUSIC x SELECTED",
+      "2024-07-26": "",
+      "2024-07-27": "ZAMNA",
+      "2024-07-28": ""
+    }
+  },
+  {
+    "id": "1532130071",
+    "name": "THE LIBRARY",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "LOST FREQUENCIES & FRIENDS",
+      "2024-07-21": "SMASH THE HOUSE",
+      "2024-07-26": "TOMORROWLAND MUSIC",
+      "2024-07-27": "LOST FREQUENCIES & FRIENDS",
+      "2024-07-28": "SMASH THE HOUSE"
+    }
+  },
+  {
+    "id": "1532130787",
+    "name": "MELODIA BY CORONA",
+    "hosts": {
+      "2024-07-19": "TERRA SOLIS",
+      "2024-07-20": "",
+      "2024-07-21": "SHOMI",
+      "2024-07-26": "TERRA SOLIS",
+      "2024-07-27": "WITH LOVE FROM IBIZA",
+      "2024-07-28": "DISCO ZONDERDAG"
+    }
+  },
+  {
+    "id": "1532131086",
+    "name": "HOUSE OF FORTUNE BY JBL",
+    "hosts": {
+      "2024-07-19": "",
+      "2024-07-20": "",
+      "2024-07-21": "",
+      "2024-07-26": "",
+      "2024-07-27": "",
+      "2024-07-28": ""
+    }
+  }
+]

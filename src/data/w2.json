@@ -1,0 +1,7363 @@
+[
+  {
+    "id": "1539261135",
+    "name": "TBA",
+    "artists": [
+      {
+        "id": "1395014940",
+        "name": "TBA"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 13:00:00+02:00"
+  },
+  {
+    "id": "1539257749",
+    "name": "TBA",
+    "artists": [
+      {
+        "id": "1395014940",
+        "name": "TBA"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1538299062",
+    "name": "Hangar Soundsystem",
+    "artists": [
+      {
+        "id": "1538299176",
+        "name": "Hangar Soundsystem"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SUNDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1538291573",
+    "name": "Arielle Free",
+    "artists": [
+      {
+        "id": "1324452973",
+        "name": "Arielle Free",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31853262-187A9663.jpg",
+        "instagram": "https://www.instagram.com/ariellefree/",
+        "spotify": "https://open.spotify.com/artist/3hHvAP73aCKQMbcn2SQZ9d?si=duaOVVeCQCudJ8VUVkKoAQ"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:30:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1538285461",
+    "name": "Might Delete Later",
+    "artists": [
+      {
+        "id": "1538285595",
+        "name": "Might Delete Later",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/54853920-Press_MightDeleteLater_Square_3840x3840.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535259450",
+    "name": "Dom Dolla",
+    "artists": [
+      {
+        "id": "1359427399",
+        "name": "Dom Dolla",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53518299-Dom-Dolla-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:30:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535260244",
+    "name": "Camo & Krooked",
+    "artists": [
+      {
+        "id": "1536089878",
+        "name": "Camo & Krooked"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535260924",
+    "name": "Macky Gee",
+    "artists": [
+      {
+        "id": "1536090046",
+        "name": "Macky Gee"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535261166",
+    "name": "Murdock",
+    "artists": [
+      {
+        "id": "1532071754",
+        "name": "Murdock",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53826653-230728-190628-TML23DSC08189-TD.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535261306",
+    "name": "Delta Heavy",
+    "artists": [
+      {
+        "id": "1536100133",
+        "name": "Delta Heavy"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535261540",
+    "name": "A Little Sound",
+    "artists": [
+      {
+        "id": "1536100720",
+        "name": "A Little Sound"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535261819",
+    "name": "Mollie Collins",
+    "artists": [
+      {
+        "id": "1536100972",
+        "name": "Mollie Collins"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535261990",
+    "name": "DJ Creator",
+    "artists": [
+      {
+        "id": "1536101159",
+        "name": "DJ Creator",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53882640-230729-004717-TML23-JM6A8385-MW.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "FRIDAY",
+    "startTime": "2024-07-27 00:00:00+02:00",
+    "endTime": "2024-07-27 01:00:00+02:00"
+  },
+  {
+    "id": "1535262145",
+    "name": "Hyalyte",
+    "artists": [
+      {
+        "id": "1393702731",
+        "name": "Hyalyte"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535262535",
+    "name": "Flavour Drop",
+    "artists": [
+      {
+        "id": "1536101320",
+        "name": "Flavour Drop"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535263001",
+    "name": "Flo Windey & Skyve",
+    "artists": [
+      {
+        "id": "1536101627",
+        "name": "Flo Windey & Skyve",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53884431-230721-175432-TML23-JM6A7639-MW.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535263628",
+    "name": "DJ Chanelle",
+    "artists": [
+      {
+        "id": "1536101946",
+        "name": "DJ Chanelle"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:30:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535264030",
+    "name": "MC Rim",
+    "artists": [
+      {
+        "id": "1536102487",
+        "name": "MC Rim"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 12:00:00+02:00"
+  },
+  {
+    "id": "1535264169",
+    "name": "Metrik b2b Grafix",
+    "artists": [
+      {
+        "id": "1338495784",
+        "name": "Metrik",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53520756-Metrik-2024.jpg"
+      },
+      {
+        "id": "1337772909",
+        "name": "Grafix",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53519160-Grafix-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535264323",
+    "name": "Hamdi",
+    "artists": [
+      {
+        "id": "1536103018",
+        "name": "Hamdi"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535264397",
+    "name": "Basstripper b2b AC13",
+    "artists": [
+      {
+        "id": "1532635001",
+        "name": "Basstripper"
+      },
+      {
+        "id": "1536103492",
+        "name": "AC13"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535264514",
+    "name": "Maze b2b Primate",
+    "artists": [
+      {
+        "id": "1536103726",
+        "name": "Maze",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53886533-230721-130705-TML2023-DU0A7755-MP.jpg"
+      },
+      {
+        "id": "1532635035",
+        "name": "Primate"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535264687",
+    "name": "Unregular",
+    "artists": [
+      {
+        "id": "1536104074",
+        "name": "Unregular"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535265023",
+    "name": "Tola OG",
+    "artists": [
+      {
+        "id": "1536104256",
+        "name": "Tola OG"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535265163",
+    "name": "FlavãSoul Soundsystem",
+    "artists": [
+      {
+        "id": "1536104492",
+        "name": "FlavāSoul Soundsystem"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535265321",
+    "name": "Tous Les Deux",
+    "artists": [
+      {
+        "id": "1536104591",
+        "name": "Tous Les Deux"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:00:00+02:00",
+    "endTime": "2024-07-26 14:30:00+02:00"
+  },
+  {
+    "id": "1535265456",
+    "name": "Eva De Roo & Double D",
+    "artists": [
+      {
+        "id": "1536104904",
+        "name": "Eva De Roo & Double D"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535265748",
+    "name": "Detest",
+    "artists": [
+      {
+        "id": "1536105218",
+        "name": "Detest"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535265850",
+    "name": "Neko",
+    "artists": [
+      {
+        "id": "1536105317",
+        "name": "Neko"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535265980",
+    "name": "Yoshiko",
+    "artists": [
+      {
+        "id": "1536105423",
+        "name": "Yoshiko"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535266093",
+    "name": "DRS b2b Sandy Warez",
+    "artists": [
+      {
+        "id": "1536105568",
+        "name": "DRS"
+      },
+      {
+        "id": "1536105782",
+        "name": "Sandy Warez"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:30:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535266180",
+    "name": "Partyraiser",
+    "artists": [
+      {
+        "id": "1536105948",
+        "name": "Partyraiser"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:30:00+02:00",
+    "endTime": "2024-07-26 17:30:00+02:00"
+  },
+  {
+    "id": "1535266293",
+    "name": "Vernex",
+    "artists": [
+      {
+        "id": "1536106218",
+        "name": "Vernex"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:30:00+02:00",
+    "endTime": "2024-07-26 16:30:00+02:00"
+  },
+  {
+    "id": "1535266475",
+    "name": "DJ Furax",
+    "artists": [
+      {
+        "id": "1536106524",
+        "name": "DJ Furax"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:30:00+02:00",
+    "endTime": "2024-07-26 15:30:00+02:00"
+  },
+  {
+    "id": "1535266717",
+    "name": "Revedge b2b The Mind Destiny",
+    "artists": [
+      {
+        "id": "1536106686",
+        "name": "Revedge"
+      },
+      {
+        "id": "1536106782",
+        "name": "The Mind Destiny"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:15:00+02:00",
+    "endTime": "2024-07-26 14:30:00+02:00"
+  },
+  {
+    "id": "1535266903",
+    "name": "Revenja b2b Extreme Noize",
+    "artists": [
+      {
+        "id": "1536106850",
+        "name": "Revenja"
+      },
+      {
+        "id": "1536106983",
+        "name": "Extreme Noize"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 13:15:00+02:00"
+  },
+  {
+    "id": "1535267049",
+    "name": "Winterclubbing All Stars",
+    "artists": [
+      {
+        "id": "1536107192",
+        "name": "Winterclubbing All Stars"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535268032",
+    "name": "Double-U",
+    "artists": [
+      {
+        "id": "1536107493",
+        "name": "Double-U"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535268715",
+    "name": "Dimitri Wouters",
+    "artists": [
+      {
+        "id": "1536107725",
+        "name": "Dimitri Wouters"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535269017",
+    "name": "5napback",
+    "artists": [
+      {
+        "id": "1536107912",
+        "name": "5napback"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535269218",
+    "name": "PartyShakerz",
+    "artists": [
+      {
+        "id": "1536108129",
+        "name": "PartyShakerz"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535269362",
+    "name": "DJ F.R.A.N.K",
+    "artists": [
+      {
+        "id": "1536108283",
+        "name": "DJ F.R.A.N.K"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535269513",
+    "name": "DJ Kat",
+    "artists": [
+      {
+        "id": "1536108347",
+        "name": "DJ Kat"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535270439",
+    "name": "DJ Luk",
+    "artists": [
+      {
+        "id": "1536108463",
+        "name": "DJ Luk"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535271289",
+    "name": "Bram Delux",
+    "artists": [
+      {
+        "id": "1536108596",
+        "name": "Bram Delux",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53903088-230728-144737-TML23-DSC_3073-Verbeterd-NR-YS.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535271578",
+    "name": "Nils Van Zandt",
+    "artists": [
+      {
+        "id": "1536108757",
+        "name": "Nils Van Zandt"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535271775",
+    "name": "Mr. Rewind",
+    "artists": [
+      {
+        "id": "1536108929",
+        "name": "Mr. Rewind"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535271953",
+    "name": "Adam Beyer",
+    "artists": [
+      {
+        "id": "1536109145",
+        "name": "Adam Beyer",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53503909-Adam Beyer.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:55:00+02:00"
+  },
+  {
+    "id": "1535272248",
+    "name": "Bart Skils",
+    "artists": [
+      {
+        "id": "1536109308",
+        "name": "Bart Skils"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:30:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535273451",
+    "name": "Olympe",
+    "artists": [
+      {
+        "id": "1325260377",
+        "name": "Olympe",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31647671-IMG_7766.jpg",
+        "instagram": "https://www.instagram.com/__olympe__/",
+        "spotify": "https://open.spotify.com/artist/5uK8yW5uGiMKQH3YI8DztF?si=6Vzga4GMSXW4yUBu64SFTg"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535273690",
+    "name": "Sama' Abdulhadi",
+    "artists": [
+      {
+        "id": "1368962056",
+        "name": "Sama' Abdulhadi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/32560540-large-sama-abdulhadi.1644507018.png",
+        "instagram": "https://www.instagram.com/samaabdulhadiofficial/",
+        "spotify": "https://open.spotify.com/artist/52qyXsgOeHZZxHRRxyO8xm?si=OzKNRcdjSSusvVMRzjIcLw"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535273849",
+    "name": "Marlon Hoffstadt",
+    "artists": [
+      {
+        "id": "1536109690",
+        "name": "Marlon Hoffstadt"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:30:00+02:00",
+    "endTime": "2024-07-26 23:30:00+02:00"
+  },
+  {
+    "id": "1535274048",
+    "name": "Swedish House Mafia",
+    "artists": [
+      {
+        "id": "1359186588",
+        "name": "Swedish House Mafia",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53562327-SHM-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:50:00+02:00",
+    "endTime": "2024-07-26 23:50:00+02:00"
+  },
+  {
+    "id": "1535274566",
+    "name": "Lost Frequencies",
+    "artists": [
+      {
+        "id": "1262707391",
+        "name": "Lost Frequencies",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38719056-SME_LF_AST_press_09.jpg",
+        "instagram": "https://www.instagram.com/lostfrequencies/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:45:00+02:00",
+    "endTime": "2024-07-26 22:45:00+02:00"
+  },
+  {
+    "id": "1535274896",
+    "name": "Lost Frequencies",
+    "artists": [
+      {
+        "id": "1262707391",
+        "name": "Lost Frequencies",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38719056-SME_LF_AST_press_09.jpg",
+        "instagram": "https://www.instagram.com/lostfrequencies/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535275184",
+    "name": "Solomun",
+    "artists": [
+      {
+        "id": "1532619696",
+        "name": "Solomun",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53569602-Solomun-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:40:00+02:00",
+    "endTime": "2024-07-26 21:40:00+02:00"
+  },
+  {
+    "id": "1535276302",
+    "name": "Kevin de Vries",
+    "artists": [
+      {
+        "id": "1264276664",
+        "name": "Kevin de Vries",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/16693614-Screenshot 2023-09-11 at 18.12.24.png",
+        "instagram": "https://www.instagram.com/kevindevriesmusic/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:40:00+02:00",
+    "endTime": "2024-07-26 20:40:00+02:00"
+  },
+  {
+    "id": "1535276420",
+    "name": "B Jones",
+    "artists": [
+      {
+        "id": "1262706986",
+        "name": "B Jones",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607448-large-20210804_GuilleGS_Bjones_Ibiza_6000px_1.jpg",
+        "instagram": "https://www.instagram.com/bjonesdj/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:40:00+02:00",
+    "endTime": "2024-07-26 19:40:00+02:00"
+  },
+  {
+    "id": "1535276615",
+    "name": "Bassjackers",
+    "artists": [
+      {
+        "id": "1262713442",
+        "name": "Bassjackers",
+        "image": "https://artist-lineup-assets.b-cdn.net/16612308-large-KWK_Bassjackers Headshots_High Res-3.jpg",
+        "instagram": "https://www.instagram.com/bassjackers/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:35:00+02:00",
+    "endTime": "2024-07-26 18:35:00+02:00"
+  },
+  {
+    "id": "1535276859",
+    "name": "Dimension",
+    "artists": [
+      {
+        "id": "1532634725",
+        "name": "Dimension"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:30:00+02:00",
+    "endTime": "2024-07-26 17:30:00+02:00"
+  },
+  {
+    "id": "1535277200",
+    "name": "Henri PFR",
+    "artists": [
+      {
+        "id": "1262703272",
+        "name": "Henri PFR",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607212-large-Henri PFR - 2022 press pic 1.jpg",
+        "instagram": "https://www.instagram.com/henripfr/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:30:00+02:00",
+    "endTime": "2024-07-26 16:30:00+02:00"
+  },
+  {
+    "id": "1535277335",
+    "name": "R3hab",
+    "artists": [
+      {
+        "id": "1361073186",
+        "name": "R3HAB",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53521174-R3hab-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535278580",
+    "name": "Alok",
+    "artists": [
+      {
+        "id": "1262707253",
+        "name": "ALOK",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607466-large-Alok2.jpg",
+        "instagram": "https://www.instagram.com/alok/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535278746",
+    "name": "Felix Jaehn",
+    "artists": [
+      {
+        "id": "1262713526",
+        "name": "Felix Jaehn",
+        "image": "https://artist-lineup-assets.b-cdn.net/16691531-Screenshot 2023-09-11 at 17.51.57.png",
+        "instagram": "https://www.instagram.com/felixjaehn/",
+        "spotify": "https://open.spotify.com/artist/4bL2B6hmLlMWnUEZnorEtG?si=f1j05br8TpqsYjLYISw70A"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535278991",
+    "name": "Lucas & Steve",
+    "artists": [
+      {
+        "id": "1318669661",
+        "name": "Lucas & Steve",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/23126394-LUCAS-2_04_STEVE-5_08_COMBINATION_LR.jpg",
+        "instagram": "https://www.instagram.com/lucasandsteve/",
+        "spotify": "https://open.spotify.com/artist/5wwneIFdawNgQ7GvKK29Z3?si=NfdgbvBWQwSysrb0IQEDbA"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535279311",
+    "name": "Otto Knows",
+    "artists": [
+      {
+        "id": "1320420150",
+        "name": "Otto Knows",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31809828-Unknown.jpeg",
+        "instagram": "https://www.instagram.com/ottoknows/",
+        "spotify": "https://open.spotify.com/artist/5fahUm8t5c0GIdeTq0ZaG8?si=QT1xqXxtSZGrZARbtzYlcQ"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535279577",
+    "name": "Mr. Belt & Wezol",
+    "artists": [
+      {
+        "id": "1539024654",
+        "name": "Mr. Belt & Wezol"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535280813",
+    "name": "Mr. Belt & Wezol",
+    "artists": [
+      {
+        "id": "1539024654",
+        "name": "Mr. Belt & Wezol"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535280852",
+    "name": "Bresh",
+    "artists": [
+      {
+        "id": "1536112287",
+        "name": "Bresh"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535281006",
+    "name": "Alesso",
+    "artists": [
+      {
+        "id": "1264276009",
+        "name": "Alesso",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20406448-.jpeg",
+        "instagram": "https://www.instagram.com/alesso/",
+        "spotify": "https://open.spotify.com/artist/4AVFqumd2ogHFlRbKIjp1t?si=f7595CyiT_utyp4d_kCSfQ"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:30:00+02:00",
+    "endTime": "2024-07-27 23:30:00+02:00"
+  },
+  {
+    "id": "1535281239",
+    "name": "Symphony of Unity",
+    "artists": [
+      {
+        "id": "1532622883",
+        "name": "Symphony of Unity",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53568073-Symphony-of-Unity-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535281829",
+    "name": "Tchami b2b Malaa",
+    "artists": [
+      {
+        "id": "1264274366",
+        "name": "Malaa",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20349926-malaa.jpeg",
+        "instagram": "https://www.instagram.com/malaamusic/"
+      },
+      {
+        "id": "1264274278",
+        "name": "Tchami",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20361516-tchami.webp",
+        "instagram": "https://www.instagram.com/tchami/"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:30:00+02:00"
+  },
+  {
+    "id": "1535282008",
+    "name": "Sub Zero Project",
+    "artists": [
+      {
+        "id": "1262709124",
+        "name": "Sub Zero Project Live",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/54867817-SZP_2024_webres--5.jpg",
+        "instagram": "https://www.instagram.com/subzeroproject/"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:30:00+02:00",
+    "endTime": "2024-07-28 00:30:00+02:00"
+  },
+  {
+    "id": "1535282157",
+    "name": "Joris Voorn b2b Yotto",
+    "artists": [
+      {
+        "id": "1262711086",
+        "name": "Joris Voorn",
+        "image": "https://artist-lineup-assets.b-cdn.net/16608785-large-JV 3.jpg",
+        "instagram": "https://www.instagram.com/jorisvoorn/"
+      },
+      {
+        "id": "1536112504",
+        "name": "Yotto"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 19:30:00+02:00"
+  },
+  {
+    "id": "1535283497",
+    "name": "Bonzai All Stars",
+    "artists": [
+      {
+        "id": "1532622987",
+        "name": "Bonzai All Stars",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53859082-230722-233247-TML2023-0K1A2838-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:30:00+02:00",
+    "endTime": "2024-07-28 01:00:00+02:00"
+  },
+  {
+    "id": "1535284920",
+    "name": "Push",
+    "artists": [
+      {
+        "id": "1532623045",
+        "name": "Push",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53846765-230722-231832-TML2023-DU0A0887-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:30:00+02:00",
+    "endTime": "2024-07-27 23:30:00+02:00"
+  },
+  {
+    "id": "1535285092",
+    "name": "Franky Kloeck",
+    "artists": [
+      {
+        "id": "1532623073",
+        "name": "Franky Kloeck"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:30:00+02:00",
+    "endTime": "2024-07-27 22:30:00+02:00"
+  },
+  {
+    "id": "1535286245",
+    "name": "DJ Ghost",
+    "artists": [
+      {
+        "id": "1532623088",
+        "name": "DJ Ghost",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53847374-230729-190656-TML23DSC00906-TD.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:30:00+02:00",
+    "endTime": "2024-07-27 20:30:00+02:00"
+  },
+  {
+    "id": "1535288192",
+    "name": "Furax",
+    "artists": [
+      {
+        "id": "1532623120",
+        "name": "Furax"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:30:00+02:00",
+    "endTime": "2024-07-27 21:30:00+02:00"
+  },
+  {
+    "id": "1535289848",
+    "name": "Jan Vervloet",
+    "artists": [
+      {
+        "id": "1536112815",
+        "name": "Jan Vervloet"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:30:00+02:00",
+    "endTime": "2024-07-27 19:30:00+02:00"
+  },
+  {
+    "id": "1535291544",
+    "name": "Greg S",
+    "artists": [
+      {
+        "id": "1536112900",
+        "name": "Greg S"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 18:30:00+02:00"
+  },
+  {
+    "id": "1535292593",
+    "name": "Jaydee",
+    "artists": [
+      {
+        "id": "1536113789",
+        "name": "Jaydee"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535293075",
+    "name": "Phi Phi",
+    "artists": [
+      {
+        "id": "1536114040",
+        "name": "Phi Phi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53904005-230722-144440-TML2023-0K1A0457-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535293231",
+    "name": "DJ Jan",
+    "artists": [
+      {
+        "id": "1536115012",
+        "name": "DJ Jan",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53903520-230722-150909-TML2023-0K1A0746-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535293352",
+    "name": "Vunzige Deuntjes Soundsystem",
+    "artists": [
+      {
+        "id": "1536116939",
+        "name": "Vunzige Deuntjes Soundsystem"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:30:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535293525",
+    "name": "WEF",
+    "artists": [
+      {
+        "id": "1536118691",
+        "name": "WEF"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535293764",
+    "name": "Rockefellababe",
+    "artists": [
+      {
+        "id": "1532639603",
+        "name": "Rockefellababe"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535293982",
+    "name": "Ballantine",
+    "artists": [
+      {
+        "id": "1536118909",
+        "name": "Ballantine"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535294316",
+    "name": "Kybba",
+    "artists": [
+      {
+        "id": "1532639132",
+        "name": "Kybba"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:30:00+02:00",
+    "endTime": "2024-07-27 19:30:00+02:00"
+  },
+  {
+    "id": "1535295632",
+    "name": "Tribal Kush",
+    "artists": [
+      {
+        "id": "1532638516",
+        "name": "Tribal Kush"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535296647",
+    "name": "Zoe Hasselbank",
+    "artists": [
+      {
+        "id": "1536119182",
+        "name": "Zoe Hasselbank"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:30:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535298072",
+    "name": "Dieux Pere",
+    "artists": [
+      {
+        "id": "1536119436",
+        "name": "Dieux Pere"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 15:30:00+02:00"
+  },
+  {
+    "id": "1535299285",
+    "name": "SHE",
+    "artists": [
+      {
+        "id": "1536119575",
+        "name": "SHE"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535299678",
+    "name": "MC Claudio",
+    "artists": [
+      {
+        "id": "1536119774",
+        "name": "MC Claudio"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 12:00:00+02:00"
+  },
+  {
+    "id": "1535299951",
+    "name": "Eddiethehost",
+    "artists": [
+      {
+        "id": "1536119921",
+        "name": "Eddiethehost"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 12:00:00+02:00"
+  },
+  {
+    "id": "1535300166",
+    "name": "Koven",
+    "artists": [
+      {
+        "id": "1532641728",
+        "name": "Koven",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53864187-230722-210739-TML23-_Z9A0378-HK.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535300312",
+    "name": "Dirtyphonics",
+    "artists": [
+      {
+        "id": "1536120176",
+        "name": "Dirtyphonics"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1538303243",
+    "name": "Nostalgix",
+    "artists": [
+      {
+        "id": "1262708826",
+        "name": "Nostalgix",
+        "image": "https://artist-lineup-assets.b-cdn.net/16684613-NostalgixPressStudio1__xkylar.jpg",
+        "instagram": "https://www.instagram.com/nostalgixmusic/"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535300497",
+    "name": "Nostalgix",
+    "artists": [
+      {
+        "id": "1262708826",
+        "name": "Nostalgix",
+        "image": "https://artist-lineup-assets.b-cdn.net/16684613-NostalgixPressStudio1__xkylar.jpg",
+        "instagram": "https://www.instagram.com/nostalgixmusic/"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:00:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535300645",
+    "name": "Raizhell",
+    "artists": [
+      {
+        "id": "1536120375",
+        "name": "Raizhell"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:00:00+02:00"
+  },
+  {
+    "id": "1535300825",
+    "name": "ShockOne",
+    "artists": [
+      {
+        "id": "1536120462",
+        "name": "ShockOne"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535300982",
+    "name": "Chyl",
+    "artists": [
+      {
+        "id": "1342271900",
+        "name": "Chyl"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535301211",
+    "name": "Will Sparks",
+    "artists": [
+      {
+        "id": "1536120642",
+        "name": "Will Sparks"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535301498",
+    "name": "Sevenn",
+    "artists": [
+      {
+        "id": "1344058259",
+        "name": "Sevenn",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53716505-Sevenn-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535301758",
+    "name": "Kura",
+    "artists": [
+      {
+        "id": "1536120838",
+        "name": "Kura"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535301886",
+    "name": "Brian Cross & DJ Nano",
+    "artists": [
+      {
+        "id": "1536121038",
+        "name": "Brian Cross & DJ Nano"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:00:00+02:00",
+    "endTime": "2024-07-27 18:00:00+02:00"
+  },
+  {
+    "id": "1535302070",
+    "name": "Yves V",
+    "artists": [
+      {
+        "id": "1262703149",
+        "name": "Yves V",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607201-large-220716-181745-TML2022-153A3461-PW(1).jpg",
+        "instagram": "https://www.instagram.com/yves_v/"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:00:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535302292",
+    "name": "Yves V",
+    "artists": [
+      {
+        "id": "1262703149",
+        "name": "Yves V",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607201-large-220716-181745-TML2022-153A3461-PW(1).jpg",
+        "instagram": "https://www.instagram.com/yves_v/"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535302505",
+    "name": "Bhaskar",
+    "artists": [
+      {
+        "id": "1262707617",
+        "name": "Bhaskar",
+        "image": "https://artist-lineup-assets.b-cdn.net/16691225-Screenshot 2023-09-11 at 17.48.25.png",
+        "instagram": "https://www.instagram.com/bhaskar/"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:00:00+02:00"
+  },
+  {
+    "id": "1535302606",
+    "name": "DJ Roop",
+    "artists": [
+      {
+        "id": "1536121338",
+        "name": "DJ Roop"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535302825",
+    "name": "Odssey",
+    "artists": [
+      {
+        "id": "1357420228",
+        "name": "Odssey",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53716250-Odssey-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535303016",
+    "name": "JOYSE",
+    "artists": [
+      {
+        "id": "1536122728",
+        "name": "JOYSE"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1535303333",
+    "name": "Blk.",
+    "artists": [
+      {
+        "id": "1536122968",
+        "name": "Blk."
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SATURDAY",
+    "startTime": "2024-07-28 00:00:00+02:00",
+    "endTime": "2024-07-28 00:55:00+02:00"
+  },
+  {
+    "id": "1535303533",
+    "name": "Paula Temple b2b SNTS",
+    "artists": [
+      {
+        "id": "1359203204",
+        "name": "Paula Temple",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53775591-PaulaTemple_Dimensions2019_Credit_NicoleTemple.JPG"
+      },
+      {
+        "id": "1536123461",
+        "name": "SNTS"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:30:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535303874",
+    "name": "Ellen Allien",
+    "artists": [
+      {
+        "id": "1536123615",
+        "name": "Ellen Allien"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:30:00+02:00",
+    "endTime": "2024-07-27 22:30:00+02:00"
+  },
+  {
+    "id": "1535304077",
+    "name": "Phara (Live)",
+    "artists": [
+      {
+        "id": "1536123727",
+        "name": "Phara (Live)"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535304155",
+    "name": "Amotik b2b Answer Code Request",
+    "artists": [
+      {
+        "id": "1536123916",
+        "name": "Amotik"
+      },
+      {
+        "id": "1536124297",
+        "name": "Answer Code Request"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535304398",
+    "name": "Marie Julie",
+    "artists": [
+      {
+        "id": "1536124958",
+        "name": "Marie Julie"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1535305778",
+    "name": "I Hate Models",
+    "artists": [
+      {
+        "id": "1536125041",
+        "name": "I Hate Models"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:30:00+02:00"
+  },
+  {
+    "id": "1535306244",
+    "name": "Ellli Acula",
+    "artists": [
+      {
+        "id": "1536125419",
+        "name": "Ellli Acula"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535306576",
+    "name": "Eliza Rose",
+    "artists": [
+      {
+        "id": "1319400910",
+        "name": "Eliza Rose",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31829179-20221101_ELIZA_ROSE_PRESS_SHOT_SP_2 (2).jpg",
+        "instagram": "https://www.instagram.com/elizarosemuzik/",
+        "spotify": "https://open.spotify.com/artist/4XC335ouK6pXyq4QiIb8bP?si=PaBuWdCdQjKn_juA5GxM_Q"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 01:00:00+02:00"
+  },
+  {
+    "id": "1535306761",
+    "name": "Dimitri Vegas & Like Mike",
+    "artists": [
+      {
+        "id": "1262706692",
+        "name": "Dimitri Vegas & Like Mike",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38549667-DVLM_PRESSPIC2024_black.jpg",
+        "instagram": "https://www.instagram.com/dimitrivegasandlikemike/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:50:00+02:00",
+    "endTime": "2024-07-27 23:50:00+02:00"
+  },
+  {
+    "id": "1535307114",
+    "name": "Dimitri Vegas & Like Mike",
+    "artists": [
+      {
+        "id": "1262706692",
+        "name": "Dimitri Vegas & Like Mike",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38549667-DVLM_PRESSPIC2024_black.jpg",
+        "instagram": "https://www.instagram.com/dimitrivegasandlikemike/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535307257",
+    "name": "Armin van Buuren",
+    "artists": [
+      {
+        "id": "1264274656",
+        "name": "Armin van Buuren",
+        "image": "https://artist-lineup-assets.b-cdn.net/16693055-Screenshot 2023-09-11 at 18.09.08.png",
+        "instagram": "https://www.instagram.com/arminvanbuuren/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:45:00+02:00",
+    "endTime": "2024-07-27 22:45:00+02:00"
+  },
+  {
+    "id": "1535307829",
+    "name": "Tale Of Us",
+    "artists": [
+      {
+        "id": "1532635376",
+        "name": "Tale Of Us",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53567501-TaleofUs-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:40:00+02:00",
+    "endTime": "2024-07-27 21:40:00+02:00"
+  },
+  {
+    "id": "1535308028",
+    "name": "Tale Of Us",
+    "artists": [
+      {
+        "id": "1532635376",
+        "name": "Tale Of Us",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53567501-TaleofUs-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:30:00+02:00"
+  },
+  {
+    "id": "1535308168",
+    "name": "Sunnery James & Ryan Marciano",
+    "artists": [
+      {
+        "id": "1546636351",
+        "name": "Sunnery James & Ryan Marciano",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/54882603-SJRM 2023.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:40:00+02:00",
+    "endTime": "2024-07-27 20:40:00+02:00"
+  },
+  {
+    "id": "1535308449",
+    "name": "Amber Broos",
+    "artists": [
+      {
+        "id": "1262705755",
+        "name": "Amber Broos",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607249-large-Amber Broos2 (1).jpg",
+        "instagram": "https://www.instagram.com/amberbroos/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:40:00+02:00",
+    "endTime": "2024-07-27 19:40:00+02:00"
+  },
+  {
+    "id": "1535308676",
+    "name": "MORTEN",
+    "artists": [
+      {
+        "id": "1539202693",
+        "name": "MORTEN",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53969174-large-MAIN PRESS PHOTO - NO BEAR.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:35:00+02:00",
+    "endTime": "2024-07-27 18:35:00+02:00"
+  },
+  {
+    "id": "1535308934",
+    "name": "USED",
+    "artists": [
+      {
+        "id": "1532071387",
+        "name": "USED",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53826161-230720-201846-TML23-794A6062-JB.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:30:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535309306",
+    "name": "Sara Landry",
+    "artists": [
+      {
+        "id": "1262710270",
+        "name": "Sara Landry",
+        "image": "https://artist-lineup-assets.b-cdn.net/16685348-Photo Jun 10 2023_ 18 47 36.jpg",
+        "instagram": "https://www.instagram.com/saralandrydj/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535309460",
+    "name": "ANNA",
+    "artists": [
+      {
+        "id": "1262706942",
+        "name": "ANNA",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607423-large-ANNA_SAMNEILL_06 copy.jpg",
+        "instagram": "https://www.instagram.com/djannaofficial/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:30:00+02:00",
+    "endTime": "2024-07-27 22:30:00+02:00"
+  },
+  {
+    "id": "1535310215",
+    "name": "Like Mike",
+    "artists": [
+      {
+        "id": "1262728764",
+        "name": "Like Mike",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/16613666-large-file(1).jpg",
+        "instagram": "https://www.instagram.com/likemike/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535310525",
+    "name": "Netsky",
+    "artists": [
+      {
+        "id": "1262708221",
+        "name": "Netsky",
+        "image": "https://artist-lineup-assets.b-cdn.net/20366823-netsky.jpeg",
+        "instagram": "https://www.instagram.com/netskyofficial/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SATURDAY",
+    "startTime": "2024-07-28 00:00:00+02:00",
+    "endTime": "2024-07-28 00:55:00+02:00"
+  },
+  {
+    "id": "1535310812",
+    "name": "Oliver Heldens",
+    "artists": [
+      {
+        "id": "1532622365",
+        "name": "Oliver Heldens"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535311008",
+    "name": "Purple Disco Machine",
+    "artists": [
+      {
+        "id": "1262723500",
+        "name": "Purple Disco Machine",
+        "image": "https://artist-lineup-assets.b-cdn.net/16612751-large-220724-163817-TML2022-DN200544-DN.jpg",
+        "instagram": "https://www.instagram.com/purple_disco_machine/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535311158",
+    "name": "Andromedik",
+    "artists": [
+      {
+        "id": "1262708699",
+        "name": "Andromedik",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607661-large-Andromedik - Artwork 02.jpg",
+        "instagram": "https://www.instagram.com/andromedik.official/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:00:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535311300",
+    "name": "Goodboys",
+    "artists": [
+      {
+        "id": "1295647659",
+        "name": "Goodboys",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20391030-goodboys-20220910.jpg",
+        "instagram": "https://www.instagram.com/goodboysoff/",
+        "spotify": "https://open.spotify.com/artist/2nm38smINjms1LtczR0Cei?si=a2vYD6KPR4mJVFAoYGjwPw"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:00:00+02:00"
+  },
+  {
+    "id": "1535311943",
+    "name": "A-trak b2b The Magician",
+    "artists": [
+      {
+        "id": "1536125601",
+        "name": "A-trak"
+      },
+      {
+        "id": "1536125734",
+        "name": "The Magician"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535312050",
+    "name": "Toolate Groove",
+    "artists": [
+      {
+        "id": "1536126123",
+        "name": "Toolate Groove"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1535312447",
+    "name": "Liu",
+    "artists": [
+      {
+        "id": "1262712880",
+        "name": "Liu",
+        "image": "https://artist-lineup-assets.b-cdn.net/16691497-Screenshot 2023-09-11 at 17.51.32.png",
+        "instagram": "https://www.instagram.com/liulive/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535312642",
+    "name": "Anyma",
+    "artists": [
+      {
+        "id": "1532635204",
+        "name": "Anyma",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53504625-Anyma.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:30:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535313034",
+    "name": "Argy",
+    "artists": [
+      {
+        "id": "1536126215",
+        "name": "Argy"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:30:00+02:00"
+  },
+  {
+    "id": "1535313227",
+    "name": "Rebelion",
+    "artists": [
+      {
+        "id": "1536126450",
+        "name": "Rebelion"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535313639",
+    "name": "Aversion",
+    "artists": [
+      {
+        "id": "1536126568",
+        "name": "Aversion"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535313926",
+    "name": "Mark with a K & Mc Chucky",
+    "artists": [
+      {
+        "id": "1367785367",
+        "name": "Mark With a K & MC Chucky",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/32555798-Mark-with-a-K-MC-Chucky.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535314440",
+    "name": "Tweekacore",
+    "artists": [
+      {
+        "id": "1536126806",
+        "name": "Tweekacore"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535314953",
+    "name": "MANDY",
+    "artists": [
+      {
+        "id": "1262709306",
+        "name": "MANDY",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607767-large-220722-154138-TML2022-153A9057-PW.jpg",
+        "website": "https://www.djmandyofficial.be/",
+        "facebook": "https://www.facebook.com/MANDYofficial/",
+        "instagram": "https://www.instagram.com/mandyofficial_be/",
+        "tiktok": "https://www.tiktok.com/@mandyofficialbe",
+        "youtube": "DJ MANDY - https://www.youtube.com/channel/UCsFcbYXC0IGlDbV5FyQMjGw"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535315213",
+    "name": "Da Tweekaz",
+    "artists": [
+      {
+        "id": "1262709216",
+        "name": "Da Tweekaz",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607749-large-DaTweekaz_presspic2023_highres-1.jpg",
+        "instagram": "https://www.instagram.com/datweekaz/"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535315435",
+    "name": "Coone",
+    "artists": [
+      {
+        "id": "1262709389",
+        "name": "Coone",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607794-large-Online.jpg",
+        "instagram": "https://www.instagram.com/djcoone/"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535315638",
+    "name": "Refuzion",
+    "artists": [
+      {
+        "id": "1359289759",
+        "name": "Refuzion"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535315808",
+    "name": "Lost Identity",
+    "artists": [
+      {
+        "id": "1536127079",
+        "name": "Lost Identity"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:00:00+02:00"
+  },
+  {
+    "id": "1535315968",
+    "name": "BassBrain",
+    "artists": [
+      {
+        "id": "1536127184",
+        "name": "BassBrain"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535316173",
+    "name": "Pegassi",
+    "artists": [
+      {
+        "id": "1359292292",
+        "name": "Pegassi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53716334-Pegassi-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:30:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535316336",
+    "name": "DJ Hyperdrive",
+    "artists": [
+      {
+        "id": "1536127349",
+        "name": "DJ Hyperdrive"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:30:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535316577",
+    "name": "Maruwa",
+    "artists": [
+      {
+        "id": "1536127452",
+        "name": "Maruwa"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 18:30:00+02:00"
+  },
+  {
+    "id": "1535316794",
+    "name": "Abena",
+    "artists": [
+      {
+        "id": "1358285599",
+        "name": "Abena",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53709898-DJ-Abena-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 23:00:00+02:00",
+    "endTime": "2024-07-29 00:00:00+02:00"
+  },
+  {
+    "id": "1535316940",
+    "name": "22heures30",
+    "artists": [
+      {
+        "id": "1536127906",
+        "name": "22heures30"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535317045",
+    "name": "Masai",
+    "artists": [
+      {
+        "id": "1536127994",
+        "name": "Masai"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535317227",
+    "name": "Karyo",
+    "artists": [
+      {
+        "id": "1358762568",
+        "name": "Karyo",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53519412-Karyo-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535317388",
+    "name": "Team DAMP",
+    "artists": [
+      {
+        "id": "1532638619",
+        "name": "Team DAMP"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535317626",
+    "name": "J. Roots",
+    "artists": [
+      {
+        "id": "1536128195",
+        "name": "J. Roots"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535317797",
+    "name": "Soul Shakers",
+    "artists": [
+      {
+        "id": "1536128329",
+        "name": "Soul Shakers"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535318380",
+    "name": "DJ Fasta",
+    "artists": [
+      {
+        "id": "1358287702",
+        "name": "DJ FASTA",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53517953-DJ-Fasta-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535319071",
+    "name": "Milinguap",
+    "artists": [
+      {
+        "id": "1536128465",
+        "name": "Milinguap"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535319649",
+    "name": "DJ Cocki",
+    "artists": [
+      {
+        "id": "1536128543",
+        "name": "DJ Cocki"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:00:00+02:00"
+  },
+  {
+    "id": "1535319845",
+    "name": "Sako Glitch",
+    "artists": [
+      {
+        "id": "1532639933",
+        "name": "Sako Glitch"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535320085",
+    "name": "Imanu b2b Buunshin",
+    "artists": [
+      {
+        "id": "1536128652",
+        "name": "Imanu"
+      },
+      {
+        "id": "1536128783",
+        "name": "Buunshin"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535320548",
+    "name": "ÆON:MODE",
+    "artists": [
+      {
+        "id": "1536129316",
+        "name": "ÆON:MODE"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535320713",
+    "name": "Nitepunk",
+    "artists": [
+      {
+        "id": "1344053215",
+        "name": "Nitepunk",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53716123-Nitepunk-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535320968",
+    "name": "Reaper",
+    "artists": [
+      {
+        "id": "1536129498",
+        "name": "Reaper"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535321554",
+    "name": "Bensley",
+    "artists": [
+      {
+        "id": "1536129584",
+        "name": "Bensley"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535322086",
+    "name": "Rohaan",
+    "artists": [
+      {
+        "id": "1536129738",
+        "name": "Rohaan"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535322342",
+    "name": "Justin Hawkes",
+    "artists": [
+      {
+        "id": "1536129966",
+        "name": "Justin Hawkes"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535322563",
+    "name": "Gyrofield",
+    "artists": [
+      {
+        "id": "1536130526",
+        "name": "Gyrofield"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535322815",
+    "name": "Airglo",
+    "artists": [
+      {
+        "id": "1536130830",
+        "name": "Airglo"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:00:00+02:00"
+  },
+  {
+    "id": "1535323203",
+    "name": "Smokin' Pandas",
+    "artists": [
+      {
+        "id": "1536130971",
+        "name": "Smokin' Pandas"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535323472",
+    "name": "DVBBS",
+    "artists": [
+      {
+        "id": "1358428583",
+        "name": "DVBBS",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53776026-BREATHE9490.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 23:00:00+02:00",
+    "endTime": "2024-07-28 23:50:00+02:00"
+  },
+  {
+    "id": "1535323620",
+    "name": "Regi",
+    "artists": [
+      {
+        "id": "1295648800",
+        "name": "Regi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38541807-WhatsApp Image 2024-03-12 at 11.38.37.jpeg",
+        "instagram": "https://www.instagram.com/realregi/"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535323790",
+    "name": "Third Party",
+    "artists": [
+      {
+        "id": "1536131096",
+        "name": "Third Party"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535323941",
+    "name": "Angemi",
+    "artists": [
+      {
+        "id": "1536131203",
+        "name": "Angemi"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535324102",
+    "name": "Pat B",
+    "artists": [
+      {
+        "id": "1536132018",
+        "name": "Pat B"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535324198",
+    "name": "Jose AM",
+    "artists": [
+      {
+        "id": "1536132153",
+        "name": "Jose AM"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535324342",
+    "name": "Wolfpack",
+    "artists": [
+      {
+        "id": "1536132254",
+        "name": "Wolfpack"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:30:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535324506",
+    "name": "Yamo",
+    "artists": [
+      {
+        "id": "1532641762",
+        "name": "Yamo",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53867155-230730-151346-TML23-536A2450-IVB.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:30:00+02:00"
+  },
+  {
+    "id": "1535324841",
+    "name": "Avalon",
+    "artists": [
+      {
+        "id": "1536133163",
+        "name": "Avalon"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:30:00+02:00"
+  },
+  {
+    "id": "1535324958",
+    "name": "Vegas",
+    "artists": [
+      {
+        "id": "1536133388",
+        "name": "Vegas"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:30:00+02:00",
+    "endTime": "2024-07-29 00:00:00+02:00"
+  },
+  {
+    "id": "1535325095",
+    "name": "Somnia",
+    "artists": [
+      {
+        "id": "1532624191",
+        "name": "Somnia"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:30:00+02:00"
+  },
+  {
+    "id": "1535325218",
+    "name": "Fabio Fusco",
+    "artists": [
+      {
+        "id": "1536134330",
+        "name": "Fabio Fusco"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:30:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535325397",
+    "name": "Firaga",
+    "artists": [
+      {
+        "id": "1532624690",
+        "name": "Firaga",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53855742-230728-144119-TML23-A7404839-RS.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:30:00+02:00",
+    "endTime": "2024-07-28 16:30:00+02:00"
+  },
+  {
+    "id": "1535325718",
+    "name": "Domi Re",
+    "artists": [
+      {
+        "id": "1536134440",
+        "name": "Domi Re"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:30:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535325920",
+    "name": "Blazy",
+    "artists": [
+      {
+        "id": "1536134545",
+        "name": "Blazy"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:30:00+02:00"
+  },
+  {
+    "id": "1535326179",
+    "name": "999999999",
+    "artists": [
+      {
+        "id": "1536134704",
+        "name": "999999999"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:30:00+02:00",
+    "endTime": "2024-07-28 23:55:00+02:00"
+  },
+  {
+    "id": "1535326359",
+    "name": "Amelie Lens",
+    "artists": [
+      {
+        "id": "1532635226",
+        "name": "Amelie Lens",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53504513-Amelie Lens - Atmosphere.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:30:00+02:00",
+    "endTime": "2024-07-28 22:30:00+02:00"
+  },
+  {
+    "id": "1535326682",
+    "name": "Daria Kolosova",
+    "artists": [
+      {
+        "id": "1536134916",
+        "name": "Daria Kolosova"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:30:00+02:00",
+    "endTime": "2024-07-28 20:30:00+02:00"
+  },
+  {
+    "id": "1535326915",
+    "name": "Farrago",
+    "artists": [
+      {
+        "id": "1536139051",
+        "name": "Farrago"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:30:00+02:00"
+  },
+  {
+    "id": "1535327092",
+    "name": "Milo Spykers",
+    "artists": [
+      {
+        "id": "1359258538",
+        "name": "Milo Spykers",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53774609-MiloSpykers_PressPicture-5.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:30:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535327245",
+    "name": "HAAi",
+    "artists": [
+      {
+        "id": "1264276719",
+        "name": "HAAi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/21112352-HAAi LEAD IMAGE PLS CREDIT IMOGENE BARRON.jpg",
+        "instagram": "https://www.instagram.com/haaihaaihaai/"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535327565",
+    "name": "Tiësto",
+    "artists": [
+      {
+        "id": "1262704542",
+        "name": "Tiësto",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607225-large-220729-230704-TML2022-0P3A2085-JD.jpg",
+        "instagram": "https://www.instagram.com/tiesto/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:45:00+02:00",
+    "endTime": "2024-07-28 22:45:00+02:00"
+  },
+  {
+    "id": "1535327648",
+    "name": "Boris Brejcha",
+    "artists": [
+      {
+        "id": "1536139911",
+        "name": "Boris Brejcha",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53515179-Boris Brechja.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:40:00+02:00",
+    "endTime": "2024-07-28 21:40:00+02:00"
+  },
+  {
+    "id": "1535327782",
+    "name": "Nervo",
+    "artists": [
+      {
+        "id": "1262706956",
+        "name": "Nervo",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607441-large-220731-182539-TML2022-761A4930-JD.jpg",
+        "instagram": "https://www.instagram.com/nervomusic/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:40:00+02:00",
+    "endTime": "2024-07-28 19:40:00+02:00"
+  },
+  {
+    "id": "1535327922",
+    "name": "Nervo",
+    "artists": [
+      {
+        "id": "1262706956",
+        "name": "Nervo",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607441-large-220731-182539-TML2022-761A4930-JD.jpg",
+        "instagram": "https://www.instagram.com/nervomusic/"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535328093",
+    "name": "Indira Paganotto",
+    "artists": [
+      {
+        "id": "1262709989",
+        "name": "Indira Paganotto",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607862-large-220731-210602-TML2022-4Y5A4898-AT.jpg",
+        "instagram": "https://www.instagram.com/indirapaganotto/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:35:00+02:00",
+    "endTime": "2024-07-28 18:35:00+02:00"
+  },
+  {
+    "id": "1535328284",
+    "name": "Oguz",
+    "artists": [
+      {
+        "id": "1532618350",
+        "name": "Oguz"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:30:00+02:00",
+    "endTime": "2024-07-28 17:30:00+02:00"
+  },
+  {
+    "id": "1535328440",
+    "name": "Regi b2b Mark With a K",
+    "artists": [
+      {
+        "id": "1295648800",
+        "name": "Regi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38541807-WhatsApp Image 2024-03-12 at 11.38.37.jpeg",
+        "instagram": "https://www.instagram.com/realregi/"
+      },
+      {
+        "id": "1295649516",
+        "name": "Mark With a K",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20348136-mark with a k.png"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:30:00+02:00",
+    "endTime": "2024-07-28 16:30:00+02:00"
+  },
+  {
+    "id": "1535328597",
+    "name": "Miss Monique",
+    "artists": [
+      {
+        "id": "1262711176",
+        "name": "Miss Monique",
+        "image": "https://artist-lineup-assets.b-cdn.net/16691398-Screenshot 2023-09-11 at 17.50.24.png",
+        "instagram": "https://www.instagram.com/djmissmonique/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:30:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535328754",
+    "name": "Timmy Trumpet",
+    "artists": [
+      {
+        "id": "1364215520",
+        "name": "Timmy Trumpet",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53678390-large-Screenshot 2023-09-11 at 1.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535328996",
+    "name": "Afrojack",
+    "artists": [
+      {
+        "id": "1261857121",
+        "name": "Afrojack",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/16207293-afrojack.jpeg",
+        "website": "https://afrojack.com/",
+        "facebook": "https://www.facebook.com/djafrojack",
+        "twitter": "https://twitter.com/afrojack",
+        "instagram": "https://www.instagram.com/afrojack",
+        "tiktok": "https://www.tiktok.com/@afrojack",
+        "youtube": "https://www.youtube.com/user/afrojacktv",
+        "spotify": "https://open.spotify.com/artist/4D75GcNG95ebPtNvoNVXhz",
+        "soundcloud": "https://soundcloud.com/afrojack"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535330100",
+    "name": "MATTN",
+    "artists": [
+      {
+        "id": "1262705783",
+        "name": "MATTN",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/32587454-MTTN-LS.jpg",
+        "instagram": "https://www.instagram.com/mattnworld/"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535330792",
+    "name": "Sigala",
+    "artists": [
+      {
+        "id": "1536144561",
+        "name": "Sigala"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535331034",
+    "name": "Moguai",
+    "artists": [
+      {
+        "id": "1358276050",
+        "name": "Moguai"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535331277",
+    "name": "t e s t p r e s s",
+    "artists": [
+      {
+        "id": "1397679350",
+        "name": "t e s t p r e s s"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-27 21:30:00+02:00"
+  },
+  {
+    "id": "1535331614",
+    "name": "Nico Moreno b2b Dyen",
+    "artists": [
+      {
+        "id": "1536145873",
+        "name": "Nico Moreno"
+      },
+      {
+        "id": "1323865700",
+        "name": "Dyen",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31657429-DSC00152.jpg",
+        "instagram": "https://www.instagram.com/dyen_music/"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:30:00+02:00"
+  },
+  {
+    "id": "1535331956",
+    "name": "Trym",
+    "artists": [
+      {
+        "id": "1532641790",
+        "name": "Trym"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535332192",
+    "name": "Meduza",
+    "artists": [
+      {
+        "id": "1532641764",
+        "name": "Meduza",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53867332-230721-185343-TML23-R51_4326-KV.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:30:00+02:00"
+  },
+  {
+    "id": "1535332394",
+    "name": "To be announced",
+    "artists": [
+      {
+        "id": "1395014940",
+        "name": "TBA"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535332617",
+    "name": "MBK",
+    "artists": [
+      {
+        "id": "1536147764",
+        "name": "MBK"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535332893",
+    "name": "Disco Dasco",
+    "artists": [
+      {
+        "id": "1536147928",
+        "name": "Disco Dasco"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535333562",
+    "name": "Roma",
+    "artists": [
+      {
+        "id": "1536147987",
+        "name": "Roma"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535334244",
+    "name": "Pat Krimson",
+    "artists": [
+      {
+        "id": "1536148174",
+        "name": "Pat Krimson"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535334945",
+    "name": "ZT Music",
+    "artists": [
+      {
+        "id": "1536148516",
+        "name": "ZT Music"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535335607",
+    "name": "Christophe b2b Seelen",
+    "artists": [
+      {
+        "id": "1536148966",
+        "name": "Christophe b2b Seelen"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535336233",
+    "name": "Semmer b2b Mr. Rewind",
+    "artists": [
+      {
+        "id": "1536149089",
+        "name": "Semmer"
+      },
+      {
+        "id": "1536108929",
+        "name": "Mr. Rewind"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535336907",
+    "name": "Mona Lee b2b WLC",
+    "artists": [
+      {
+        "id": "1536149337",
+        "name": "Mona Lee"
+      },
+      {
+        "id": "1536149445",
+        "name": "WLC"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535337274",
+    "name": "Kaudron",
+    "artists": [
+      {
+        "id": "1536149607",
+        "name": "Kaudron"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535337976",
+    "name": "HI-LO",
+    "artists": [
+      {
+        "id": "1536149739",
+        "name": "HI-LO"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 23:00:00+02:00"
+  },
+  {
+    "id": "1535338365",
+    "name": "Chris Avantgarde",
+    "artists": [
+      {
+        "id": "1321214925",
+        "name": "Chris Avantgarde",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31828272-2047.jpg",
+        "instagram": "https://www.instagram.com/chrisavantgarde/",
+        "spotify": "https://open.spotify.com/artist/715OI7hiv58daVlEDXM47U?si=efWmyeXKT9iTWFclLLOX2Q"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:30:00+02:00"
+  },
+  {
+    "id": "1535338609",
+    "name": "EMILIJA",
+    "artists": [
+      {
+        "id": "1536149852",
+        "name": "EMILIJA",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53905285-230720-182350-TML23-2B4A5969-PW.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535338959",
+    "name": "Partiboi69",
+    "artists": [
+      {
+        "id": "1536150006",
+        "name": "Partiboi69"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:30:00+02:00",
+    "endTime": "2024-07-27 01:00:00+02:00"
+  },
+  {
+    "id": "1535339109",
+    "name": "DJ HEARTSTRING",
+    "artists": [
+      {
+        "id": "1532641844",
+        "name": "DJ HEARTSTRING"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:30:00+02:00",
+    "endTime": "2024-07-26 21:30:00+02:00"
+  },
+  {
+    "id": "1535339358",
+    "name": "Dj Fuckoff",
+    "artists": [
+      {
+        "id": "1536150142",
+        "name": "DJ Fuckoff"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:30:00+02:00"
+  },
+  {
+    "id": "1535339581",
+    "name": "Perel",
+    "artists": [
+      {
+        "id": "1536150286",
+        "name": "Perel"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535339885",
+    "name": "Hardwell",
+    "artists": [
+      {
+        "id": "1532641732",
+        "name": "Hardwell",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53863177-Hardwell-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:50:00+02:00",
+    "endTime": "2024-07-27 00:50:00+02:00"
+  },
+  {
+    "id": "1535340209",
+    "name": "Daybreak Session: Antdot b2b Maz",
+    "artists": [
+      {
+        "id": "1539213557",
+        "name": "Daybreak Session: Antdot b2b Maz"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 14:30:00+02:00"
+  },
+  {
+    "id": "1535340575",
+    "name": "Konstantin Sibold",
+    "artists": [
+      {
+        "id": "1286076797",
+        "name": "Konstantin Sibold",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20214229-image1.jpeg",
+        "instagram": "https://www.instagram.com/konstantinsibold/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:30:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535340812",
+    "name": "Mees Salomé",
+    "artists": [
+      {
+        "id": "1536150698",
+        "name": "Mees Salomé"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:30:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535341000",
+    "name": "Axel Haube",
+    "artists": [
+      {
+        "id": "1393180540",
+        "name": "Axel Haube",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/34577845-AxelHaube_LS.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:30:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535341151",
+    "name": "Ashibah",
+    "artists": [
+      {
+        "id": "1262706247",
+        "name": "Ashibah",
+        "image": "https://artist-lineup-assets.b-cdn.net/16684174-Ashibah_edit_pb--9.jpg",
+        "instagram": "https://www.instagram.com/ashibah/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:30:00+02:00"
+  },
+  {
+    "id": "1535341300",
+    "name": "Nina Black",
+    "artists": [
+      {
+        "id": "1393721120",
+        "name": "Nina Black",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53804080-240322-132957-TMLWINTER2024-JD.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535341492",
+    "name": "Kölsch",
+    "artists": [
+      {
+        "id": "1262705600",
+        "name": "Kölsch",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/32580036-Kolsch-LS.jpg",
+        "instagram": "https://www.instagram.com/kolschofficial/"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:30:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535341699",
+    "name": "Mr Joy",
+    "artists": [
+      {
+        "id": "1536150875",
+        "name": "Mr Joy"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:30:00+02:00"
+  },
+  {
+    "id": "1535341960",
+    "name": "Wooli",
+    "artists": [
+      {
+        "id": "1536150979",
+        "name": "Wooli"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535342171",
+    "name": "Ray Volpe",
+    "artists": [
+      {
+        "id": "1536151090",
+        "name": "Ray Volpe"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535342410",
+    "name": "Jessica Audiffred b2b Infekt",
+    "artists": [
+      {
+        "id": "1262708352",
+        "name": "Jessica Audiffred",
+        "image": "https://artist-lineup-assets.b-cdn.net/16684511-jess2CORRECCION.jpg",
+        "instagram": "https://www.instagram.com/jessica_audiffred/"
+      },
+      {
+        "id": "1536151344",
+        "name": "Infekt"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535342872",
+    "name": "Oddkidout",
+    "artists": [
+      {
+        "id": "1536151690",
+        "name": "Oddkidout"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:00:00+02:00",
+    "endTime": "2024-07-27 18:00:00+02:00"
+  },
+  {
+    "id": "1535343483",
+    "name": "Delafino b2b Luna Fino",
+    "artists": [
+      {
+        "id": "1345813384",
+        "name": "Delafino",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31833682-DELAFINO.jpg",
+        "instagram": "https://www.instagram.com/delafino/"
+      },
+      {
+        "id": "1536151890",
+        "name": "Luna Fino"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535343639",
+    "name": "Oriol Calvo",
+    "artists": [
+      {
+        "id": "1536152027",
+        "name": "Oriol Calvo"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:30:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535344048",
+    "name": "Eli Rojas",
+    "artists": [
+      {
+        "id": "1536152112",
+        "name": "Eli Rojas"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:30:00+02:00",
+    "endTime": "2024-07-27 20:30:00+02:00"
+  },
+  {
+    "id": "1535344386",
+    "name": "Igor Marijuan b2b Sena",
+    "artists": [
+      {
+        "id": "1536152387",
+        "name": "Igor Marijuan"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:00:00+02:00",
+    "endTime": "2024-07-27 18:30:00+02:00"
+  },
+  {
+    "id": "1535344678",
+    "name": "Valentín Huedo",
+    "artists": [
+      {
+        "id": "1536153034",
+        "name": "Valentín Huedo"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:30:00+02:00",
+    "endTime": "2024-07-27 17:00:00+02:00"
+  },
+  {
+    "id": "1535344888",
+    "name": "Cristiano Da Silva",
+    "artists": [
+      {
+        "id": "1536153571",
+        "name": "Cristiano Da Silva"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:30:00+02:00",
+    "endTime": "2024-07-27 15:30:00+02:00"
+  },
+  {
+    "id": "1535345223",
+    "name": "Marnik",
+    "artists": [
+      {
+        "id": "1536153870",
+        "name": "Marnik"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535345408",
+    "name": "Mike Williams",
+    "artists": [
+      {
+        "id": "1536154632",
+        "name": "Mike Williams"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535345586",
+    "name": "Mike Williams",
+    "artists": [
+      {
+        "id": "1536154632",
+        "name": "Mike Williams"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535345797",
+    "name": "Dan Shake",
+    "artists": [
+      {
+        "id": "1336069168",
+        "name": "Dan Shake",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53517013-Dan-Shake-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 23:00:00+02:00"
+  },
+  {
+    "id": "1535346057",
+    "name": "Jeremy Underground",
+    "artists": [
+      {
+        "id": "1536155970",
+        "name": "Jeremy Underground"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535346359",
+    "name": "Lovefoxy",
+    "artists": [
+      {
+        "id": "1536156195",
+        "name": "Lovefoxy"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535346627",
+    "name": "Mind Against",
+    "artists": [
+      {
+        "id": "1262728679",
+        "name": "Mind Against",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/20969947-03_MindAgainst_0063version2092622V .jpg",
+        "instagram": "https://www.instagram.com/mindagainst/",
+        "spotify": "https://open.spotify.com/artist/48LWLoeY0dhwaiX1FRsn72?si=fTWJbQdNTP24WgP2cPkUig"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 22:30:00+02:00",
+    "endTime": "2024-07-28 00:30:00+02:00"
+  },
+  {
+    "id": "1535347043",
+    "name": "Zamna SoundSystem",
+    "artists": [
+      {
+        "id": "1536156404",
+        "name": "Zamna SoundSystem"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535347075",
+    "name": "Henri Bergmann b2b Magit Cacoon",
+    "artists": [
+      {
+        "id": "1319720952",
+        "name": "Henri Bergmann",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53778200-20240113_Zamna_Core_pablopereyra_1834009.jpg"
+      },
+      {
+        "id": "1536156721",
+        "name": "Magit Cacoon"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535347265",
+    "name": "Nora En Pure",
+    "artists": [
+      {
+        "id": "1536156961",
+        "name": "Nora En Pure"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535347560",
+    "name": "Omdat Het Kan & Average Rob",
+    "artists": [
+      {
+        "id": "1367785811",
+        "name": "Omdat Het Kan & Average Rob",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/32554774-large-omdat het kan ft rob.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:00:00+02:00",
+    "endTime": "2024-07-27 18:00:00+02:00"
+  },
+  {
+    "id": "1535347769",
+    "name": "ZERB",
+    "artists": [
+      {
+        "id": "1536157227",
+        "name": "ZERB"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535348160",
+    "name": "8Kays",
+    "artists": [
+      {
+        "id": "1536157531",
+        "name": "8Kays",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53503379-220730-150834-TML2022-6H7A3790-AT.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:30:00+02:00"
+  },
+  {
+    "id": "1535349744",
+    "name": "Chuckie",
+    "artists": [
+      {
+        "id": "1532641806",
+        "name": "Chuckie",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53873551-230723-185307-TML2023-0K1A6532-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535349893",
+    "name": "Dyro",
+    "artists": [
+      {
+        "id": "1536157756",
+        "name": "Dyro"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535349993",
+    "name": "Cassian",
+    "artists": [
+      {
+        "id": "1536157928",
+        "name": "Cassian"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:30:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535350180",
+    "name": "Helena Lauwaert b2b EMILIJA",
+    "artists": [
+      {
+        "id": "1536158146",
+        "name": "Helena Lauwaert"
+      },
+      {
+        "id": "1536149852",
+        "name": "EMILIJA",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53905285-230720-182350-TML23-2B4A5969-PW.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 15:30:00+02:00"
+  },
+  {
+    "id": "1535350504",
+    "name": "DJ Boring",
+    "artists": [
+      {
+        "id": "1262714830",
+        "name": "DJ BORING",
+        "image": "https://artist-lineup-assets.b-cdn.net/16612465-large-220730-185518-TML2022-FILL9385- FR.jpg",
+        "instagram": "https://www.instagram.com/dj.boring/"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535350563",
+    "name": "Jeroen Delodder",
+    "artists": [
+      {
+        "id": "1393609824",
+        "name": "Jeroen Delodder",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53801442-240320-202017-TMLWINTER2024-HL-_HL66016.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:30:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535350667",
+    "name": "Dino Lenny",
+    "artists": [
+      {
+        "id": "1262716164",
+        "name": "Dino Lenny",
+        "image": "https://artist-lineup-assets.b-cdn.net/16612536-large-dino-27.jpg",
+        "instagram": "https://www.instagram.com/dino_lenny/"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:30:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535350907",
+    "name": "David Guetta",
+    "artists": [
+      {
+        "id": "1536160714",
+        "name": "David Guetta"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:50:00+02:00",
+    "endTime": "2024-07-28 23:50:00+02:00"
+  },
+  {
+    "id": "1535351149",
+    "name": "John Summit",
+    "artists": [
+      {
+        "id": "1536161733",
+        "name": "John Summit"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:30:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535351481",
+    "name": "Vintage Culture",
+    "artists": [
+      {
+        "id": "1262706930",
+        "name": "Vintage Culture",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607410-large-220723-185803-TML2022-0536-ALIVECOVERAGE.jpg",
+        "instagram": "https://www.instagram.com/vintageculture/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:30:00+02:00"
+  },
+  {
+    "id": "1535351625",
+    "name": "Arado",
+    "artists": [
+      {
+        "id": "1532636856",
+        "name": "Arado"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535351832",
+    "name": "Bora Uzer",
+    "artists": [
+      {
+        "id": "1262728844",
+        "name": "Bora Uzer",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/16691988-Screenshot 2023-09-11 at 17.57.43.png",
+        "instagram": "https://www.instagram.com/borauzer/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:30:00+02:00"
+  },
+  {
+    "id": "1535351974",
+    "name": "Regard",
+    "artists": [
+      {
+        "id": "1536161841",
+        "name": "Regard"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535352240",
+    "name": "Maddix",
+    "artists": [
+      {
+        "id": "1321229552",
+        "name": "Maddix",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31853993-Maddix - Credits Sven Scholten (HR)-2 (1).jpg",
+        "instagram": "https://www.instagram.com/maddixmusic/",
+        "spotify": "https://open.spotify.com/artist/0RMeG9M8QFzss9bAbq99KA?si=Pabt3_odR76tridkVn6u-Q"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535352452",
+    "name": "Maddix",
+    "artists": [
+      {
+        "id": "1321229552",
+        "name": "Maddix",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31853993-Maddix - Credits Sven Scholten (HR)-2 (1).jpg",
+        "instagram": "https://www.instagram.com/maddixmusic/",
+        "spotify": "https://open.spotify.com/artist/0RMeG9M8QFzss9bAbq99KA?si=Pabt3_odR76tridkVn6u-Q"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:00:00+02:00",
+    "endTime": "2024-07-28 22:00:00+02:00"
+  },
+  {
+    "id": "1535352644",
+    "name": "Block & Crown",
+    "artists": [
+      {
+        "id": "1536162001",
+        "name": "Block & Crown"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 13:00:00+02:00"
+  },
+  {
+    "id": "1535352915",
+    "name": "Goldfox",
+    "artists": [
+      {
+        "id": "1391313680",
+        "name": "Goldfox",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53796800-TMLW-BVA-IMG_8712.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535353143",
+    "name": "Sippy",
+    "artists": [
+      {
+        "id": "1536162104",
+        "name": "Sippy"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535353478",
+    "name": "Mosoo",
+    "artists": [
+      {
+        "id": "1536162226",
+        "name": "Mosoo"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535353755",
+    "name": "Luna & Lenthe",
+    "artists": [
+      {
+        "id": "1536162340",
+        "name": "Luna & Lenthe",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53906982-230729-130603-TML2023-3Y5A4563-SIL.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:30:00+02:00"
+  },
+  {
+    "id": "1535354074",
+    "name": "JUSTANOTHERDJ",
+    "artists": [
+      {
+        "id": "1536162624",
+        "name": "JUSTANOTHERDJ"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 13:30:00+02:00"
+  },
+  {
+    "id": "1535354366",
+    "name": "Quilliam",
+    "artists": [
+      {
+        "id": "1536162757",
+        "name": "Quilliam"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:30:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535354674",
+    "name": "LAAT",
+    "artists": [
+      {
+        "id": "1536162815",
+        "name": "LAAT"
+      }
+    ],
+    "stage": {
+      "id": "1532129666",
+      "name": "ATMOSPHERE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535354815",
+    "name": "Lilihell",
+    "artists": [
+      {
+        "id": "1337835053",
+        "name": "Lilihel",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53520225-Lilihell-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535355091",
+    "name": "StadiumX",
+    "artists": [
+      {
+        "id": "1536163090",
+        "name": "StadiumX"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 17:00:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535355772",
+    "name": "Adriatique",
+    "artists": [
+      {
+        "id": "1364268655",
+        "name": "Adriatique",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53504017-Adriatique.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:30:00+02:00",
+    "endTime": "2024-07-27 00:30:00+02:00"
+  },
+  {
+    "id": "1535355904",
+    "name": "Jose De Mara",
+    "artists": [
+      {
+        "id": "1536163311",
+        "name": "Jose De Mara"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:00:00+02:00"
+  },
+  {
+    "id": "1535356762",
+    "name": "MagiK",
+    "artists": [
+      {
+        "id": "1536163494",
+        "name": "MagiK",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53907111-230721-183628-TML2023-VG1_2914-VG.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 13:00:00+02:00"
+  },
+  {
+    "id": "1535356771",
+    "name": "Topic",
+    "artists": [
+      {
+        "id": "1345814677",
+        "name": "Topic",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31852768-23_12_19_TOPIC_PRESSSHOOT_23_HIGHRES1-232594.jpg",
+        "instagram": "https://www.instagram.com/topic/",
+        "spotify": "https://open.spotify.com/artist/0u6GtibW46tFX7koQ6uNJZ?si=pxR40IlrSbSD_v8qZTVfnQ"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535356776",
+    "name": "Bassbar",
+    "artists": [
+      {
+        "id": "1536163758",
+        "name": "Bassbar"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535356860",
+    "name": "Mischluft",
+    "artists": [
+      {
+        "id": "1536163979",
+        "name": "Mischluft"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535357000",
+    "name": "X-TOF",
+    "artists": [
+      {
+        "id": "1532641796",
+        "name": "X-TOF"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:00:00+02:00",
+    "endTime": "2024-07-27 19:30:00+02:00"
+  },
+  {
+    "id": "1535357171",
+    "name": "Moritz Hofbauer",
+    "artists": [
+      {
+        "id": "1536164172",
+        "name": "Moritz Hofbauer"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:30:00+02:00",
+    "endTime": "2024-07-28 01:00:00+02:00"
+  },
+  {
+    "id": "1535357354",
+    "name": "Delafino & Ibiza Friends",
+    "artists": [
+      {
+        "id": "1536164448",
+        "name": "Delafino & Ibiza Friends"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
+    "id": "1535357525",
+    "name": "Daybreak session: Laidback Luke presents Wayback Luke",
+    "artists": [
+      {
+        "id": "1536164921",
+        "name": "Daybreak Session: Laidback Luke presents Wayback Luke"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535357733",
+    "name": "Steve Aoki",
+    "artists": [
+      {
+        "id": "1262706637",
+        "name": "Steve Aoki",
+        "image": "https://artist-lineup-assets.b-cdn.net/16607368-large-220723-002559-TML2022-DN102555-DN(3).jpg",
+        "instagram": "https://www.instagram.com/steveaoki/"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 23:50:00+02:00",
+    "endTime": "2024-07-28 00:50:00+02:00"
+  },
+  {
+    "id": "1535357925",
+    "name": "Vize",
+    "artists": [
+      {
+        "id": "1536165104",
+        "name": "Vize"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535358055",
+    "name": "Sofía Cristo",
+    "artists": [
+      {
+        "id": "1536165216",
+        "name": "Sofia Cristo"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 18:00:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535358212",
+    "name": "Massano",
+    "artists": [
+      {
+        "id": "1536165375",
+        "name": "Massano",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53907333-230730-160624-TML23-1599-JB.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:30:00+02:00"
+  },
+  {
+    "id": "1535358347",
+    "name": "Mooglie",
+    "artists": [
+      {
+        "id": "1536165466",
+        "name": "Mooglie"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535358508",
+    "name": "BAVR",
+    "artists": [
+      {
+        "id": "1536165732",
+        "name": "BAVR"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 21:30:00+02:00",
+    "endTime": "2024-07-28 23:00:00+02:00"
+  },
+  {
+    "id": "1535358759",
+    "name": "Wanvel b2b Nathan Fix",
+    "artists": [
+      {
+        "id": "1536165869",
+        "name": "Wanvel"
+      },
+      {
+        "id": "1536166024",
+        "name": "Nathan Fix"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535358954",
+    "name": "Eridu",
+    "artists": [
+      {
+        "id": "1536166110",
+        "name": "Eridu"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535359168",
+    "name": "Kim Mathijs",
+    "artists": [
+      {
+        "id": "1536166312",
+        "name": "Kim Mathijs"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535359405",
+    "name": "DC Noises",
+    "artists": [
+      {
+        "id": "1536166538",
+        "name": "DC Noises"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535359866",
+    "name": "séa",
+    "artists": [
+      {
+        "id": "1394169238",
+        "name": "Séa"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:30:00+02:00"
+  },
+  {
+    "id": "1535360176",
+    "name": "Lowie Trio",
+    "artists": [
+      {
+        "id": "1536166701",
+        "name": "Lowie Trio"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535360538",
+    "name": "Kenny Montana",
+    "artists": [
+      {
+        "id": "1536166967",
+        "name": "Kenny Montana"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:30:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  },
+  {
+    "id": "1535360730",
+    "name": "Zouzibabe",
+    "artists": [
+      {
+        "id": "1536167049",
+        "name": "Zouzibabe"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:30:00+02:00"
+  },
+  {
+    "id": "1535360903",
+    "name": "Jordi Ruz",
+    "artists": [
+      {
+        "id": "1536167143",
+        "name": "Jordi Ruz"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535361157",
+    "name": "Mairee",
+    "artists": [
+      {
+        "id": "1536167280",
+        "name": "Mairee"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:00:00+02:00"
+  },
+  {
+    "id": "1535361330",
+    "name": "Viktor",
+    "artists": [
+      {
+        "id": "1536167403",
+        "name": "Viktor"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535361566",
+    "name": "Samm",
+    "artists": [
+      {
+        "id": "1532641820",
+        "name": "Samm",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/54852632-Samm 01.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535361796",
+    "name": "Sona",
+    "artists": [
+      {
+        "id": "1536167473",
+        "name": "Sona"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 17:30:00+02:00"
+  },
+  {
+    "id": "1535362374",
+    "name": "Karyendasoul",
+    "artists": [
+      {
+        "id": "1536167578",
+        "name": "Karyendasoul"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535362514",
+    "name": "ARKADYAN",
+    "artists": [
+      {
+        "id": "1536167730",
+        "name": "ARKADYAN"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:30:00+02:00",
+    "endTime": "2024-07-26 18:00:00+02:00"
+  },
+  {
+    "id": "1535363017",
+    "name": "Sasson b2b Rivo",
+    "artists": [
+      {
+        "id": "1536167990",
+        "name": "Sasson"
+      },
+      {
+        "id": "1536168133",
+        "name": "Rivo"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:30:00+02:00"
+  },
+  {
+    "id": "1535363846",
+    "name": "Avangart Tabldot",
+    "artists": [
+      {
+        "id": "1536168375",
+        "name": "Avangart Tabldot"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:30:00+02:00",
+    "endTime": "2024-07-26 22:30:00+02:00"
+  },
+  {
+    "id": "1535363860",
+    "name": "Adam Sellouk",
+    "artists": [
+      {
+        "id": "1536168581",
+        "name": "Adam Sellouk"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:30:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535364184",
+    "name": "Lucca van Damme",
+    "artists": [
+      {
+        "id": "1532641779",
+        "name": "Lucca van Damme"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535364426",
+    "name": "Kay b2b Jul-E",
+    "artists": [
+      {
+        "id": "1536168847",
+        "name": "Kay"
+      },
+      {
+        "id": "1536169281",
+        "name": "Jul-E"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:30:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535364511",
+    "name": "Jengi",
+    "artists": [
+      {
+        "id": "1405887280",
+        "name": "Jengi",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53811635-230722-200833-TML23-536A1611-IVB.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535364552",
+    "name": "Tigerlily",
+    "artists": [
+      {
+        "id": "1536169545",
+        "name": "Tigerlily"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535364793",
+    "name": "Hollt",
+    "artists": [
+      {
+        "id": "1536169658",
+        "name": "Hollt"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 13:30:00+02:00"
+  },
+  {
+    "id": "1535364836",
+    "name": "Ida Engberg",
+    "artists": [
+      {
+        "id": "1262720363",
+        "name": "Ida Engberg",
+        "image": "https://artist-lineup-assets.b-cdn.net/16691695-Screenshot 2023-09-11 at 17.54.43.png",
+        "instagram": "https://www.instagram.com/idaengberg/"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 18:00:00+02:00",
+    "endTime": "2024-07-26 19:30:00+02:00"
+  },
+  {
+    "id": "1535365139",
+    "name": "Elderbrook (DJ Set)",
+    "artists": [
+      {
+        "id": "1536169828",
+        "name": "Elderbrook (DJ Set)"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 21:00:00+02:00",
+    "endTime": "2024-07-26 22:30:00+02:00"
+  },
+  {
+    "id": "1535365636",
+    "name": "Lennert Wolfs",
+    "artists": [
+      {
+        "id": "1391236765",
+        "name": "Lennert Wolfs",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/33901294-Lennert Wolfs 01.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535366014",
+    "name": "Outsiders",
+    "artists": [
+      {
+        "id": "1536170101",
+        "name": "Outsiders"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:00:00+02:00",
+    "endTime": "2024-07-26 23:50:00+02:00"
+  },
+  {
+    "id": "1535366577",
+    "name": "Sefa",
+    "artists": [
+      {
+        "id": "1536170202",
+        "name": "Sefa"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 23:50:00+02:00",
+    "endTime": "2024-07-27 00:35:00+02:00"
+  },
+  {
+    "id": "1535366977",
+    "name": "Q DANCE End show",
+    "artists": [
+      {
+        "id": "1536170627",
+        "name": "Q DANCE End show"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "FRIDAY",
+    "startTime": "2024-07-27 00:35:00+02:00",
+    "endTime": "2024-07-27 00:45:00+02:00"
+  },
+  {
+    "id": "1535368793",
+    "name": "Nico Morano",
+    "artists": [
+      {
+        "id": "1536171129",
+        "name": "Nico Morano"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 16:30:00+02:00"
+  },
+  {
+    "id": "1535369038",
+    "name": "Sem Thomasson",
+    "artists": [
+      {
+        "id": "1393165943",
+        "name": "Sem Thomasson",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/37984167-Sem Thomasson 2020.jpg",
+        "instagram": "https://www.instagram.com/semthomasson/"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535369354",
+    "name": "Jahwin",
+    "artists": [
+      {
+        "id": "1536171451",
+        "name": "Jahwin"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:30:00+02:00",
+    "endTime": "2024-07-27 18:30:00+02:00"
+  },
+  {
+    "id": "1535369603",
+    "name": "Annabel Stop It",
+    "artists": [
+      {
+        "id": "1536171538",
+        "name": "Annabel Stop It"
+      }
+    ],
+    "stage": {
+      "id": "1515043357",
+      "name": "ELIXIR"
+    },
+    "date": "2024-07-28",
+    "day": "SATURDAY",
+    "startTime": "2024-07-28 00:00:00+02:00",
+    "endTime": "2024-07-28 01:00:00+02:00"
+  },
+  {
+    "id": "1535369799",
+    "name": "Azo",
+    "artists": [
+      {
+        "id": "1536171579",
+        "name": "Azo"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 13:30:00+02:00"
+  },
+  {
+    "id": "1535370232",
+    "name": "Odymel",
+    "artists": [
+      {
+        "id": "1536171891",
+        "name": "Odymel"
+      }
+    ],
+    "stage": {
+      "id": "1515043452",
+      "name": "CAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:30:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535370566",
+    "name": "Pauline Noyen",
+    "artists": [
+      {
+        "id": "1536172895",
+        "name": "Pauline Noyen"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 13:30:00+02:00"
+  },
+  {
+    "id": "1535371225",
+    "name": "Jorn Pricez",
+    "artists": [
+      {
+        "id": "1391285645",
+        "name": "Jorn Pricez",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/37996649-IMG_2631_staand.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:30:00+02:00",
+    "endTime": "2024-07-27 18:00:00+02:00"
+  },
+  {
+    "id": "1535371399",
+    "name": "Roman Weber",
+    "artists": [
+      {
+        "id": "1536173027",
+        "name": "Roman Weber"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:30:00+02:00",
+    "endTime": "2024-07-27 21:00:00+02:00"
+  },
+  {
+    "id": "1535371560",
+    "name": "Thomas M",
+    "artists": [
+      {
+        "id": "1394168179",
+        "name": "Thomas M",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53806112-IMG_5531.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 21:00:00+02:00",
+    "endTime": "2024-07-27 22:00:00+02:00"
+  },
+  {
+    "id": "1535372105",
+    "name": "MITCHED",
+    "artists": [
+      {
+        "id": "1536173266",
+        "name": "MITCHED"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:30:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535372419",
+    "name": "Palmera",
+    "artists": [
+      {
+        "id": "1536173365",
+        "name": "Palmera"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 13:30:00+02:00"
+  },
+  {
+    "id": "1535372541",
+    "name": "Unos",
+    "artists": [
+      {
+        "id": "1536173421",
+        "name": "Unos"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:30:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535373124",
+    "name": "Admess",
+    "artists": [
+      {
+        "id": "1536173521",
+        "name": "Admess"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535373155",
+    "name": "Rose Ringed",
+    "artists": [
+      {
+        "id": "1532641757",
+        "name": "Rose Ringed",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/54852408-Rose_Ringed_Groot_Online_07.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 15:30:00+02:00"
+  },
+  {
+    "id": "1535373289",
+    "name": "Merow",
+    "artists": [
+      {
+        "id": "1532634875",
+        "name": "Merow",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53857713-230729-144520-TML23-A7406983-RS.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:30:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535373347",
+    "name": "Sickzombies",
+    "artists": [
+      {
+        "id": "1536173597",
+        "name": "Sickzombies"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:00:00+02:00",
+    "endTime": "2024-07-27 14:30:00+02:00"
+  },
+  {
+    "id": "1535373485",
+    "name": "W4STD",
+    "artists": [
+      {
+        "id": "1536173730",
+        "name": "W4STD"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 17:00:00+02:00",
+    "endTime": "2024-07-27 18:00:00+02:00"
+  },
+  {
+    "id": "1535373539",
+    "name": "Maryo",
+    "artists": [
+      {
+        "id": "1536173819",
+        "name": "Maryo"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 13:00:00+02:00"
+  },
+  {
+    "id": "1535374896",
+    "name": "MC Villain",
+    "artists": [
+      {
+        "id": "1536174462",
+        "name": "MC Villain"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 12:00:00+02:00"
+  },
+  {
+    "id": "1535375167",
+    "name": "Geheimzinnig Soundsystem",
+    "artists": [
+      {
+        "id": "1536174607",
+        "name": "Geheimzinnig Soundsystem"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-28 21:30:00+02:00"
+  },
+  {
+    "id": "1535375408",
+    "name": "Goe Vur In Den Otto",
+    "artists": [
+      {
+        "id": "1536174839",
+        "name": "Goe Vur In Den Otto"
+      }
+    ],
+    "stage": {
+      "id": "1515043590",
+      "name": "THE RAVE CAVE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 23:00:00+02:00",
+    "endTime": "2024-07-29 00:00:00+02:00"
+  },
+  {
+    "id": "1535375716",
+    "name": "WHITENO1SE",
+    "artists": [
+      {
+        "id": "1536174937",
+        "name": "WHITENO1SE"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:30:00+02:00",
+    "endTime": "2024-07-28 21:00:00+02:00"
+  },
+  {
+    "id": "1535375945",
+    "name": "Pretty Girl",
+    "artists": [
+      {
+        "id": "1536175039",
+        "name": "Pretty Girl"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:30:00+02:00",
+    "endTime": "2024-07-28 16:30:00+02:00"
+  },
+  {
+    "id": "1535376173",
+    "name": "KI/KI",
+    "artists": [
+      {
+        "id": "1536175103",
+        "name": "KI/KI"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-29 00:00:00+02:00"
+  },
+  {
+    "id": "1535376523",
+    "name": "SHE THE DJ",
+    "artists": [
+      {
+        "id": "1536175185",
+        "name": "SHE THE DJ"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:30:00+02:00",
+    "endTime": "2024-07-28 14:30:00+02:00"
+  },
+  {
+    "id": "1535376788",
+    "name": "Daybreak Session: One World Radio Soundsystem",
+    "artists": [
+      {
+        "id": "1536175259",
+        "name": "Daybreak Session: One World Radio Soundsystem"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 14:30:00+02:00"
+  },
+  {
+    "id": "1535377405",
+    "name": "Blasterjaxx",
+    "artists": [
+      {
+        "id": "1297323405",
+        "name": "Blasterjaxx",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/22116407-BJX_Presskit_2023_1_FINAL.png",
+        "instagram": "https://www.instagram.com/blasterjaxx/",
+        "spotify": "https://open.spotify.com/artist/37awA8DFCAnCCL7aqYbDnD?si=Tm4Oo1WbTBWs7IXiiiEcgA"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:30:00+02:00",
+    "endTime": "2024-07-28 15:30:00+02:00"
+  },
+  {
+    "id": "1535377805",
+    "name": "Kamalèon",
+    "artists": [
+      {
+        "id": "1536175561",
+        "name": "Kamalèon"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 13:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535378026",
+    "name": "AdamK",
+    "artists": [
+      {
+        "id": "1262731058",
+        "name": "Adam K",
+        "image": "https://artist-lineup-assets.b-cdn.net/16613705-large-AdamK - UpClose.jpg",
+        "instagram": "https://www.instagram.com/adamkdj/"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535378249",
+    "name": "FLOw",
+    "artists": [
+      {
+        "id": "1536176230",
+        "name": "FLOw"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 17:00:00+02:00",
+    "endTime": "2024-07-28 18:00:00+02:00"
+  },
+  {
+    "id": "1535378682",
+    "name": "Claptone",
+    "artists": [
+      {
+        "id": "1532641737",
+        "name": "Claptone",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53516787-Claptone-2024.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 22:00:00+02:00",
+    "endTime": "2024-07-28 23:30:00+02:00"
+  },
+  {
+    "id": "1535380496",
+    "name": "Mc Mota",
+    "artists": [
+      {
+        "id": "1532641740",
+        "name": "Mc Mota",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53865672-230721-141243-TML2023-0K1A6586-MP.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1515042983",
+      "name": "THE ROSE GARDEN"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 12:00:00+02:00"
+  },
+  {
+    "id": "1535381351",
+    "name": "Chris Stussy",
+    "artists": [
+      {
+        "id": "1536176707",
+        "name": "Chris Stussy"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:30:00+02:00"
+  },
+  {
+    "id": "1535381619",
+    "name": "Dennis Cruz b2b Seth Troxler",
+    "artists": [
+      {
+        "id": "1536176953",
+        "name": "Dennis Cruz"
+      },
+      {
+        "id": "1536177117",
+        "name": "Seth Troxler"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 22:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
+    "id": "1535381973",
+    "name": "Himanshu Kalwani",
+    "artists": [
+      {
+        "id": "1536177354",
+        "name": "Himanshu Kalwani"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:00:00+02:00",
+    "endTime": "2024-07-26 14:30:00+02:00"
+  },
+  {
+    "id": "1535382321",
+    "name": "Eole",
+    "artists": [
+      {
+        "id": "1536177398",
+        "name": "Eole"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:30:00+02:00",
+    "endTime": "2024-07-26 15:00:00+02:00"
+  },
+  {
+    "id": "1535382830",
+    "name": "Toska",
+    "artists": [
+      {
+        "id": "1536177442",
+        "name": "Toska"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 15:30:00+02:00"
+  },
+  {
+    "id": "1535383066",
+    "name": "Idle Days",
+    "artists": [
+      {
+        "id": "1536177497",
+        "name": "Idle Days"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:30:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535383360",
+    "name": "Calao",
+    "artists": [
+      {
+        "id": "1536177591",
+        "name": "Calao"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 14:30:00+02:00",
+    "endTime": "2024-07-27 16:00:00+02:00"
+  },
+  {
+    "id": "1535383781",
+    "name": "Matt Sassari",
+    "artists": [
+      {
+        "id": "1536177679",
+        "name": "Matt Sassari"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:00:00+02:00"
+  },
+  {
+    "id": "1535383982",
+    "name": "VNTM",
+    "artists": [
+      {
+        "id": "1536177893",
+        "name": "VNTM"
+      }
+    ],
+    "stage": {
+      "id": "1515042888",
+      "name": "FREEDOM BY BUD"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535384141",
+    "name": "Marvin & Guy",
+    "artists": [
+      {
+        "id": "1536178040",
+        "name": "Marvin & Guy"
+      }
+    ],
+    "stage": {
+      "id": "1532130787",
+      "name": "MELODIA BY CORONA"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 18:30:00+02:00",
+    "endTime": "2024-07-28 20:30:00+02:00"
+  },
+  {
+    "id": "1535384479",
+    "name": "To be announced",
+    "artists": [
+      {
+        "id": "1395014940",
+        "name": "TBA"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 12:00:00+02:00"
+  },
+  {
+    "id": "1535384799",
+    "name": "SUNZZ",
+    "artists": [
+      {
+        "id": "1536178675",
+        "name": "SUNZZ"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 15:30:00+02:00"
+  },
+  {
+    "id": "1539029988",
+    "name": "To be announced",
+    "artists": [
+      {
+        "id": "1395014940",
+        "name": "TBA"
+      }
+    ],
+    "stage": {
+      "id": "1532129449",
+      "name": "PLANAXIS"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:30:00+02:00",
+    "endTime": "2024-07-26 22:00:00+02:00"
+  },
+  {
+    "id": "1535385331",
+    "name": "Bibi Seck",
+    "artists": [
+      {
+        "id": "1345812045",
+        "name": "Bibi Seck",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/31816763-Bibi_Seck_Presspic_02.jpeg",
+        "instagram": "https://www.instagram.com/bibisck/"
+      }
+    ],
+    "stage": {
+      "id": "1532129791",
+      "name": "CORE"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 16:00:00+02:00",
+    "endTime": "2024-07-27 17:30:00+02:00"
+  },
+  {
+    "id": "1535385711",
+    "name": "So Blonde Sound System",
+    "artists": [
+      {
+        "id": "1536179933",
+        "name": "So Blonde Sound System"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 13:00:00+02:00",
+    "endTime": "2024-07-27 14:00:00+02:00"
+  },
+  {
+    "id": "1535385968",
+    "name": "Bardy b2b OCSAV",
+    "artists": [
+      {
+        "id": "1393704438",
+        "name": "Bardy",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/38900016-Bardy.jpg"
+      },
+      {
+        "id": "1536180246",
+        "name": "OCSAV"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 13:00:00+02:00",
+    "endTime": "2024-07-26 14:00:00+02:00"
+  },
+  {
+    "id": "1535386295",
+    "name": "Agents Of Time",
+    "artists": [
+      {
+        "id": "1302186739",
+        "name": "Agents of Time",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/21223852-Foto 07-10-22_ 23 50 44.jpg",
+        "instagram": "https://www.instagram.com/agentsoftime/",
+        "spotify": "https://open.spotify.com/artist/6Jbyd4qzEtbFtswZP1o6Ht?si=5MhM5AwqRka8yiyCpSxlCQ"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 14:30:00+02:00",
+    "endTime": "2024-07-26 15:30:00+02:00"
+  },
+  {
+    "id": "1535386658",
+    "name": "Laura Hoogland",
+    "artists": [
+      {
+        "id": "1536180942",
+        "name": "Laura Hoogland"
+      }
+    ],
+    "stage": {
+      "id": "1532130005",
+      "name": "CRYSTAL GARDEN"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 14:00:00+02:00"
+  },
+  {
+    "id": "1535386984",
+    "name": "Keinemusik (&ME, Adam Port, Rampa)",
+    "artists": [
+      {
+        "id": "1538998773",
+        "name": "Keinemusik (&ME, Adam Port, Rampa)"
+      }
+    ],
+    "stage": {
+      "id": "1373116442",
+      "name": "MAINSTAGE"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:40:00+02:00",
+    "endTime": "2024-07-28 20:40:00+02:00"
+  },
+  {
+    "id": "1535387367",
+    "name": "Matisse & Sadko",
+    "artists": [
+      {
+        "id": "1536181345",
+        "name": "Matisse & Sadko",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53520586-Mattisse-Sadko.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-26 21:00:00+02:00"
+  },
+  {
+    "id": "1535387582",
+    "name": "James Carter",
+    "artists": [
+      {
+        "id": "1536179378",
+        "name": "James Carter"
+      }
+    ],
+    "stage": {
+      "id": "1532130071",
+      "name": "THE LIBRARY"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 14:00:00+02:00",
+    "endTime": "2024-07-28 15:00:00+02:00"
+  },
+  {
+    "id": "1535387800",
+    "name": "Eddie Deville",
+    "artists": [
+      {
+        "id": "1536181798",
+        "name": "Eddie Deville"
+      }
+    ],
+    "stage": {
+      "id": "1532129590",
+      "name": "RISE BY COKE STUDIO"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 15:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535388024",
+    "name": "Lovely Louis",
+    "artists": [
+      {
+        "id": "1536182822",
+        "name": "Lovely Louis"
+      }
+    ],
+    "stage": {
+      "id": "1532131086",
+      "name": "HOUSE OF FORTUNE BY JBL"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 17:00:00+02:00"
+  }
+]

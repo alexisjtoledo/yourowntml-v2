@@ -18,5 +18,5 @@
 }
 
 .MaskedTimeline--title {
-  @apply font-bold text-xl text-nowrap text-slate-700 pb-4 sticky left-0 w-fit px-3;
+  @apply font-bold text-xl text-nowrap text-slate-700 pb-4 sticky left-0 w-fit px-3 capitalize;
 }
