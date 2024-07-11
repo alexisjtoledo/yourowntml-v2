@@ -90,12 +90,12 @@ export const useSessionStore = defineStore("session", () => {
   };
 
   const getLocal = (): Session | null =>
-    window.sessionStorage.getItem("tml__session")
-      ? JSON.parse(window.sessionStorage.getItem("tml__session") as string)
+    window.localStorage.getItem("tml__session")
+      ? JSON.parse(window.localStorage.getItem("tml__session") as string)
       : null;
 
   const saveLocal = () =>
-    window.sessionStorage.setItem("tml__session", JSON.stringify(localData.value));
+    window.localStorage.setItem("tml__session", JSON.stringify(localData.value));
 
   const visibleUserPerformances = computed(() => {
     const visible = userPerformances.value.filter((performance) => performance.date === day.value);
