@@ -1,5 +1,59 @@
 [
   {
+    "id": "1555215736",
+    "name": "Gebroeders KO",
+    "artists": [
+      {
+        "id": "1532641746",
+        "name": "Gebroeders KO"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-19",
+    "day": "FRIDAY",
+    "startTime": "2024-07-19 19:00:00+02:00",
+    "endTime": "2024-07-19 20:00:00+02:00"
+  },
+  {
+    "id": "1555215126",
+    "name": "Funktastix",
+    "artists": [
+      {
+        "id": "1532641749",
+        "name": "funktastix"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-19",
+    "day": "FRIDAY",
+    "startTime": "2024-07-19 16:00:00+02:00",
+    "endTime": "2024-07-19 19:00:00+02:00"
+  },
+  {
+    "id": "1555214498",
+    "name": "Thierry Vonderwarth",
+    "artists": [
+      {
+        "id": "1532641756",
+        "name": "Thierry VonderWarth"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-19",
+    "day": "FRIDAY",
+    "startTime": "2024-07-19 12:00:00+02:00",
+    "endTime": "2024-07-19 16:00:00+02:00"
+  },
+  {
     "id": "1539313101",
     "name": "Krystal Klear",
     "artists": [
@@ -5385,7 +5439,7 @@
         "id": "1262731281",
         "name": "Lovelee Days",
         "image": "https://artist-lineup-cdn.tomorrowland.com/53717163-Lovelee-Days-2-2024.jpg",
-        "instagram": "https://www.instagram.com/danidriesen/"
+        "instagram": "https://www.instagram.com/loveleedays_/"
       }
     ],
     "stage": {
@@ -5783,6 +5837,24 @@
     "endTime": "2024-07-19 16:00:00+02:00"
   },
   {
+    "id": "1532625021",
+    "name": "DJ Gerrit",
+    "artists": [
+      {
+        "id": "1532641776",
+        "name": "DJ Gerrit"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-19",
+    "day": "FRIDAY",
+    "startTime": "2024-07-19 20:00:00+02:00",
+    "endTime": "2024-07-20 00:00:00+02:00"
+  },
+  {
     "id": "1532625111",
     "name": "Rumix",
     "artists": [
@@ -6114,6 +6186,81 @@
     "day": "SATURDAY",
     "startTime": "2024-07-21 00:00:00+02:00",
     "endTime": "2024-07-21 00:55:00+02:00"
+  },
+  {
+    "id": "1532625444",
+    "name": "Jerrooo",
+    "artists": [
+      {
+        "id": "1345805065",
+        "name": "Jerrooo",
+        "instagram": "https://www.instagram.com/jerrooo_official/"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-20",
+    "day": "SATURDAY",
+    "startTime": "2024-07-20 20:00:00+02:00",
+    "endTime": "2024-07-21 00:00:00+02:00"
+  },
+  {
+    "id": "1532625460",
+    "name": "Natalia",
+    "artists": [
+      {
+        "id": "1532641761",
+        "name": "Natalia"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-20",
+    "day": "SATURDAY",
+    "startTime": "2024-07-20 19:00:00+02:00",
+    "endTime": "2024-07-20 20:00:00+02:00"
+  },
+  {
+    "id": "1532625508",
+    "name": "Funkhauser",
+    "artists": [
+      {
+        "id": "1345804263",
+        "name": "Funkhauser",
+        "instagram": "https://www.instagram.com/funkhauser_official/",
+        "spotify": "https://open.spotify.com/artist/2sYp638IcOnnrIFRR63B9B?si=XLzWHqTuSKCo5Ba8EwYp2g"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-20",
+    "day": "SATURDAY",
+    "startTime": "2024-07-20 15:00:00+02:00",
+    "endTime": "2024-07-20 19:00:00+02:00"
+  },
+  {
+    "id": "1532625522",
+    "name": "Milano",
+    "artists": [
+      {
+        "id": "1532625614",
+        "name": "Milano"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-20",
+    "day": "SATURDAY",
+    "startTime": "2024-07-20 12:00:00+02:00",
+    "endTime": "2024-07-20 15:00:00+02:00"
   },
   {
     "id": "1532625533",
@@ -6460,6 +6607,78 @@
     "day": "SUNDAY",
     "startTime": "2024-07-21 17:30:00+02:00",
     "endTime": "2024-07-21 18:30:00+02:00"
+  },
+  {
+    "id": "1532626032",
+    "name": "Kurt Verheyen",
+    "artists": [
+      {
+        "id": "1532641857",
+        "name": "Kurt Verheyen"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-21",
+    "day": "SUNDAY",
+    "startTime": "2024-07-21 20:00:00+02:00",
+    "endTime": "2024-07-22 00:00:00+02:00"
+  },
+  {
+    "id": "1532626043",
+    "name": "Rino",
+    "artists": [
+      {
+        "id": "1532641785",
+        "name": "Rino"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-21",
+    "day": "SUNDAY",
+    "startTime": "2024-07-21 16:00:00+02:00",
+    "endTime": "2024-07-21 19:00:00+02:00"
+  },
+  {
+    "id": "1532626057",
+    "name": "DJ Robin",
+    "artists": [
+      {
+        "id": "1532641781",
+        "name": "DJ Robin"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-21",
+    "day": "SUNDAY",
+    "startTime": "2024-07-21 19:00:00+02:00",
+    "endTime": "2024-07-21 20:00:00+02:00"
+  },
+  {
+    "id": "1532626085",
+    "name": "Frank Mellemans",
+    "artists": [
+      {
+        "id": "1532641817",
+        "name": "Frank Mellemans"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-21",
+    "day": "SUNDAY",
+    "startTime": "2024-07-21 12:00:00+02:00",
+    "endTime": "2024-07-21 16:00:00+02:00"
   },
   {
     "id": "1532626122",

@@ -99,7 +99,7 @@ export const useSessionStore = defineStore("session", () => {
 
   const visibleUserPerformances = computed(() => {
     const visible = userPerformances.value.filter((performance) => performance.date === day.value);
-    const sorted = visible.sort((a, b) => a.start_position - b.start_position);
+    const sorted = visible.sort((a, b) => a.transit_start_position - b.transit_start_position);
     const withTransit = mergeTransit(sorted);
     return withTransit;
   });
@@ -116,9 +116,9 @@ export const useSessionStore = defineStore("session", () => {
         performance.transit_start_position = transit.transit_start_position;
       } else {
         performance.has_transit = false;
+        performance.transit_start_position = performance.start_position;
         delete performance.transit_from;
         delete performance.transit_time;
-        delete performance.transit_start_position;
       }
       return performance;
     });

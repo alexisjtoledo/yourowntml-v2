@@ -1,5 +1,23 @@
 [
   {
+    "id": "1555219605",
+    "name": "Get Ready",
+    "artists": [
+      {
+        "id": "1555219693",
+        "name": "Get Ready"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 15:00:00+02:00",
+    "endTime": "2024-07-28 15:15:00+02:00"
+  },
+  {
     "id": "1539261135",
     "name": "TBA",
     "artists": [
@@ -4016,7 +4034,8 @@
     "artists": [
       {
         "id": "1397679350",
-        "name": "t e s t p r e s s"
+        "name": "t e s t p r e s s",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/55847713-TP PRESS PIC 5.JPG"
       }
     ],
     "stage": {
@@ -6325,6 +6344,79 @@
     "endTime": "2024-07-27 00:45:00+02:00"
   },
   {
+    "id": "1535367361",
+    "name": "Prosit",
+    "artists": [
+      {
+        "id": "1536170728",
+        "name": "Prosit"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 12:00:00+02:00",
+    "endTime": "2024-07-26 16:00:00+02:00"
+  },
+  {
+    "id": "1535367761",
+    "name": "Jeroen Visser",
+    "artists": [
+      {
+        "id": "1345803745",
+        "name": "Jeroen Visser",
+        "instagram": "https://www.instagram.com/dj.jeroenvisser/"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 16:00:00+02:00",
+    "endTime": "2024-07-26 19:00:00+02:00"
+  },
+  {
+    "id": "1535368154",
+    "name": "Barry Fest",
+    "artists": [
+      {
+        "id": "1536170839",
+        "name": "Barry Fest"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 19:00:00+02:00",
+    "endTime": "2024-07-26 20:00:00+02:00"
+  },
+  {
+    "id": "1535368605",
+    "name": "Tom Cosyns",
+    "artists": [
+      {
+        "id": "1536170983",
+        "name": "Tom Cosyns"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-26",
+    "day": "FRIDAY",
+    "startTime": "2024-07-26 20:00:00+02:00",
+    "endTime": "2024-07-27 00:00:00+02:00"
+  },
+  {
     "id": "1535368793",
     "name": "Nico Morano",
     "artists": [
@@ -6673,6 +6765,79 @@
     "endTime": "2024-07-27 13:00:00+02:00"
   },
   {
+    "id": "1535373834",
+    "name": "Brian",
+    "artists": [
+      {
+        "id": "1536174005",
+        "name": "Brian"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 12:00:00+02:00",
+    "endTime": "2024-07-27 15:00:00+02:00"
+  },
+  {
+    "id": "1535374233",
+    "name": "Michael More",
+    "artists": [
+      {
+        "id": "1345803029",
+        "name": "Michael More",
+        "instagram": "https://www.instagram.com/dj_michael_more/"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 15:00:00+02:00",
+    "endTime": "2024-07-27 19:00:00+02:00"
+  },
+  {
+    "id": "1535374343",
+    "name": "Marco Mzee",
+    "artists": [
+      {
+        "id": "1536174128",
+        "name": "Marco Mzee"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 19:00:00+02:00",
+    "endTime": "2024-07-27 20:00:00+02:00"
+  },
+  {
+    "id": "1535374675",
+    "name": "Les Mecs",
+    "artists": [
+      {
+        "id": "1536174231",
+        "name": "Les Mecs"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-27",
+    "day": "SATURDAY",
+    "startTime": "2024-07-27 20:00:00+02:00",
+    "endTime": "2024-07-28 00:00:00+02:00"
+  },
+  {
     "id": "1535374896",
     "name": "MC Villain",
     "artists": [
@@ -6911,6 +7076,80 @@
     "day": "SUNDAY",
     "startTime": "2024-07-28 22:00:00+02:00",
     "endTime": "2024-07-28 23:30:00+02:00"
+  },
+  {
+    "id": "1535379034",
+    "name": "The Bobmeister",
+    "artists": [
+      {
+        "id": "1345805540",
+        "name": "The Bobmeister",
+        "image": "https://artist-lineup-cdn.tomorrowland.com/53782810-240316-203916-TMLWINTER2024-VA-V7400706.jpg"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 12:00:00+02:00",
+    "endTime": "2024-07-28 16:00:00+02:00"
+  },
+  {
+    "id": "1535379347",
+    "name": "Jan V",
+    "artists": [
+      {
+        "id": "1345803480",
+        "name": "Jan V",
+        "instagram": "https://www.instagram.com/dj_janv/"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 16:00:00+02:00",
+    "endTime": "2024-07-28 19:00:00+02:00"
+  },
+  {
+    "id": "1535379815",
+    "name": "Dorothee Vegas & Like Maarten",
+    "artists": [
+      {
+        "id": "1536176452",
+        "name": "Dorothee Vegas & Like Maarten"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 19:00:00+02:00",
+    "endTime": "2024-07-28 20:00:00+02:00"
+  },
+  {
+    "id": "1535380262",
+    "name": "DJ Jelle DK",
+    "artists": [
+      {
+        "id": "1536176536",
+        "name": "DJ Jelle DK"
+      }
+    ],
+    "stage": {
+      "id": "1555213002",
+      "name": "MOOSEBAR"
+    },
+    "date": "2024-07-28",
+    "day": "SUNDAY",
+    "startTime": "2024-07-28 20:00:00+02:00",
+    "endTime": "2024-07-29 00:00:00+02:00"
   },
   {
     "id": "1535380496",

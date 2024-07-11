@@ -31,7 +31,7 @@ interface PerformanceWithPosition extends Performance {
 interface ArtistPerformance extends PerformanceWithPosition {
   transit_from?: StageName;
   transit_time?: number;
-  transit_start_position?: number;
+  transit_start_position: number;
 }
 
 type Hosts = {
@@ -62,6 +62,7 @@ type StageName =
   | "house of fortune"
   | "mainstage"
   | "melodia"
+  | "moosebar"
   | "planaxis"
   | "rise"
   | "the library"
@@ -101,9 +102,9 @@ type Distances = {
 
 interface Transit {
   transit_for: string;
+  transit_start_position: number;
   transit_from?: StageName;
   transit_time?: number;
-  transit_start_position?: number;
 }
 
 export type {
