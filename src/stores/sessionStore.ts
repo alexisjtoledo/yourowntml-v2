@@ -9,7 +9,7 @@ export const useSessionStore = defineStore("session", () => {
 
   const isSessionReady = ref<boolean>(false);
   const weekend = ref<Weekend>("W1");
-  const day = ref<Day>(weekend.value === "W1" ? "2024-07-19" : "2024-07-26");
+  const day = ref<Day>(weekend.value === "W1" ? "2025-07-18" : "2025-07-25");
   const stage = ref<StageName>("mainstage");
   const transitEnabled = ref<boolean>(true);
   const userPerformances = ref<ArtistPerformance[]>([]);
@@ -46,7 +46,7 @@ export const useSessionStore = defineStore("session", () => {
     if (weekend.value === payload) return;
 
     weekend.value = payload;
-    day.value = payload === "W1" ? "2024-07-19" : "2024-07-26";
+    day.value = payload === "W1" ? "2025-07-18" : "2025-07-25";
     saveLocal();
   };
 

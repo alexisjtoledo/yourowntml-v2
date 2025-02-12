@@ -19,7 +19,7 @@ const sessionStore = useSessionStore();
         {{ day }}
       </button>
     </template>
-    <p v-else class="Footer--text">Tomorrowland 2024</p>
+    <p v-else class="Footer--text">Tomorrowland 2025</p>
   </footer>
 </template>
 
