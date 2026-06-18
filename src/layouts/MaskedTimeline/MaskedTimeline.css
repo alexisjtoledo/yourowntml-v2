@@ -13,10 +13,26 @@
 
 .MaskedTimeline--slot {
   @apply ms-12;
-  max-height: fit-content;
+  /* allow the slot to size naturally; parent may cap height and provide scrolling */
+  height: auto;
   grid-area: stage;
 }
 
 .MaskedTimeline--title {
   @apply font-bold text-xl text-nowrap text-slate-700 pb-4 sticky left-0 w-fit px-3 capitalize;
+}
+
+/* When this component is used as the "current" block (parent passes
+   the DesktopDashboard--current class to the component root), cap the
+   visible content to 60vh and make the stage area scrollable. Because
+   these rules live in this component's scoped stylesheet they will
+   correctly target the child elements. */
+.DesktopDashboard--current .MaskedTimeline--content {
+  max-height: 45vh;
+  overflow: hidden;
+}
+
+.DesktopDashboard--current .MaskedTimeline--slot {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
