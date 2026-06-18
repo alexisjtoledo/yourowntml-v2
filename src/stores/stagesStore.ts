@@ -32,6 +32,15 @@ export const useStagesStore = defineStore("stages", () => {
     stageNames.value = uniqueNames as StageName[];
   };
 
+  // Precompute a quick lookup from stage name to zone to avoid iterating distances on every transit calculation.
+  const stageZoneMap: Record<string, number> = {};
+  Object.keys(distances).forEach((zoneKey) => {
+    const zone = Number(zoneKey);
+    distances[zone].forEach((stageName) => {
+      stageZoneMap[stageName.toLowerCase()] = zone;
+    });
+  });
+
   const generateTransit = (
     firstPerformance: ArtistPerformance | undefined,
     secondPerformance: ArtistPerformance
@@ -39,14 +48,11 @@ export const useStagesStore = defineStore("stages", () => {
     if (!firstPerformance) return null; // Don't calculate it for the fist performance
     if (firstPerformance.stage.name === secondPerformance.stage.name) return null; // If the stage is the same, don't calculate it
 
-    const zones: number[] = [];
-    Object.keys(distances).forEach((zone) => {
-      if (distances[Number(zone)].includes(firstPerformance.stage.name)) zones[0] = Number(zone);
-      if (distances[Number(zone)].includes(secondPerformance.stage.name)) zones[1] = Number(zone);
-    });
-    zones.sort((a, b) => a - b);
+    const zoneA = stageZoneMap[firstPerformance.stage.name.toLowerCase()];
+    const zoneB = stageZoneMap[secondPerformance.stage.name.toLowerCase()];
+    if (zoneA === undefined || zoneB === undefined) return null;
 
-    const rawDistance = zones[1] - zones[0]; // Difference between zones
+    const rawDistance = Math.abs(zoneB - zoneA); // Difference between zones
 
     // Add 10 minutes for each zone travelled through
     // Base of 5 minutes for stages within the same zone

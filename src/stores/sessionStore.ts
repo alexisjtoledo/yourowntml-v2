@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { computed, ref } from "vue";
+import { computed, ref, watchEffect } from "vue";
 import type { Weekend, Session, Day, ArtistPerformance, StageName, DayName } from "@/types";
 import { useStagesStore } from "@/stores/stagesStore";
 import { days } from "@/assets/days";
@@ -94,37 +94,75 @@ export const useSessionStore = defineStore("session", () => {
       ? JSON.parse(window.localStorage.getItem("tml__session") as string)
       : null;
 
-  const saveLocal = () =>
-    window.localStorage.setItem("tml__session", JSON.stringify(localData.value));
-
-  const visibleUserPerformances = computed(() => {
-    const visible = userPerformances.value.filter((performance) => performance.date === day.value);
-    const sorted = visible.sort((a, b) => a.transit_start_position - b.transit_start_position);
-    const withTransit = mergeTransit(sorted);
-    return withTransit;
-  });
-
-  const mergeTransit = (performances: ArtistPerformance[]): ArtistPerformance[] => {
-    const temp: ArtistPerformance[] = Array.from(performances);
-
-    temp.map((performance, i) => {
-      const transit = stagesStore.generateTransit(temp[i - 1] || null, temp[i]);
-      if (transit) {
-        performance.has_transit = true;
-        performance.transit_from = transit.transit_from;
-        performance.transit_time = transit.transit_time;
-        performance.transit_start_position = transit.transit_start_position;
-      } else {
-        performance.has_transit = false;
-        performance.transit_start_position = performance.start_position;
-        delete performance.transit_from;
-        delete performance.transit_time;
+  // Debounced save to avoid blocking the main thread when localData is large.
+  // Multiple rapid updates will coalesce into a single write.
+  let saveTimeout: number | null = null;
+  const saveLocal = () => {
+    if (saveTimeout !== null) {
+      clearTimeout(saveTimeout);
+    }
+    saveTimeout = window.setTimeout(() => {
+      try {
+        window.localStorage.setItem("tml__session", JSON.stringify(localData.value));
+      } catch (e) {
+        // swallow storage errors to avoid breaking the app; could log if desired
+        // console.error('Failed saving session:', e);
+      } finally {
+        saveTimeout = null;
       }
-      return performance;
+    }, 120);
+  };
+  // Work on shallow clones so we never mutate the original reactive objects.
+  const mergeTransit = (performances: ArtistPerformance[]): ArtistPerformance[] => {
+    const cloned: ArtistPerformance[] = performances.map((p) => ({ ...p }));
+
+    for (let i = 0; i < cloned.length; i++) {
+      const prev = cloned[i - 1] || null;
+      const cur = cloned[i];
+      const transit = stagesStore.generateTransit(prev, cur);
+      if (transit) {
+        cur.has_transit = true;
+        cur.transit_from = transit.transit_from;
+        cur.transit_time = transit.transit_time;
+        cur.transit_start_position =
+          typeof transit.transit_start_position === "number"
+            ? transit.transit_start_position
+            : Number(cur.transit_start_position ?? cur.start_position ?? 0);
+      } else {
+        cur.has_transit = false;
+        cur.transit_start_position = cur.start_position;
+        delete cur.transit_from;
+        delete cur.transit_time;
+      }
+    }
+
+    // Sort the cloned array by the computed transit start (non-mutating for source)
+    cloned.sort((a, b) => {
+      const aPos = Number(a.transit_start_position ?? a.start_position ?? 0);
+      const bPos = Number(b.transit_start_position ?? b.start_position ?? 0);
+      return aPos - bPos;
     });
 
-    return temp;
+    return cloned;
   };
+
+  // Cached visible performances: recompute only when the inputs change to avoid heavy
+  // work during render. This prevents repeated calls to generateTransit on every access.
+  const cachedVisiblePerformances = ref<ArtistPerformance[]>([]);
+
+  // Recompute whenever the inputs change. watchEffect tracks reactive reads (including
+  // array mutations like push/pop) and runs immediately.
+  watchEffect(() => {
+    const visible = userPerformances.value.filter((performance) => performance.date === day.value);
+    const sorted = visible.slice().sort((a, b) => {
+      const aPos = Number(a.transit_start_position ?? a.start_position ?? 0);
+      const bPos = Number(b.transit_start_position ?? b.start_position ?? 0);
+      return aPos - bPos;
+    });
+    cachedVisiblePerformances.value = mergeTransit(sorted);
+  });
+
+  const visibleUserPerformances = computed(() => cachedVisiblePerformances.value);
 
   return {
     weekend,
