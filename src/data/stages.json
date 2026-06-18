@@ -1,126 +1,256 @@
 [
   {
-    "id": "1784481711",
+    "id": "2643200378",
     "name": "MAINSTAGE",
-    "hosts": []
+    "hosts": {},
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": true,
+      "2026-07-24": true,
+      "2026-07-25": false,
+      "2026-07-26": false
+    }
   },
   {
-    "id": "1784481821",
+    "id": "2643185254",
     "name": "FREEDOM BY BUD",
-    "hosts": []
+    "hosts": {},
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": true,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": true
+    }
   },
   {
-    "id": "1784481872",
+    "id": "2643140430",
     "name": "THE ROSE GARDEN",
     "hosts": {
-      "2025-07-18": "ANDROMEDIK INVITES",
-      "2025-07-19": "BONZAI",
-      "2025-07-20": "TWEEKAMANIA",
-      "2025-07-25": "RAMPAGE",
-      "2025-07-26": "TRIBUTE TO BELGIUM: ILLUSION",
-      "2025-07-27": "SUB ZERO PROJECT & FRIENDS"
+      "2026-07-17": "HOSTED BY RAMPAGE",
+      "2026-07-18": "HOSTED BY BONZAI",
+      "2026-07-19": "HOSTED BY SUB ZERO PROJECTS & FRIENDS",
+      "2026-07-24": "HOSTED BY BASSRUSH",
+      "2026-07-25": "HOSTED BY TRIBUTE TO BELGIUM: CHERRY MOON",
+      "2026-07-26": "HOSTED BY TWEEKAMANIA"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
     }
   },
   {
-    "id": "1784481918",
+    "id": "2643140613",
     "name": "ELIXIR",
     "hosts": {
-      "2025-07-18": "FLAVÃSOUL",
-      "2025-07-19": "TEAM DAMP",
-      "2025-07-20": "RADS",
-      "2025-07-25": "MANGROVE",
-      "2025-07-26": "VUNZIGE DEUNTJES",
-      "2025-07-27": "LEMONADE"
+      "2026-07-17": "HOSTED BY FLAVASOUL",
+      "2026-07-18": "HOSTED BY VUNZIGE DEUNTJES",
+      "2026-07-19": "HOSTED BY TEAM DAMP",
+      "2026-07-24": "HOSTED BY LEMONADE",
+      "2026-07-26": "HOSTED BY TEAM AMANI"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
     }
   },
   {
-    "id": "1784481973",
+    "id": "2643201588",
     "name": "CAGE",
     "hosts": {
-      "2025-07-18": "FOOTWORXX",
-      "2025-07-25": "FOOTWORXX",
-      "2025-07-26": "He.She.They"
+      "2026-07-17": "HOSTED BY FOOTWORXX",
+      "2026-07-18": "HOSTED BY ELYSIUM",
+      "2026-07-19": "HOSTED BY FACE 2 FACE",
+      "2026-07-24": "HOSTED BY FOOTWORXX",
+      "2026-07-25": "HOSTED BY RAVE ALERT"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
     }
   },
   {
-    "id": "1784482029",
+    "id": "2643201846",
     "name": "THE RAVE CAVE",
     "hosts": {
-      "2025-07-19": "CRYSTAL",
-      "2025-07-20": "RAVE ALERT",
-      "2025-07-27": "WE ARE ONE WORLD"
+      "2026-07-18": "HOSTED BY CRYSTAL"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": true,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": true,
+      "2026-07-26": true
     }
   },
   {
-    "id": "1784482074",
+    "id": "2643140614",
     "name": "PLANAXIS",
     "hosts": {
-      "2025-07-19": "MONSTERCAT",
-      "2025-07-20": "2010 - 2012 & Super You &Me present",
-      "2025-07-26": "PSYGATHERING",
-      "2025-07-27": "2010 - 2012"
+      "2026-07-17": "HOSTED BY PSYGATHERING",
+      "2026-07-18": "HOSTED BY 2010 - 2012 PRESENTS 30 YEARS DIM MAK",
+      "2026-07-19": "HOSTED BY MONSTERCAT",
+      "2026-07-24": "HOSTED BY PSYGATHERING",
+      "2026-07-26": "HOSTED BY 2010 - 2012 PRESENTS SUPER YOU & ME"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": true,
+      "2026-07-26": true
     }
   },
   {
-    "id": "1784482114",
-    "name": "RISE BY COKE STUDIO",
-    "hosts": {
-      "2025-07-18": "CAFEÍNA",
-      "2025-07-19": "BRESH",
-      "2025-07-20": "PSYGATHERING",
-      "2025-07-26": "YVES V PRESENTS V SESSIONS"
-    }
-  },
-  {
-    "id": "1784482154",
-    "name": "ATMOSPHERE",
-    "hosts": {
-      "2025-07-18": "TELETECH",
-      "2025-07-19": "ARTCORE",
-      "2025-07-20": "EXHALE",
-      "2025-07-27": "AMBER BROOS"
-    }
-  },
-  {
-    "id": "1784482189",
-    "name": "CORE",
-    "hosts": {
-      "2025-07-19": "CURATED BY MIND AGAINST",
-      "2025-07-20": "COLOUR CLUB",
-      "2025-07-25": "DIXON"
-    }
-  },
-  {
-    "id": "1784482230",
-    "name": "CRYSTAL GARDEN",
-    "hosts": {
-      "2025-07-20": "MAGNIFIK",
-      "2025-07-26": "CATCH & RELEASE"
-    }
-  },
-  {
-    "id": "1784482266",
-    "name": "THE LIBRARY",
-    "hosts": {
-      "2025-07-19": "LOST FREQUENCIES & FRIENDS",
-      "2025-07-20": "SMASH THE HOUSE",
-      "2025-07-26": "LOST FREQUENCIES & FRIENDS",
-      "2025-07-27": "SMASH THE HOUSE"
-    }
-  },
-  {
-    "id": "1784482305",
+    "id": "2643185065",
     "name": "MELODIA BY CORONA",
     "hosts": {
-      "2025-07-19": "CHITCHAT",
-      "2025-07-20": "CUCKOO'S NEST",
-      "2025-07-25": "DISCO ZONDERDAG",
-      "2025-07-27": "WITH LOVE FROM IBIZA"
+      "2026-07-19": "HOSTED BY WITH LOVE FROM IBIZA",
+      "2026-07-24": "HOSTED BY DISCO ZONDERDAG",
+      "2026-07-25": "HOSTED BY GEHEIMZINNIG",
+      "2026-07-26": "HOSTED BY WITH LOVE FROM IBIZA"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
     }
   },
   {
-    "id": "1784481754",
+    "id": "2643201714",
+    "name": "CELESTIA BY KUCOIN",
+    "hosts": {
+      "2026-07-18": "HOSTED BY YVES V PRESENTS V SESSIONS",
+      "2026-07-24": "HOSTED BY CUCKOO'S NEST",
+      "2026-07-25": "HOSTED BY 2010 - 2012"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": true,
+      "2026-07-25": false,
+      "2026-07-26": false
+    }
+  },
+  {
+    "id": "2643217737",
+    "name": "ATMOSPHERE",
+    "hosts": {
+      "2026-07-18": "HOSTED BY ARTCORE",
+      "2026-07-19": "HOSTED BY EXHALE"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
+    }
+  },
+  {
+    "id": "2643154496",
+    "name": "CORE",
+    "hosts": {},
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-04-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
+    }
+  },
+  {
+    "id": "2643217745",
+    "name": "CRYSTAL GARDEN",
+    "hosts": {
+      "2026-07-25": "HOSTED BY EXPERTS ONLY"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": true,
+      "2026-07-18": false,
+      "2026-07-19": true,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-04-26": false
+    }
+  },
+  {
+    "id": "2643149032",
+    "name": "THE GREAT LIBRARY",
+    "hosts": {
+      "2026-07-18": "HOSTED BY LOST FREQUENCIES & FRIENDS",
+      "2026-07-19": "HOSTED BY SMASH THE HOUSE",
+      "2026-07-25": "HOSTED BY LOST FREQUENCIES & FRIENDS",
+      "2026-07-26": "HOSTED BY SMASH THE HOUSE"
+    },
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": true,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": true,
+      "2026-07-26": false
+    }
+  },
+  {
+    "id": "2643217644",
+    "name": "MOOSE BAR",
+    "hosts": {},
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-17": false,
+      "2026-07-18": false,
+      "2026-07-19": false,
+      "2026-07-24": false,
+      "2026-07-25": false,
+      "2026-07-26": false
+    }
+  },
+  {
+    "id": "2643217646",
     "name": "HOUSE OF FORTUNE BY JBL",
-    "hosts": []
+    "hosts": {},
+    "mtba": false,
+    "more_to_be_announced": {
+      "2026-07-18": true,
+      "2026-07-19": true,
+      "2026-07-24": false,
+      "2026-07-25": true,
+      "2026-07-26": false
+    }
   }
 ]
